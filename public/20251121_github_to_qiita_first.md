@@ -1,10 +1,10 @@
 ---
 title: 20251121_github_to_qiita_first
 tags:
-  - 'test'
+  - テスト
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-21T08:34:06+09:00'
+id: c86d3b576c7021ad5661
 organization_url_name: null
 slide: false
 ignorePublish: false
