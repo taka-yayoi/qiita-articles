@@ -52,53 +52,24 @@ graph TD
     style G fill:#f3e5f5
 ```
 
-## Databricksのレイヤー構造
+## Databricksの主要な機能
 
-```mermaid
-graph TB
-    subgraph Layer1["👤 ユーザーレイヤー"]
-        User[ユーザー/開発者]
-    end
+Databricksは以下の機能を統合したプラットフォームです：
 
-    subgraph Layer2["💻 ワークスペースレイヤー"]
-        NB[Notebooks<br/>データ分析・開発]
-        DBSQL[Databricks SQL<br/>BI・クエリ]
-        ML[Databricks ML<br/>機械学習]
-        LFJobs[Lakeflowジョブ<br/>ワークフロー自動化]
-    end
+**使うツール**
+- **Notebooks**: データ分析やアプリ開発のための対話的な開発環境
+- **Databricks SQL**: BI・データ分析のためのSQLエディタとダッシュボード
+- **Databricks ML**: 機械学習モデルの開発・トレーニング・デプロイ
+- **Lakeflowジョブ**: データパイプラインやワークフローの自動化
 
-    subgraph Layer3["🤖 AI支援レイヤー"]
-        Assistant[Databricks Assistant<br/>コード生成・デバッグ]
-        Genie[Genie<br/>自然言語分析]
-    end
+**AI支援**
+- **Databricks Assistant**: コード生成、デバッグ、最適化をサポートするAIアシスタント
+- **Genie**: 自然言語でデータ分析ができるAIツール
 
-    subgraph Layer4["⚙️ コンピュートレイヤー"]
-        Spark[Apache Spark<br/>分散処理]
-        SQLWh[SQL Warehouse<br/>クエリ実行]
-    end
-
-    subgraph Layer5["🔐 ガバナンスレイヤー"]
-        UC[Unity Catalog<br/>アクセス制御・監査]
-    end
-
-    subgraph Layer6["📦 ストレージレイヤー"]
-        Delta[Delta Lake<br/>ACIDトランザクション]
-        S3[クラウドストレージ<br/>S3/ADLS/GCS]
-    end
-
-    style Assistant fill:#ffebee
-    style Genie fill:#ffebee
-    style UC fill:#fff9c4
-    style Delta fill:#e8f5e9
-```
-
-**レイヤーの説明（上から下へ）：**
-- **👤 ユーザーレイヤー**: 開発者・アナリストが操作
-- **💻 ワークスペースレイヤー**: 開発環境（Notebooks、SQL、ML、ジョブ）
-- **🤖 AI支援レイヤー**: Assistantでコード開発、Genieで自然言語分析
-- **⚙️ コンピュートレイヤー**: SparkとSQL Warehouseで処理を実行
-- **🔐 ガバナンスレイヤー**: Unity Catalogでアクセス制御・監査
-- **📦 ストレージレイヤー**: Delta LakeでACIDトランザクションを実現、クラウドストレージにデータを保存
+**基盤技術**
+- **Apache Spark**: 大規模データの分散処理エンジン
+- **Delta Lake**: ACIDトランザクションを実現するストレージレイヤー
+- **Unity Catalog**: データガバナンス、アクセス制御、監査機能
 
 ---
 
