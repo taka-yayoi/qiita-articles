@@ -1,5 +1,5 @@
 ---
-title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事63選
+title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事57選
 tags:
   - Databricks
   - 初心者
@@ -12,7 +12,7 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
-Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した63の初心者向け記事を、学習ステージ別に体系的にまとめました。各技術の「とは何か」を理解する基本コンセプト記事から実践的なチュートリアルまで、段階的に学べる構成になっています。
+Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した57の初心者向け記事を、学習ステージ別に体系的にまとめました。各技術の「とは何か」を理解する基本コンセプト記事から実践的なチュートリアルまで、段階的に学べる構成になっています。
 
 # この記事の使い方
 
@@ -166,12 +166,6 @@ https://qiita.com/taka_yayoi/items/f169dcf4d517ac8dd644
 
 Databricks Apache SparkとMLlibを用いた機械学習チュートリアル。
 
-### AutoMLで簡単に始める
-
-https://qiita.com/taka_yayoi/items/8ebc58c04f7889438eb1
-
-AutoMLで機械学習を体験。
-
 ## ワークフローとジョブ
 
 https://qiita.com/taka_yayoi/items/932e211757e697fe9d5e
@@ -213,32 +207,6 @@ https://qiita.com/taka_yayoi/items/da5e019190bed65e9e87
 https://qiita.com/taka_yayoi/items/08d3dbf3f5202d708c03
 
 ai_query関数の基礎から高度な使い方まで。
-
-## LangChain / LangGraph
-
-### LangChainの基礎
-
-https://qiita.com/taka_yayoi/items/22ccfeea661820375455
-
-LangChainのクイックスタートガイドとエージェントチュートリアル。
-
-### LangGraphの実践
-
-https://qiita.com/taka_yayoi/items/d6e5fd6a724eb9b65fbc
-
-LangGraphのクイックスタート(その1・その2)。
-
-https://qiita.com/taka_yayoi/items/311048184657aa8ad53f
-
-LangGraphのクイックスタート(その3)。
-
-https://qiita.com/taka_yayoi/items/e2a7fcafd21acd31eeff
-
-LangGraphのクイックスタート(その4)。
-
-https://qiita.com/taka_yayoi/items/58f2434defe5257dd8da
-
-LangGraphのクイックスタート(その5・その6)。
 
 ## MLflowとLLM
 
@@ -460,7 +428,7 @@ A: 必ず「はじめてのDatabricks」から始めてください。その後�
 
 # まとめ
 
-Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した63の記事を活用すれば、体系的にスキルを身につけることができます。
+Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した57の記事を活用すれば、体系的にスキルを身につけることができます。
 
 **重要なのは、完璧を目指さず、まず始めることです。**
 
