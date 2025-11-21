@@ -147,7 +147,9 @@ AI支援コーディングツールの基本的な使い方。`Cmd/Ctrl + I`で�
 
 https://qiita.com/taka_yayoi/items/07c49c2de588a101b719
 
-**重要！** Databricks Assistantで探索的データ分析（EDA）を体験。AIの力を借りながらデータ分析の基礎を学びます。
+:::note info
+Databricks Assistantで探索的データ分析（EDA）を体験。AIの力を借りながらデータ分析の基礎を学びます。
+:::
 
 ## Genieで自然言語分析
 
@@ -161,7 +163,9 @@ https://qiita.com/taka_yayoi/items/07c49c2de588a101b719
 
 https://qiita.com/taka_yayoi/items/1c472621a7a5f9cd99cb
 
-**最新！** Databricks Genieリサーチエージェント（2025-11-20）。複雑なビジネス課題を多段階推論で解決する新機能を体験します。
+:::note info
+**最新機能（2025-11-20）**: Databricks Genieリサーチエージェント。複雑なビジネス課題を多段階推論で解決する新機能を体験します。
+:::
 
 ```mermaid
 graph LR
@@ -450,7 +454,9 @@ graph LR
 
 https://qiita.com/taka_yayoi/items/9095843d094637625e13
 
-**重要！** Unity Catalogを理解する。データガバナンスとセキュリティの基本概念を学びます。
+:::note info
+Unity Catalogを理解する。データガバナンスとセキュリティの基本概念を学びます。本番環境でDatabricksを使う際には必須の知識です。
+:::
 
 ```mermaid
 graph TB
@@ -643,7 +649,9 @@ A: Databricks AssistantやGenieを使えば、プログラミング初心者で�
 
 ### Q: 公式ドキュメントとQiita記事、どちらを優先すべきですか？
 
-A: **公式ドキュメントを優先**してください。最新で正確な情報が得られます。Qiita記事は、より詳しい解説や実践的なユースケースを学ぶ際に活用してください。
+:::note warn
+公式ドキュメントを優先してください。最新で正確な情報が得られます。Qiita記事は、より詳しい解説や実践的なユースケースを学ぶ際に活用してください。
+:::
 
 ### Q: Free Editionと製品版の違いは？
 
@@ -658,7 +666,8 @@ A: 基本的な機能は同じですが、Free Editionには以下の制限が�
 
 ### Q: どの記事から読めばいいですか？
 
-A: 必ず以下の順序で進めてください：
+:::note warn
+必ず以下の順序で進めてください：
 
 1. **公式: Databricksの基本概念** - 全体像を理解
 2. **Qiita: Free Edition登録** - 環境準備
@@ -667,6 +676,7 @@ A: 必ず以下の順序で進めてください：
 5. **Qiita: Genieリサーチエージェント** - 最新のAI支援を体験
 
 その後は、興味のある分野の記事を選んで読み進めましょう。
+:::
 
 ---
 
