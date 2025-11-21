@@ -84,7 +84,7 @@ graph TD
 
 ### データ処理関連
 - **[ETL](https://docs.databricks.com/ja/getting-started/etl-quick-start.html)**: Extract（抽出）→ Transform（変換）→ Load（読み込み）の頭文字。データを整形して別の場所に保存する処理
-- **[Lakeflowパイプライン](https://docs.databricks.com/ja/lakeflow/index.html)**: データ処理の自動化された流れ。「毎日深夜にデータを取得→整形→保存」のような一連の処理
+- **[Lakeflowジョブ](https://docs.databricks.com/ja/workflows/jobs/index.html)**: データ処理の自動化された流れ。「毎日深夜にデータを取得→整形→保存」のような一連の処理を自動実行
 - **[ストリーミング](https://docs.databricks.com/ja/structured-streaming/index.html)**: リアルタイムで流れてくるデータ（ログ、センサーデータなど）を処理すること
 
 ### データガバナンス関連
@@ -107,13 +107,13 @@ Databricksは以下の機能を統合したプラットフォームです：
   - [ダッシュボード](https://docs.databricks.com/ja/dashboards/index.html): データの可視化とレポーティング
   - [Genie](https://docs.databricks.com/ja/genie/index.html): 自然言語でデータ分析
 - **[Mosaic AI](https://docs.databricks.com/ja/machine-learning/index.html)**: 機械学習・生成AIモデルの開発・トレーニング・デプロイ
-- **[Lakeflow](https://docs.databricks.com/ja/lakeflow/index.html)**: データエンジニアリングの統合ソリューション
+- **Lakeflow**: データエンジニアリングの統合ソリューション
   - [Lakeflow Connect](https://docs.databricks.com/ja/ingestion/index.html): データ取り込み用のマネージドコネクタ
-  - [Spark宣言型パイプライン](https://docs.databricks.com/ja/lakeflow/declarative-pipelines.html): データ変換パイプラインの宣言的定義
-  - [Lakeflowジョブ](https://docs.databricks.com/ja/jobs/index.html): ワークフローの自動化とオーケストレーション
+  - [Spark宣言型パイプライン](https://docs.databricks.com/ja/getting-started/lakehouse-pipeline.html): データ変換パイプラインの宣言的定義
+  - [Lakeflowジョブ](https://docs.databricks.com/ja/workflows/jobs/index.html): ワークフローの自動化とオーケストレーション
 
 **AI支援**
-- **[Databricks Assistant](https://docs.databricks.com/ja/assistant.html)**: コード生成、デバッグ、最適化をサポート
+- **[Databricks Assistant](https://docs.databricks.com/ja/notebooks/code-assistant.html)**: コード生成、デバッグ、最適化をサポート
 
 **基盤技術**
 - **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データの分散処理エンジン
