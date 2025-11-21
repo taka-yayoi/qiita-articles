@@ -38,9 +38,9 @@ Databricksを初めて学ぶ方のために、2,100以上の記事の中から�
 
 ### 無料で始める
 
-https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
+https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
 
-Databricks Community Editionを使えば、無料でDatabricksを体験できます。
+Databricks Free Editionを使えば、無料でDatabricksを体験できます。
 
 ### はじめてのDatabricks
 
@@ -58,11 +58,11 @@ https://qiita.com/taka_yayoi/items/8511ef61498a31734b00
 
 データとAIを統合する次世代プラットフォームとしてのDatabricksの全体像を理解できます。
 
-## 1. Databricks Community Editionで体験
+## 1. Databricks Free Editionで体験
 
-https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
+https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
 
-Databricks Community Editionと製品版の違いを理解しましょう。
+Databricks Free Editionと製品版の違いを理解しましょう。
 
 # レベル1：基礎を固める（1-2週間）
 
@@ -196,15 +196,15 @@ MLlibを用いた機械学習チュートリアル。
 
 https://qiita.com/taka_yayoi/items/3010e1e4b023c3d7c793
 
-Community Editionで分類問題を解く。
+Free Editionで分類問題を解く。
 
 https://qiita.com/taka_yayoi/items/25d3356982040ea41091
 
-Community Editionで回帰問題を解く。
+Free Editionで回帰問題を解く。
 
 https://qiita.com/taka_yayoi/items/8ebc58c04f7889438eb1
 
-Community Editionで機械学習を体験。
+Free Editionで機械学習を体験。
 
 ## ワークフローとジョブ
 
@@ -354,7 +354,7 @@ https://qiita.com/taka_yayoi/items/bb96e1be88959902cb17
 
 https://qiita.com/taka_yayoi/items/1c02542125bc327282d5
 
-Community Editionで画像データを分析。
+Free Editionで画像データを分析。
 
 ## 自然言語処理
 
@@ -364,11 +364,11 @@ Spark NLPで自然言語処理。
 
 https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
 
-無料のCommunity Editionで大規模言語モデルを体験。
+無料のFree Editionで大規模言語モデルを体験。
 
 ## 機械学習ライブラリ
 
-https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
+https://qiita.com/taka_yayoi/items/cf5ce14552b2221465dd
 
 XGBoostを試してみる。
 
@@ -508,7 +508,7 @@ https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
 1. **手を動かす**: 記事を読むだけでなく、必ず自分でコードを実行してみる
 2. **小さく始める**: 完璧を目指さず、まず動かしてみる
 3. **エラーを恐れない**: エラーメッセージから学ぶことは多い
-4. **Community Editionを活用**: 無料で練習できる環境を最大限活用
+4. **Free Editionを活用**: 無料で練習できる環境を最大限活用
 5. **コミュニティに参加**: 分からないことは質問する
 
 ## よくある質問
@@ -521,14 +521,14 @@ A: 集中して学習すれば2-4週間で基本的な操作は習得できま�
 
 A: PythonやSQLの基礎知識があると理解しやすいですが、初心者向けチュートリアルから始めれば問題ありません。
 
-### Q: Community Editionと製品版の違いは？
+### Q: Free Editionと製品版の違いは？
 
-A: 基本的な機能は同じですが、Community Editionには以下の制限があります：
+A: 基本的な機能は同じですが、Free Editionには以下の制限があります：
 - クラスターサイズの制限
 - Unity Catalogが使えない
 - 一部の高度な機能が制限される
 
-詳細は[こちら](https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f)をご覧ください。
+詳細は[こちら](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)をご覧ください。
 
 ### Q: どの記事から読めばいいですか？
 
@@ -553,7 +553,7 @@ Databricksは強力なプラットフォームですが、学習曲線は比較�
 
 - [Databricks公式ドキュメント（日本語）](https://docs.databricks.com/ja/index.html)
 - [Databricks Japan Blog](https://www.databricks.com/jp/blog)
-- [Databricks Community Edition](https://community.cloud.databricks.com/)
+- [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)
 
 ### はじめてのDatabricks
 
