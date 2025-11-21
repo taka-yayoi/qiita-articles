@@ -1,5 +1,5 @@
 ---
-title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事64選
+title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事57選
 tags:
   - Databricks
   - 初心者
@@ -12,7 +12,7 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
-Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した64の初心者向け記事を、学習ステージ別に体系的にまとめました。本記事では「はじめてのDatabricks」を起点に、あなたのスキルレベルや興味に応じた最適な学習パスを提供します。
+Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した57の初心者向け記事を、学習ステージ別に体系的にまとめました。本記事では「はじめてのDatabricks」を起点に、あなたのスキルレベルや興味に応じた最適な学習パスを提供します。
 
 # この記事の使い方
 
@@ -103,21 +103,7 @@ Databricksのデータベースをわかりやすく解説。
 
 ## データパイプラインの構築
 
-### Delta Live Tablesの基礎
-
-https://qiita.com/taka_yayoi/items/6a406ac017a373de9181
-
-Delta Live Tablesのクイックスタート。
-
-https://qiita.com/taka_yayoi/items/1f542ed8f36efba4a285
-
-Delta Live Tablesのチュートリアル（2025年版）。
-
-https://qiita.com/taka_yayoi/items/20d5d5f99186f1a4a917
-
-SQLを用いたデータパイプラインの宣言と新機能のウォークスルー。
-
-### Lakeflow (最新)
+### Lakeflow
 
 https://qiita.com/taka_yayoi/items/bb5ccb3fa1dae1b8915e
 
@@ -161,17 +147,9 @@ Databricks Apache SparkとMLlibを用いた機械学習チュートリアル。
 
 ### AutoMLで簡単に始める
 
-https://qiita.com/taka_yayoi/items/3010e1e4b023c3d7c793
-
-Free Editionで分類問題を解く。
-
-https://qiita.com/taka_yayoi/items/25d3356982040ea41091
-
-Free Editionで回帰問題を解く。
-
 https://qiita.com/taka_yayoi/items/8ebc58c04f7889438eb1
 
-Free Editionで機械学習を体験。
+AutoMLで機械学習を体験。
 
 ## ワークフローとジョブ
 
@@ -185,7 +163,7 @@ https://qiita.com/taka_yayoi/items/70bfe4b30420078fdff9
 
 https://qiita.com/taka_yayoi/items/e881769270f0ec0b7d06
 
-Python Wheelタスクでプロダクションパイプラインをデプロイ。
+Python Wheelタスクでプロダクションパイプラインをデプロイ（DLT含む）。
 
 # レベル3：生成AIとLLMを学ぶ（2-4週間）
 
@@ -292,18 +270,6 @@ https://qiita.com/taka_yayoi/items/bb96e1be88959902cb17
 今さら聞けないPython - Pythonの基礎。
 
 # 特定のユースケース別チュートリアル
-
-## 画像データ分析
-
-https://qiita.com/taka_yayoi/items/1c02542125bc327282d5
-
-Free Editionで画像データを分析。
-
-## 自然言語処理
-
-https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
-
-Spark NLPで自然言語処理、Free Editionで大規模言語モデルを体験。
 
 ## 機械学習ライブラリ
 
@@ -469,7 +435,7 @@ A: 必ず「はじめてのDatabricks」から始めてください。その後�
 
 # まとめ
 
-Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した64の記事を活用すれば、体系的にスキルを身につけることができます。
+Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した57の記事を活用すれば、体系的にスキルを身につけることができます。
 
 **重要なのは、完璧を目指さず、まず始めることです。**
 
