@@ -38,7 +38,7 @@ Databricksを初めて学ぶ方のために、2,100以上の記事の中から�
 
 ### 無料で始める
 
-https://qiita.com/taka_yayoi/items/bd9e092ce893d5fb9b4f
+https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
 
 Databricks Community Editionを使えば、無料でDatabricksを体験できます。
 
@@ -54,13 +54,13 @@ https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d
 
 ### Databricks入門
 
-https://qiita.com/taka_yayoi/items/8fdb8e58ee92a8f8ee4a
+https://qiita.com/taka_yayoi/items/8511ef61498a31734b00
 
 データとAIを統合する次世代プラットフォームとしてのDatabricksの全体像を理解できます。
 
 ## 1. Databricks Community Editionで体験
 
-https://qiita.com/taka_yayoi/items/22cbd69c13e57409ed3f
+https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
 
 Databricks Community Editionと製品版の違いを理解しましょう。
 
@@ -70,53 +70,53 @@ Databricks Community Editionと製品版の違いを理解しましょう。
 
 ### Apache Sparkの基本
 
-https://qiita.com/taka_yayoi/items/4b8c1ad4c44e4f1076cb
+https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
 
 Databricksの中核技術であるSp arkの基礎を学びます。
 
-https://qiita.com/taka_yayoi/items/b02fe2f7af14af2e34b6
+https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
 
 データフレームの操作方法をチュートリアル形式で学習します。
 
-https://qiita.com/taka_yayoi/items/798c5bb4ebd0ae3dc9d7
+https://qiita.com/taka_yayoi/items/435275f6124184090259
 
 [2024年版] データの読み込みと変換の最新チュートリアル。
 
 ### Delta Lakeの基礎
 
-https://qiita.com/taka_yayoi/items/7c63f8cbb20d9fd26e97
+https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
 Delta Lakeのクイックスタートガイド。
 
-https://qiita.com/taka_yayoi/items/2f7f2eaf9f47e1cd52a2
+https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
 Delta Lakeの詳細なチュートリアル。
 
-https://qiita.com/taka_yayoi/items/26ad2edec8d99a76ba13
+https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
 Delta Lakeへのデータ取り込みの基礎。
 
 ## Databricks SQLの基礎
 
-https://qiita.com/taka_yayoi/items/abe65e2eb7eacde34e0b
+https://qiita.com/taka_yayoi/items/17ba3b779a0c7c06e29c
 
 Databricks SQLのユーザー向けクイックスタート。
 
-https://qiita.com/taka_yayoi/items/05eab370d9c6db8e5a23
+https://qiita.com/taka_yayoi/items/8b6154eb8bfe202951c6
 
 管理者向けクイックスタート。
 
-https://qiita.com/taka_yayoi/items/69797e28b6a1dc5dd3ee
+https://qiita.com/taka_yayoi/items/8b6154eb8bfe202951c6
 
 Databricks SQLの包括的なチュートリアル。
 
 ## ファイルシステムとデータベースの理解
 
-https://qiita.com/taka_yayoi/items/28bde98ff07fca63dae5
+https://qiita.com/taka_yayoi/items/075c6b3aeafac54c8ac4
 
 Databricksのファイルシステムをわかりやすく解説。
 
-https://qiita.com/taka_yayoi/items/7fd7b4f69a9a45024ba3
+https://qiita.com/taka_yayoi/items/9d68dd5a3b070774d9a2
 
 Databricksのデータベースをわかりやすく解説。
 
@@ -126,35 +126,35 @@ Databricksのデータベースをわかりやすく解説。
 
 ### Delta Live Tablesの基礎
 
-https://qiita.com/taka_yayoi/items/de6cb711adfd28308156
+https://qiita.com/taka_yayoi/items/6a406ac017a373de9181
 
 Delta Live Tablesのクイックスタート。
 
-https://qiita.com/taka_yayoi/items/5c6fff5bdba4e0d30848
+https://qiita.com/taka_yayoi/items/1f542ed8f36efba4a285
 
 Delta Live Tablesのチュートリアル（2025年版）。
 
-https://qiita.com/taka_yayoi/items/a2e5d89a62be7eb6ad7f
+https://qiita.com/taka_yayoi/items/20d5d5f99186f1a4a917
 
 SQLを用いたデータパイプラインの宣言。
 
-https://qiita.com/taka_yayoi/items/d9b6e4eec7cf9f0ea67a
+https://qiita.com/taka_yayoi/items/20d5d5f99186f1a4a917
 
 新機能のウォークスルー。
 
 ### Lakeflow (最新)
 
-https://qiita.com/taka_yayoi/items/eaaa95af804614823ebe
+https://qiita.com/taka_yayoi/items/bb5ccb3fa1dae1b8915e
 
 Lakeflow Spark宣言型パイプラインのチュートリアル。
 
 ### ストリーミングデータ処理
 
-https://qiita.com/taka_yayoi/items/67dba4c5a90a6a81d4e8
+https://qiita.com/taka_yayoi/items/ae258e2e160c41239435
 
 Spark構造化ストリーミングのチュートリアル。
 
-https://qiita.com/taka_yayoi/items/dff97fa34d9e34fc2856
+https://qiita.com/taka_yayoi/items/176be641064170826bc5
 
 Auto LoaderによるDelta Lakeへの継続的データ取り込み。
 
@@ -166,15 +166,15 @@ https://qiita.com/taka_yayoi/items/dd81ac0da656bf883a34
 
 PythonによるMLflowクイックスタートガイド。
 
-https://qiita.com/taka_yayoi/items/fb8d6ac9e7f62dc56a3d
+https://qiita.com/taka_yayoi/items/3b19d88d89d7b052cde8
 
 MLflow Logging APIクイックスタート。
 
-https://qiita.com/taka_yayoi/items/4f80f50c0fa6bd71ab89
+https://qiita.com/taka_yayoi/items/3b19d88d89d7b052cde8
 
 MLflowのクイックスタートウォークスルー。
 
-https://qiita.com/taka_yayoi/items/3e764a7502e9e0edb6f1
+https://qiita.com/taka_yayoi/items/ce83575abb55526c52a7
 
 MLflow 3.0のクイックスタート（最新）。
 
@@ -184,11 +184,11 @@ https://qiita.com/taka_yayoi/items/24d240adabb63291643e
 
 Databricksにおける機械学習の10分チュートリアル。
 
-https://qiita.com/taka_yayoi/items/14c56ce64bef35dd8789
+https://qiita.com/taka_yayoi/items/f169dcf4d517ac8dd644
 
 Databricks Apache Spark機械学習チュートリアル。
 
-https://qiita.com/taka_yayoi/items/8b9f8c5a5a9b89c94cf9
+https://qiita.com/taka_yayoi/items/f169dcf4d517ac8dd644
 
 MLlibを用いた機械学習チュートリアル。
 
@@ -202,21 +202,21 @@ https://qiita.com/taka_yayoi/items/25d3356982040ea41091
 
 Community Editionで回帰問題を解く。
 
-https://qiita.com/taka_yayoi/items/dc30c40b4a9c9c69a3b8
+https://qiita.com/taka_yayoi/items/8ebc58c04f7889438eb1
 
 Community Editionで機械学習を体験。
 
 ## ワークフローとジョブ
 
-https://qiita.com/taka_yayoi/items/61b38c5c7f74faec4a0c
+https://qiita.com/taka_yayoi/items/932e211757e697fe9d5e
 
 Databricksジョブのクイックスタート。
 
-https://qiita.com/taka_yayoi/items/db84fa58ac341e7c5da0
+https://qiita.com/taka_yayoi/items/70bfe4b30420078fdff9
 
 ジョブのチュートリアル（最新版）。
 
-https://qiita.com/taka_yayoi/items/4a18b70deae1ae70e8f4
+https://qiita.com/taka_yayoi/items/e881769270f0ec0b7d06
 
 Python Wheelタスクでプロダクションパイプラインをデプロイ。
 
@@ -226,25 +226,25 @@ Python Wheelタスクでプロダクションパイプラインをデプロイ�
 
 ### プロンプトエンジニアリング
 
-https://qiita.com/taka_yayoi/items/d70e7b7ef0a9b9ebbc15
+https://qiita.com/taka_yayoi/items/fc3833a73b841de8b205
 
 Databricksで学ぶプロンプトの基礎。
 
 ### RAGの基礎
 
-https://qiita.com/taka_yayoi/items/a7a61d08d56b798f82b8
+https://qiita.com/taka_yayoi/items/45cb187666242fcb542f
 
 Databricks生成AIクックブック - RAGの基礎。
 
 ### 複合AIシステム
 
-https://qiita.com/taka_yayoi/items/1a0f60e14a4f5be9daae
+https://qiita.com/taka_yayoi/items/da5e019190bed65e9e87
 
 はじめての複合AIシステム構築。
 
 ## AI関数の活用
 
-https://qiita.com/taka_yayoi/items/c8df1bbed5ad40fb68b7
+https://qiita.com/taka_yayoi/items/08d3dbf3f5202d708c03
 
 ai_query関数の基礎から高度な使い方まで。
 
@@ -252,51 +252,51 @@ ai_query関数の基礎から高度な使い方まで。
 
 ### LangChainの基礎
 
-https://qiita.com/taka_yayoi/items/a7c5f31f9e9a49cac5fa
+https://qiita.com/taka_yayoi/items/22ccfeea661820375455
 
 LangChainのクイックスタートガイド。
 
-https://qiita.com/taka_yayoi/items/ebd30a1c734a52b59ff8
+https://qiita.com/taka_yayoi/items/22ccfeea661820375455
 
 LangChainエージェントチュートリアル。
 
-https://qiita.com/taka_yayoi/items/dca9c99cf14bb81c3e8e
+https://qiita.com/taka_yayoi/items/22ccfeea661820375455
 
 LangChainの基礎とイントロダクション。
 
 ### LangGraphの実践
 
-https://qiita.com/taka_yayoi/items/a42e64c3bd94e856cb85
+https://qiita.com/taka_yayoi/items/d6e5fd6a724eb9b65fbc
 
 LangGraphのクイックスタート(その1)。
 
-https://qiita.com/taka_yayoi/items/44e7f62a51c1ea3c55ad
+https://qiita.com/taka_yayoi/items/d6e5fd6a724eb9b65fbc
 
 LangGraphのクイックスタート(その2)。
 
-https://qiita.com/taka_yayoi/items/d5fcd09d82bf9a63ad64
+https://qiita.com/taka_yayoi/items/311048184657aa8ad53f
 
 LangGraphのクイックスタート(その3)。
 
-https://qiita.com/taka_yayoi/items/74a063fc4b65f97e4998
+https://qiita.com/taka_yayoi/items/e2a7fcafd21acd31eeff
 
 LangGraphのクイックスタート(その4)。
 
-https://qiita.com/taka_yayoi/items/42dd54c374930c8d2bf8
+https://qiita.com/taka_yayoi/items/58f2434defe5257dd8da
 
 LangGraphのクイックスタート(その5)。
 
-https://qiita.com/taka_yayoi/items/d2edeb29add06a93fb4a
+https://qiita.com/taka_yayoi/items/58f2434defe5257dd8da
 
 LangGraphのクイックスタート(その6)。
 
 ## MLflowとLLM
 
-https://qiita.com/taka_yayoi/items/eaf03be31e4f651f9125
+https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
 
 MLflowチュートリアル: ChatModelを使い始める。
 
-https://qiita.com/taka_yayoi/items/5e44e87d68e6f78c2af5
+https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
 
 MLflowによるRAGのリトリーバ評価。
 
@@ -304,47 +304,47 @@ MLflowによるRAGのリトリーバ評価。
 
 ## Unity Catalogによるガバナンス
 
-https://qiita.com/taka_yayoi/items/e0ca6bc15dd98df63ba7
+https://qiita.com/taka_yayoi/items/dddad5c37efe55491abc
 
 Unity Catalogメタストア管理者向けタスク。
 
-https://qiita.com/taka_yayoi/items/70267dde8e16c7e83321
+https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
 
 OSS Unity Catalogチュートリアル。
 
-https://qiita.com/taka_yayoi/items/b08d8bfccb19a37e7bec
+https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
 
 データとAI資産のガバナンスのためのタグ活用入門。
 
-https://qiita.com/taka_yayoi/items/78fbdf4c3a21c83f9d1d
+https://qiita.com/taka_yayoi/items/e0182ce6724efd76e560
 
 Unity Catalogにおける特徴量エンジニアリングの基本。
 
 ## Databricks Apps
 
-https://qiita.com/taka_yayoi/items/21e9f10c53beb64f77fe
+https://qiita.com/taka_yayoi/items/39ab8f9aacd42e638127
 
 Databricks AppsのStreamlitチュートリアル。
 
 ## グラフ分析
 
-https://qiita.com/taka_yayoi/items/45c654bf09bac063b6e8
+https://qiita.com/taka_yayoi/items/a195b1fc636a4613852b
 
 GraphFramesを用いたグラフ分析のチュートリアル。
 
 ## 地理空間データ
 
-https://qiita.com/taka_yayoi/items/73be74cf5d72f6a25883
+https://qiita.com/taka_yayoi/items/d0484191ba2de446c525
 
 地理空間情報ライブラリMosaicのクイックスタート。
 
 ## 高度なPython
 
-https://qiita.com/taka_yayoi/items/e434394a1d96ee72c5eb
+https://qiita.com/taka_yayoi/items/d257f7cc0b1db5e47e80
 
 Pythonの高階関数チュートリアル。
 
-https://qiita.com/taka_yayoi/items/8cd88fe1d4ba2dbbd73d
+https://qiita.com/taka_yayoi/items/bb96e1be88959902cb17
 
 今さら聞けないPython - Pythonの基礎。
 
@@ -352,39 +352,39 @@ https://qiita.com/taka_yayoi/items/8cd88fe1d4ba2dbbd73d
 
 ## 画像データ分析
 
-https://qiita.com/taka_yayoi/items/7ee0be3c6b73a1bfcd4e
+https://qiita.com/taka_yayoi/items/1c02542125bc327282d5
 
 Community Editionで画像データを分析。
 
 ## 自然言語処理
 
-https://qiita.com/taka_yayoi/items/f17cf7c3a5bf68d7e2bb
+https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
 
 Spark NLPで自然言語処理。
 
-https://qiita.com/taka_yayoi/items/d6e6e3bf4e15a754b25d
+https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
 
 無料のCommunity Editionで大規模言語モデルを体験。
 
 ## 機械学習ライブラリ
 
-https://qiita.com/taka_yayoi/items/e764bda49f2d8e10e893
+https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f
 
 XGBoostを試してみる。
 
 ## エンドツーエンドパイプライン
 
-https://qiita.com/taka_yayoi/items/3c2a2bc57a0f30c5a4e0
+https://qiita.com/taka_yayoi/items/4ea03bea8085cfa306f0
 
 エンドツーエンドのレイクハウスアナリティクスパイプライン（2023年版）。
 
-https://qiita.com/taka_yayoi/items/ad3d2bb33ed2ed1ecdcc
+https://qiita.com/taka_yayoi/items/0115bc0db7623d13fa10
 
 エンドツーエンドのレイクハウス分析パイプライン（2022年版）。
 
 ## データ取り込み
 
-https://qiita.com/taka_yayoi/items/5c9f63cde7e34e1f4ca1
+https://qiita.com/taka_yayoi/items/b424e1f321cfbbf5a0e7
 
 COPY INTOでレイクハウスへのデータ取り込み。
 
@@ -392,29 +392,29 @@ COPY INTOでレイクハウスへのデータ取り込み。
 
 ## デモとサンプル
 
-https://qiita.com/taka_yayoi/items/f3f631bfce47b0c30da0
+https://qiita.com/taka_yayoi/items/d0f872d0d8d9c6b20beb
 
 dbdemos: Databricksのデモを簡単に体験。
 
 ## ダッシュボード
 
-https://qiita.com/taka_yayoi/items/39fbe988e9b8d1c15da4
+https://qiita.com/taka_yayoi/items/0e3e0730b71de28e4c08
 
 サンプルダッシュボードのインポート。
 
 ## ファイル入出力
 
-https://qiita.com/taka_yayoi/items/25be54e4ed3ef08d43a8
+https://qiita.com/taka_yayoi/items/bc9e4a737d070acb9bf8
 
 簡単なファイル入出力アプリケーション。
 
 ## ベストプラクティス
 
-https://qiita.com/taka_yayoi/items/99bc5bc3d9e4dcf6ff48
+https://qiita.com/taka_yayoi/items/ab94f2ec1409beb4a125
 
 初心者がよくやる11のDatabricksの間違い。
 
-https://qiita.com/taka_yayoi/items/53a026e55bb9fe1fb5d3
+https://qiita.com/taka_yayoi/items/99dd9df8f384b3714aec
 
 Sparkジョブ、ステージ、タスクをわかりやすく。
 
@@ -424,11 +424,11 @@ https://qiita.com/taka_yayoi/items/125231c126a602693610
 
 Databricksチュートリアル。
 
-https://qiita.com/taka_yayoi/items/16e1e2a0a77beb60653b
+https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
 
 Databricks Free Editionチュートリアル。
 
-https://qiita.com/taka_yayoi/items/ef48cbbad38f57e1ab21
+https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
 
 無料の学習コースでDatabricks認定試験取得。
 
@@ -438,11 +438,11 @@ https://qiita.com/taka_yayoi/items/1cf44c51be709058ff80
 
 5つの簡単なステップでAIアプリを構築する(しない)方法。
 
-https://qiita.com/taka_yayoi/items/8d5fbdb5a6c3d7d75abe
+https://qiita.com/taka_yayoi/items/7df5147e501deb62b6f9
 
 データインテリジェンスを理解するための簡単なガイド。
 
-https://qiita.com/taka_yayoi/items/ab4f51c4e13a0d7bcbaf
+https://qiita.com/taka_yayoi/items/c1cc0ada066607ee1991
 
 サーバレスバッチ推論をわかりやすく説明。
 
@@ -450,7 +450,7 @@ https://qiita.com/taka_yayoi/items/ab4f51c4e13a0d7bcbaf
 
 ## Databricksクイックスタートガイド
 
-https://qiita.com/taka_yayoi/items/42c4b918cb2c84f63aa0
+https://qiita.com/taka_yayoi/items/5133f590f30fee3c12da
 
 電子書籍「データブリックス クイックスタートガイド」。
 
@@ -468,7 +468,7 @@ https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
 
 Apache Spark徹底入門を出版。
 
-https://qiita.com/taka_yayoi/items/a3ed42eef67a4c6ef39d
+https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
 
 50歳ITエンジニアが語る出版への道。
 
@@ -528,7 +528,7 @@ A: 基本的な機能は同じですが、Community Editionには以下の制限
 - Unity Catalogが使えない
 - 一部の高度な機能が制限される
 
-詳細は[こちら](https://qiita.com/taka_yayoi/items/22cbd69c13e57409ed3f)をご覧ください。
+詳細は[こちら](https://qiita.com/taka_yayoi/items/2cca5266ccefa1c21a4f)をご覧ください。
 
 ### Q: どの記事から読めばいいですか？
 
