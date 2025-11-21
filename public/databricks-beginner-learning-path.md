@@ -78,47 +78,47 @@ graph TD
 この記事を読む前に、以下の基本用語を理解しておきましょう：
 
 ### データ基盤関連
-- **レイクハウス**: データレイク（大量の生データを安価に保存）とデータウェアハウス（高速なクエリ実行）の良いところを組み合わせたアーキテクチャ
-- **Delta Lake**: データに「履歴管理」「トランザクション」機能を追加するストレージ技術。git のようにデータのバージョン管理ができる
-- **Apache Spark**: 大規模データを複数のマシンで分散処理するエンジン。pandas の分散版のようなイメージ
+- **[レイクハウス](https://docs.databricks.com/ja/lakehouse/index.html)**: データレイク（大量の生データを安価に保存）とデータウェアハウス（高速なクエリ実行）の良いところを組み合わせたアーキテクチャ
+- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: データに「履歴管理」「トランザクション」機能を追加するストレージ技術。git のようにデータのバージョン管理ができる
+- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データを複数のマシンで分散処理するエンジン。pandas の分散版のようなイメージ
 
 ### データ処理関連
-- **ETL/ELT**: Extract（抽出）→ Transform（変換）→ Load（読み込み）の頭文字。データを整形して別の場所に保存する処理
-- **パイプライン**: データ処理の自動化された流れ。「毎日深夜にデータを取得→整形→保存」のような一連の処理
-- **ストリーミング**: リアルタイムで流れてくるデータ（ログ、センサーデータなど）を処理すること
+- **[ETL](https://docs.databricks.com/ja/getting-started/etl-quick-start.html)**: Extract（抽出）→ Transform（変換）→ Load（読み込み）の頭文字。データを整形して別の場所に保存する処理
+- **[Lakeflowパイプライン](https://docs.databricks.com/ja/lakeflow/index.html)**: データ処理の自動化された流れ。「毎日深夜にデータを取得→整形→保存」のような一連の処理
+- **[ストリーミング](https://docs.databricks.com/ja/structured-streaming/index.html)**: リアルタイムで流れてくるデータ（ログ、センサーデータなど）を処理すること
 
 ### データガバナンス関連
-- **Unity Catalog**: データへのアクセス権限を管理する仕組み。「誰が」「どのデータに」「何ができるか」を管理
-- **ガバナンス**: データの管理・統制。セキュリティ、権限管理、監査ログなどを含む
+- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: データへのアクセス権限を管理する仕組み。「誰が」「どのデータに」「何ができるか」を管理
+- **[データガバナンス](https://docs.databricks.com/ja/data-governance/index.html)**: データの管理・統制。セキュリティ、権限管理、監査ログなどを含む
 
 ### AI/ML関連
-- **MLflow**: 機械学習の実験管理ツール。モデルのパラメータ、精度、バージョンなどを記録・管理
-- **RAG** (Retrieval-Augmented Generation): 自社データを検索して、その結果をLLMに渡して回答を生成する手法
-- **LLMOps**: LLM（大規模言語モデル）の運用管理。MLOpsのLLM版
+- **[MLflow](https://docs.databricks.com/ja/mlflow/index.html)**: 機械学習の実験管理ツール。モデルのパラメータ、精度、バージョンなどを記録・管理
+- **[RAG](https://docs.databricks.com/ja/generative-ai/retrieval-augmented-generation.html)** (Retrieval-Augmented Generation): 自社データを検索して、その結果をLLMに渡して回答を生成する手法
+- **[Mosaic AI](https://docs.databricks.com/ja/machine-learning/index.html)**: Databricksの統合AI/MLプラットフォーム。機械学習から生成AIまでをカバー
 
 ## Databricksの主要な機能
 
 Databricksは以下の機能を統合したプラットフォームです：
 
 **使うツール**
-- **Notebooks**: データ分析やアプリ開発のための対話的な開発環境
-- **Databricks SQL**: データウェアハウス機能（SQL Warehouse、SQLエディタ）
-- **AI/BI**: BIと分析の統合ツール
-  - ダッシュボード: データの可視化とレポーティング
-  - Genie: 自然言語でデータ分析
-- **Mosaic AI**: 機械学習・生成AIモデルの開発・トレーニング・デプロイ
-- **Lakeflow**: データエンジニアリングの統合ソリューション
-  - Lakeflow Connect: データ取り込み用のマネージドコネクタ
-  - Spark宣言型パイプライン: データ変換パイプラインの宣言的定義
-  - Lakeflowジョブ: ワークフローの自動化とオーケストレーション
+- **[Notebooks](https://docs.databricks.com/ja/notebooks/index.html)**: データ分析やアプリ開発のための対話的な開発環境
+- **[Databricks SQL](https://docs.databricks.com/ja/sql/index.html)**: データウェアハウス機能（SQL Warehouse、SQLエディタ）
+- **[AI/BI](https://docs.databricks.com/ja/ai-bi/index.html)**: BIと分析の統合ツール
+  - [ダッシュボード](https://docs.databricks.com/ja/dashboards/index.html): データの可視化とレポーティング
+  - [Genie](https://docs.databricks.com/ja/genie/index.html): 自然言語でデータ分析
+- **[Mosaic AI](https://docs.databricks.com/ja/machine-learning/index.html)**: 機械学習・生成AIモデルの開発・トレーニング・デプロイ
+- **[Lakeflow](https://docs.databricks.com/ja/lakeflow/index.html)**: データエンジニアリングの統合ソリューション
+  - [Lakeflow Connect](https://docs.databricks.com/ja/ingestion/index.html): データ取り込み用のマネージドコネクタ
+  - [Spark宣言型パイプライン](https://docs.databricks.com/ja/lakeflow/declarative-pipelines.html): データ変換パイプラインの宣言的定義
+  - [Lakeflowジョブ](https://docs.databricks.com/ja/jobs/index.html): ワークフローの自動化とオーケストレーション
 
 **AI支援**
-- **Databricks Assistant**: コード生成、デバッグ、最適化をサポート
+- **[Databricks Assistant](https://docs.databricks.com/ja/assistant.html)**: コード生成、デバッグ、最適化をサポート
 
 **基盤技術**
-- **Apache Spark**: 大規模データの分散処理エンジン
-- **Delta Lake**: ACIDトランザクションを実現するストレージレイヤー
-- **Unity Catalog**: データガバナンス、アクセス制御、監査機能
+- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データの分散処理エンジン
+- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: ACIDトランザクションを実現するストレージレイヤー
+- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: データガバナンス、アクセス制御、監査機能
 
 ---
 
