@@ -570,11 +570,11 @@ https://qiita.com/taka_yayoi/items/d0f872d0d8d9c6b20beb
 
 dbdemos: Databricksのデモを簡単に体験。様々なユースケースをワンコマンドでセットアップ。
 
-### 認定試験と学習コース
+### Free Edition実践チュートリアル
 
 https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
 
-Databricks Free EditionチュートリアルとDatabricks認定試験の無料学習コース。
+Databricks Free Editionの実践チュートリアル。Unity CatalogやPySparkの基礎を手を動かしながら学べます。
 
 ---
 
