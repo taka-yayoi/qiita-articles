@@ -28,7 +28,7 @@ https://qiita.com/taka_yayoi/items/1bbf01ee4db01cff46b4
 
 **MLOpsにおける重要なマイルストーン**。データと機械学習モデルの統合管理を実現する、業界初のデータネイティブな特徴量ストアが登場しました。
 
-![Feature Store](https://databricks.com/wp-content/uploads/2021/09/feature-store-blog-img-1.png)
+![](https://databricks.com/wp-content/uploads/2021/09/feature-store-blog-img-1.png)
 
 ### 主な機能
 
@@ -53,7 +53,7 @@ https://qiita.com/taka_yayoi/items/0ed860131a02aeade14f
 
 **ガラスボックスアプローチによるAutoML**が導入されました。生成されたノートブックを確認・カスタマイズできる透明性の高い自動機械学習ツールです。
 
-![AutoML](https://cms.databricks.com/sites/default/files/inline-images/db-218-blog-img-1.gif)
+![](https://databricks.com/wp-content/uploads/2021/05/automl-blog-img-1-1024x592.jpg)
 
 ### サポート対象
 
@@ -83,7 +83,7 @@ https://qiita.com/taka_yayoi/items/fd4d4ba4cd9b01572a38
 
 **Databricks SQLから直接LLMを呼び出せる**革新的な機能が登場しました。SQLクエリ内でAIの力を活用できるようになりました。
 
-![AI Functions](https://cms.databricks.com/sites/default/files/inline-images/db-603-blog-img-1.png)
+![](https://cms.databricks.com/sites/default/files/inline-images/db-601-blog-img-1.png)
 
 ### 主要な関数
 
@@ -162,7 +162,7 @@ https://qiita.com/taka_yayoi/items/c4a3e07a5c91b5f90301
 
 **新たなSOTA（State-of-the-art）オープンLLM**であるDBRXがリリースされました。高性能かつ効率的な推論を実現します。
 
-![DBRX](https://cms.databricks.com/sites/default/files/inline-images/image2-1.png)
+![](https://cms.databricks.com/sites/default/files/inline-images/dbrx-champ-infographic-notitle-01_3.png)
 
 ## Vector Searchの正式提供（2024年）
 
@@ -190,7 +190,7 @@ https://qiita.com/taka_yayoi/items/9489ea6c56a0487ed201
 
 **ノートブックやSQLエディタ内でAIアシスタントが利用可能**になりました。コード生成、エラー解決、クエリ最適化などを支援します。
 
-![Databricks Assistant](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/1925ef1b-9160-4e48-5bdc-92ac5ce22be9.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/1925ef1b-9160-4e48-5bdc-92ac5ce22be9.png)
 
 ### 主な機能
 
@@ -219,7 +219,7 @@ https://qiita.com/taka_yayoi/items/9da86b94eb4cc2f7e18e
 
 **エージェントシステム構築のための統合フレームワーク**が提供されました。
 
-![Agent Framework](https://cms.databricks.com/sites/default/files/inline-images/db-1115-blog-img-1.png)
+![](https://cms.databricks.com/sites/default/files/inline-images/db-1115-blog-img-1.png)
 
 ### 主な機能
 
@@ -242,7 +242,7 @@ https://qiita.com/taka_yayoi/items/148b07697d2e87f31fbf
 
 LLMアプリケーションとエージェントの実行トレースを可視化する機能が統合されました。
 
-![MLflow Tracing](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/bd7de7a0-af62-441c-b152-3f7eeffcc873.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/bd7de7a0-af62-441c-b152-3f7eeffcc873.png)
 
 ### トレーシング機能
 
