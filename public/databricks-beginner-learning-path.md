@@ -60,7 +60,10 @@ Databricksは以下の機能を統合したプラットフォームです：
 - **Notebooks**: データ分析やアプリ開発のための対話的な開発環境
 - **Databricks SQL**: BI・データ分析のためのSQLエディタとダッシュボード
 - **Databricks ML**: 機械学習モデルの開発・トレーニング・デプロイ
-- **Lakeflowジョブ**: データパイプラインやワークフローの自動化
+- **Lakeflow**: データエンジニアリングの統合ソリューション
+  - Lakeflow Connect: データ取り込み用のマネージドコネクタ
+  - Spark宣言型パイプライン: データ変換パイプラインの宣言的定義
+  - Lakeflowジョブ: ワークフローの自動化とオーケストレーション
 
 **AI支援**
 - **Databricks Assistant**: コード生成、デバッグ、最適化をサポートするAIアシスタント
@@ -263,13 +266,15 @@ Databricksのデータベースをわかりやすく解説。
 
 データ処理の基礎を学んだら、本番環境で使えるデータパイプラインの構築方法を学びます。
 
-## Lakeflowパイプライン（最新手法）
+## Lakeflow（最新のデータエンジニアリング）
+
+LakeflowはConnect（データ取り込み）、Spark宣言型パイプライン（データ変換）、ジョブ（オーケストレーション）の3つから構成されるデータエンジニアリングの統合ソリューションです。
 
 ### 基本チュートリアル
 
 📘 [Lakeflow Spark宣言型パイプライン（公式）](https://docs.databricks.com/ja/getting-started/lakehouse-pipeline.html)
 
-**最新のパイプライン構築手法**。宣言的にデータパイプラインを定義し、Auto Loaderでデータを自動取り込みします。
+**最新のパイプライン構築手法**。宣言的にデータパイプラインを定義し、データ変換を自動化します。
 
 https://qiita.com/taka_yayoi/items/bb5ccb3fa1dae1b8915e
 
@@ -301,14 +306,14 @@ COPY INTOコマンドでレイクハウスへのデータ取り込み。効率�
 
 ```mermaid
 graph LR
-    A[データソース] --> B[Auto Loader/<br/>COPY INTO]
-    B --> C[Lakeflow/<br/>Spark ETL]
+    A[データソース] --> B[Lakeflow Connect/<br/>Auto Loader]
+    B --> C[Lakeflow<br/>宣言型パイプライン]
     C --> D[Delta Lake]
     D --> E[Databricks SQL]
     E --> F[ダッシュボード]
 
-    G[Lakeflowジョブ] -.自動実行.-> B
-    G -.自動実行.-> C
+    G[Lakeflowジョブ] -.オーケストレーション.-> B
+    G -.オーケストレーション.-> C
 
     style C fill:#e8f5e9
     style D fill:#fff3e0
