@@ -4,10 +4,10 @@ tags:
   - Python
   - Spark
   - 初心者
-  - 入門
   - pandas
+  - Databricks
 private: false
-updated_at: '2025-11-22T08:49:56+09:00'
+updated_at: '2025-11-22T08:58:01+09:00'
 id: b687ffc1a8901839e46b
 organization_url_name: null
 slide: false
@@ -883,10 +883,33 @@ graph TD
 
 ## 参考リンク
 
+### 公式ドキュメント
+
 - [Apache Spark公式ドキュメント](https://spark.apache.org/docs/latest/)
 - [PySpark API](https://spark.apache.org/docs/latest/api/python/)
 - [Databricks公式ガイド](https://docs.databricks.com/spark/latest/index.html)
 
+### 関連記事
+
+**Spark DataFrame基礎**
+- [Databricks Apache Sparkデータフレームチュートリアル](https://qiita.com/taka_yayoi/items/2a7e9bb792eba316de4b)
+- [チュートリアル：DatabricksでPySparkデータフレームを操作する](https://qiita.com/taka_yayoi/items/6cf24cd4ad921aa61356)
+
+**pandas連携・変換**
+- [DatabricksにおけるPySpark、pandasデータフレームの変換の最適化](https://qiita.com/taka_yayoi/items/063c2360670f59b38471)
+
+**パフォーマンス最適化**
+- [Apache Sparkにおけるパフォーマンスチューニング](https://qiita.com/taka_yayoi/items/7112883f3792340d4898)
+- [Sparkにおけるパフォーマンスとパーティショニング戦略](https://qiita.com/taka_yayoi/items/8d964a4949f41e2bf6bd)
+
 ---
 
 **お役に立ちましたら、いいね・ストックをお願いします！質問・フィードバックもお待ちしています。**
+
+### はじめてのDatabricks
+
+[はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d)
+
+### Databricks無料トライアル
+
+[Databricks無料トライアル](https://databricks.com/jp/try-databricks)
