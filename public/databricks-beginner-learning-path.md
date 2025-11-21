@@ -1,29 +1,72 @@
 ---
-title: Databricks初心者のための完全学習ガイド：生成AI時代のデータ分析・アプリ開発入門
+title: Databricks初心者のための完全学習ガイド：生成AI時代のデータ分析・機械学習・LLM入門
 tags:
-  - Databricks
   - 初心者
   - 入門
-  - 生成AI
   - AI
+  - Databricks
+  - 生成AI
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-21T16:49:21+09:00'
+id: 1fe076a0f87a7442d39a
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
-Databricksを初めて学ぶ方のために、**公式ドキュメントとQiita記事を組み合わせた体系的な学習ガイド**を作成しました。**生成AI時代に必要なデータ分析・アプリ開発・LLM活用のスキル**を、**Databricks AssistantやGenieといったAI支援ツール**を活用しながら効率的に学べる構成になっています。
+## Databricksとは？
+
+**Databricks = データ分析・機械学習・生成AIのための統合クラウドプラットフォーム**
+
+従来は「データ処理はSpark」「分析はJupyter」「BIはTableau」「MLはMLflow」と別々のツールを使っていましたが、Databricksはこれらを**1つに統合**。ノートブック、データパイプライン、ダッシュボード、AI/ML機能がすべて連携して使えます。
+
+```mermaid
+graph TB
+    subgraph "従来：複数ツールを切り替え"
+        T1[Jupyter Notebook]
+        T2[Apache Spark]
+        T3[Tableau/BI]
+        T4[MLflow]
+        T5[その他...]
+    end
+
+    subgraph "Databricks：すべて統合"
+        DB[Databricks<br/>統合プラットフォーム]
+    end
+
+    T1 -.統合.-> DB
+    T2 -.統合.-> DB
+    T3 -.統合.-> DB
+    T4 -.統合.-> DB
+    T5 -.統合.-> DB
+
+    style DB fill:#ffebee,stroke:#333,stroke-width:3px
+```
+
+**イメージ**: Google Colabの超強化版 + データベース + 本番運用機能
+
+## Databricksはこんな時に使います
+
+- 📊 **データアナリスト**: 数百GBのログデータをSQLで分析→ダッシュボード化
+- 🔧 **データエンジニア**: 毎日深夜に自動でデータ取り込み→整形→保存
+- 🤖 **データサイエンティスト**: 機械学習モデルを開発→本番環境にデプロイ
+- 💬 **LLMエンジニア**: 社内ドキュメントを使ったRAGチャットボット構築
+
+**pandas経験者の方へ**: Jupyter Notebookで分析していたデータが大きくなりすぎた、チームで共有したい、本番運用したい...そんな時がDatabricksの出番です。
+
+---
+
+Databricksを初めて学ぶ方のために、**公式ドキュメントとQiita記事を組み合わせた体系的な学習ガイド**を作成しました。 **AI支援ツール（アシスタントやGenie）** を活用しながら効率的に学べる構成になっています。
 
 # この記事の特徴
 
 ## 生成AI時代の学習アプローチ
 
+従来は全てのコードを自分で書く必要がありましたが、**今はDatabricksアシスタントに日本語で「このデータを集計して」と指示するだけでコードが自動生成されます**。この変化を活用した学習方法を採用：
+
+- **AI支援で学ぶ**: アシスタントとGenieを使えば、プログラミング初心者でも効率的に学習できる
 - **公式ドキュメント + Qiita記事**: 最新の正確な情報と実践的な知見を両方活用
-- **AI支援で学ぶ**: Databricks AssistantとGenieを活用した効率的な学習
 - **実践重視**: データ分析からアプリ開発、LLM活用まで実践的なスキル習得
-- **段階的成長**: 基礎から高度なトピックまで、無理なくステップアップ
-- **2025年最新**: 2024-2025年の最新機能・記事を厳選
+- **段階的成長**: 基礎から高度なトピックまで、7つのレベルで無理なくステップアップ
 
 ## 対象読者
 
@@ -55,23 +98,15 @@ Databricksを初めて学ぶ方のために、**公式ドキュメントとQiita
 
 ## 全体の学習フロー
 
-```mermaid
-graph TD
-    A[レベル0: 基本を知る] --> B[レベル1: まず体験する]
-    B --> C[レベル2: データ処理の基礎]
-    C --> D[レベル3: データパイプライン]
-    D --> E[レベル4: 機械学習]
-    E --> F[レベル5: 生成AI/LLM]
-    F --> G[レベル6: 高度なトピック]
-
-    style A fill:#e1f5ff
-    style B fill:#fff3e0
-    style C fill:#f3e5f5
-    style D fill:#e8f5e9
-    style E fill:#fff9c4
-    style F fill:#ffebee
-    style G fill:#f3e5f5
-```
+| レベル | 難易度 | 時間 | 学習内容 | 前提知識 |
+|--------|--------|------|----------|----------|
+| [レベル0](#レベル0-基本を知る) | ★☆☆☆☆ | 1-2h | 基本概念、環境構築 | なし |
+| [レベル1](#レベル1-まず体験する) | ★★☆☆☆ | 2-3h | AI支援ツール体験 | レベル0 |
+| [レベル2](#レベル2-データ処理の基礎) | ★★★☆☆ | 5-7h | Spark, Delta Lake, SQL | Python/SQL基礎 |
+| [レベル3](#レベル3-データパイプライン) | ★★★☆☆ | 4-6h | Lakeflow、自動化 | レベル2 |
+| [レベル4](#レベル4-機械学習) | ★★★★☆ | 4-5h | MLflow、モデル管理 | レベル2、機械学習基礎 |
+| [レベル5](#レベル5-生成aillm重点領域) | ★★★★☆ | 5-7h | RAG、LLM統合 | レベル4 |
+| [レベル6](#レベル6-高度なトピック) | ★★★★★ | 6-8h | ストリーミング、ガバナンス | レベル3+4 |
 
 ## 知っておくべき基本用語
 
@@ -79,46 +114,50 @@ graph TD
 
 ### データ基盤関連
 - **[レイクハウス](https://docs.databricks.com/ja/lakehouse/index.html)**: データレイク（大量の生データを安価に保存）とデータウェアハウス（高速なクエリ実行）の良いところを組み合わせたアーキテクチャ
-- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: データに「履歴管理」「トランザクション」機能を追加するストレージ技術。git のようにデータのバージョン管理ができる
-- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データを複数のマシンで分散処理するエンジン。pandas の分散版のようなイメージ
+- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: データに「履歴管理」「トランザクション」機能を追加するストレージ技術。git のようにデータのバージョン管理ができる。 **ACID保証 (Atomicity, Consistency, Isolation, Durability)** により、複数人が同時にデータ更新しても整合性が保たれる
+- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データを複数のマシンで分散処理するエンジン。pandas の分散版のようなイメージ。 **例**: pandasで10時間かかる処理が、10台のマシン（クラスター）で1時間で完了
+- **クラスター**: 複数のマシンをまとめて1つの大きなコンピュータのように使う仕組み。データを分割して並列処理することで高速化
+- **[サーバレスコンピュート](https://docs.databricks.com/ja/serverless-compute/index.html)**: サーバーの設定や管理が不要な実行環境。Databricksが自動的にリソースを割り当て・スケール。Jupyter NotebookをGoogle Colabで実行するのと似た感覚
 
 ### データ処理関連
 - **[ETL](https://docs.databricks.com/ja/getting-started/etl-quick-start.html)**: Extract（抽出）→ Transform（変換）→ Load（読み込み）の頭文字。データを整形して別の場所に保存する処理
 - **[Lakeflowジョブ](https://docs.databricks.com/ja/workflows/jobs/index.html)**: データ処理の自動化された流れ。「毎日深夜にデータを取得→整形→保存」のような一連の処理を自動実行
+- **オーケストレーション**: 複数の処理を順番に実行すること。 **例**: ①データ取り込み完了→②データ変換開始→③失敗したらSlack通知、のように処理の流れを制御
 - **[ストリーミング](https://docs.databricks.com/ja/structured-streaming/index.html)**: リアルタイムで流れてくるデータ（ログ、センサーデータなど）を処理すること
 
 ### データガバナンス関連
-- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: データへのアクセス権限を管理する仕組み。「誰が」「どのデータに」「何ができるか」を管理
+- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: データへのアクセス権限を管理する仕組み。 **例**: AさんにはマーケティングデータのSELECT権限のみ、Bさんには全テーブルの編集権限を付与、のようにチーム開発で権限を細かく制御
 - **[データガバナンス](https://docs.databricks.com/ja/data-governance/index.html)**: データの管理・統制。セキュリティ、権限管理、監査ログなどを含む
 
 ### AI/ML関連
-- **[MLflow](https://docs.databricks.com/ja/mlflow/index.html)**: 機械学習の実験管理ツール。モデルのパラメータ、精度、バージョンなどを記録・管理
-- **[RAG](https://docs.databricks.com/ja/generative-ai/retrieval-augmented-generation.html)** (Retrieval-Augmented Generation): 自社データを検索して、その結果をLLMに渡して回答を生成する手法
+- **[MLflow](https://docs.databricks.com/ja/mlflow/index.html)**: 機械学習の実験管理ツール。 **なぜ必要？** 実験が100回を超えると、どの設定が良かったか分からなくなる問題を解決。パラメータ、精度、バージョンを自動記録して比較できる。 **例**: 学習率0.01と0.001、どちらが良かったかを後から簡単に比較
+- **[RAG](https://docs.databricks.com/ja/generative-ai/retrieval-augmented-generation.html)** (Retrieval-Augmented Generation): 自社データを検索して、その結果をLLMに渡して回答を生成する手法。 **Vector DB** = 文章の意味の類似度で検索できるデータベース（普通のDBは完全一致検索、Vector DBは"似た意味"で検索）を使用
 - **[Mosaic AI](https://docs.databricks.com/ja/machine-learning/index.html)**: Databricksの統合AI/MLプラットフォーム。機械学習から生成AIまでをカバー
 
-## Databricksの主要な機能
+## Databricksの主要機能（初心者向け）
 
-Databricksは以下の機能を統合したプラットフォームです：
+### 📓 1. Notebooks（ノートブック）
+Jupyter Notebookのような環境。Python/SQLでデータ分析ができます。
+- **AI支援**: [Databricksアシスタント](https://docs.databricks.com/ja/notebooks/code-assistant.html)が日本語でコード生成
+- **例**: 「売上データを月別に集計して」→ アシスタントが自動でコード生成
 
-**使うツール**
-- **[Notebooks](https://docs.databricks.com/ja/notebooks/index.html)**: データ分析やアプリ開発のための対話的な開発環境
-- **[Databricks SQL](https://docs.databricks.com/ja/sql/index.html)**: データウェアハウス機能（SQL Warehouse、SQLエディタ）
-- **[AI/BI](https://docs.databricks.com/ja/ai-bi/index.html)**: BIと分析の統合ツール
-  - [ダッシュボード](https://docs.databricks.com/ja/dashboards/index.html): データの可視化とレポーティング
-  - [Genie](https://docs.databricks.com/ja/genie/index.html): 自然言語でデータ分析
-- **[Mosaic AI](https://docs.databricks.com/ja/machine-learning/index.html)**: 機械学習・生成AIモデルの開発・トレーニング・デプロイ
-- **Lakeflow**: データエンジニアリングの統合ソリューション
-  - [Lakeflow Connect](https://docs.databricks.com/ja/ingestion/index.html): データ取り込み用のマネージドコネクタ
-  - [Spark宣言型パイプライン](https://docs.databricks.com/ja/getting-started/lakehouse-pipeline.html): データ変換パイプラインの宣言的定義
-  - [Lakeflowジョブ](https://docs.databricks.com/ja/workflows/jobs/index.html): ワークフローの自動化とオーケストレーション
+### 📊 2. AI/BI（分析・可視化）
+- **[Genie](https://docs.databricks.com/ja/genie/index.html)**: 「先月の売上トップ10は？」と日本語で質問→自動でグラフ作成
+- **[ダッシュボード](https://docs.databricks.com/ja/dashboards/index.html)**: 分析結果を可視化してチームで共有
 
-**AI支援**
-- **[Databricks Assistant](https://docs.databricks.com/ja/notebooks/code-assistant.html)**: コード生成、デバッグ、最適化をサポート
+### 🔄 3. Lakeflow（データ自動化）
+毎日決まった時間にデータ取り込み→整形→保存を自動実行。pandasのスクリプトをcronで回すのと似ているが、もっと簡単。
+- **[Connect](https://docs.databricks.com/ja/ingestion/index.html)**: MySQL、S3などから自動取り込み（ノーコード）
+- **[ジョブ](https://docs.databricks.com/ja/workflows/jobs/index.html)**: 処理の自動実行・スケジュール管理
 
-**基盤技術**
-- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データの分散処理エンジン
-- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: ACIDトランザクションを実現するストレージレイヤー
-- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: データガバナンス、アクセス制御、監査機能
+### 🤖 4. Mosaic AI（機械学習・生成AI）
+- **[MLflow](https://docs.databricks.com/ja/mlflow/index.html)**: 機械学習の実験管理・モデルデプロイ
+- **RAG**: 社内ドキュメントを使ったLLMチャットボット構築
+
+### 💾 5. 基盤技術（裏で動いている）
+- **[Apache Spark](https://docs.databricks.com/ja/getting-started/spark/index.html)**: 大規模データを複数マシンで高速処理（pandas の分散版）
+- **[Delta Lake](https://docs.databricks.com/ja/delta/index.html)**: データのバージョン管理とトランザクション（gitのようなもの）
+- **[Unity Catalog](https://docs.databricks.com/ja/data-governance/unity-catalog/index.html)**: チーム開発のための権限管理
 
 ---
 
@@ -128,44 +167,10 @@ Databricksは以下の機能を統合したプラットフォームです：
 **所要時間**: 1-2時間
 **完了後にできること**: Databricksの全体像を説明できる、Free Editionで環境構築できる
 
-まずはDatabricksの基本概念を理解します。
-
-## Databricksとは何か
-
-📘 [Databricksの基本概念（公式）](https://docs.databricks.com/ja/introduction/)
-
-Databricksの全体像、レイクハウスアーキテクチャ、主要なコンポーネントを理解します。
-
-## Free Editionで始める
-
-https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
-
-無料で始められるDatabricks Free Editionの登録方法と使い方。実際に環境を準備します。
-
-## レイクハウスアーキテクチャ
-
-https://qiita.com/taka_yayoi/items/438f762126f57868aa35
-
-Databricksの基盤となるレイクハウスの概念を理解します。データウェアハウスとデータレイクの良いところを組み合わせたアーキテクチャです。
-
-```mermaid
-graph LR
-    subgraph "従来"
-        DL1[データレイク<br/>柔軟だが品質課題]
-        DW1[データウェアハウス<br/>高品質だが高コスト]
-    end
-
-    subgraph "レイクハウス"
-        LH[レイクハウス<br/>柔軟 + 高品質 + 低コスト]
-    end
-
-    DL1 -.統合.-> LH
-    DW1 -.統合.-> LH
-
-    style LH fill:#ffebee
-```
-
-**図の説明**: 従来は「安いけど品質が低いデータレイク」か「高品質だけど高コストのデータウェアハウス」の二択でした。レイクハウスは両方の良いところを組み合わせ、安価で高品質なデータ基盤を実現します。
+- [はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d) - Databricksとは何か、分かりやすく解説
+- 📘 [Databricksの基本概念（公式）](https://docs.databricks.com/ja/introduction/) - 全体像とコンポーネント
+- [Free Edition登録方法](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72) - 無料で環境構築
+- [レイクハウスとは何か](https://qiita.com/taka_yayoi/items/438f762126f57868aa35) - データレイク + データウェアハウスの統合アーキテクチャ
 
 ---
 
@@ -173,66 +178,25 @@ graph LR
 
 **このレベルで学ぶこと**: AI支援ツールの使い方、基本的なデータ操作
 **所要時間**: 2-3時間
-**完了後にできること**: Databricks Assistantでコード生成、Genieで自然言語データ分析
+**完了後にできること**: Databricksアシスタントでコード生成、Genieで自然言語データ分析
 
-概念を理解したら、まず手を動かしてDatabricksを体験します。**AI支援ツールを活用することで、プログラミング初心者でも効率的に学習できます。**
+**AI支援ツールを活用することで、プログラミング初心者でも効率的に学習できます。**
 
-## クイックスタート
+### クイックスタート
+- 📘 [データをクエリーして可視化（公式）](https://docs.databricks.com/ja/getting-started/quick-start.html) - 最初に取り組むべきチュートリアル
 
-📘 [データをクエリーして可視化（公式）](https://docs.databricks.com/ja/getting-started/quick-start.html)
+### Databricksアシスタント（AIコード生成）
+- 📘 [基本的な使い方（公式）](https://docs.databricks.com/ja/notebooks/code-assistant.html) - `/explain` `/fix` `/optimize` `/findTables`
+- [実践：EDA](https://qiita.com/taka_yayoi/items/07c49c2de588a101b719) - AI支援で探索的データ分析
 
-**最初に取り組むべきチュートリアル**。SQLやPythonでデータをクエリし、可視化する方法を学びます。
-
-## Databricks Assistantで始める
-
-### 基本的な使い方
-
-📘 [Databricks Assistant（公式）](https://docs.databricks.com/ja/notebooks/code-assistant.html)
-
-AI支援コーディングツールの基本的な使い方。`Cmd/Ctrl + I`で起動し、自然言語でコードを生成できます。
-
-**主な機能：**
-- `/explain` - コードの説明
-- `/fix` - エラー修正
-- `/optimize` - パフォーマンス改善
-- `/findTables` - データ資産検索
-
-### 実践例：EDA
-
-https://qiita.com/taka_yayoi/items/07c49c2de588a101b719
-
-:::note info
-Databricks Assistantで探索的データ分析（EDA）を体験。AIの力を借りながらデータ分析の基礎を学びます。
-:::
-
-## Genieで自然言語分析
-
-### 基本的な使い方
-
-📘 [Genie（公式）](https://docs.databricks.com/ja/genie/index.html)
-
-自然言語でデータ分析ができるツール。SQLを書かずに、日本語/英語の質問でデータを分析できます。
-
-### 実践例：リサーチエージェント
+### Genie（自然言語分析）
+- 📘 [基本的な使い方（公式）](https://docs.databricks.com/ja/genie/index.html) - SQLを書かずに日本語で質問
 
 https://qiita.com/taka_yayoi/items/1c472621a7a5f9cd99cb
 
 :::note info
-**最新機能（2025-11-20）**: Databricks Genieリサーチエージェント。複雑なビジネス課題を多段階推論で解決する新機能を体験します。
+**最新機能（2025-11-20）**: Genieは日本語の質問を自動的にSQLに変換→データ分析→可視化まで実行。「先月の売上トップ10は？」と聞くだけで結果が得られます。
 :::
-
-```mermaid
-graph LR
-    A[自然言語の質問] --> B[Genie]
-    B --> C[SQLクエリ生成]
-    C --> D[データ分析]
-    D --> E[可視化]
-    E --> F[回答]
-
-    style B fill:#ffebee
-```
-
-**図の説明**: Genieは日本語の質問を自動的にSQLに変換し、データ分析まで行ってくれます。「先月の売上トップ10は？」のような質問をするだけで、裏で適切なSQLを実行して結果を可視化してくれます。
 
 ---
 
@@ -283,23 +247,11 @@ https://qiita.com/taka_yayoi/items/435275f6124184090259
 
 https://qiita.com/taka_yayoi/items/07c9396809edbf2699b6
 
-Delta Lakeとは何か（2025-05-28更新）。ACIDトランザクションを実現するストレージレイヤーの概念を理解します。
-
-```mermaid
-graph TB
-    Parquet[Parquetファイル]
-    Delta[Delta Lake]
-    Features[ACID/タイムトラベル/スキーマ進化]
-
-    Parquet --> Delta
-    Delta --> Features
-
-    style Delta fill:#ffebee
-```
+Delta Lakeとは何か（2025-05-28更新）。ParquetファイルにACID/タイムトラベル/スキーマ進化機能を追加するストレージレイヤー。
 
 ### チュートリアル
 
-https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
+https://qiita.com/taka_yayoi/items/345f503d5f8177084f24
 
 Delta Lakeのクイックスタートガイド。実際にDeltaテーブルを作成し、データを取り込みます。
 
@@ -432,17 +384,6 @@ MLflow 3.0のクイックスタート。最新のMLflow機能を学びます。
 https://qiita.com/taka_yayoi/items/cf5ce14552b2221465dd
 
 XGBoostを使った機械学習。実務で使える機械学習ライブラリの使い方を学びます。
-
-```mermaid
-graph TD
-    A[データ準備] --> B[モデル学習]
-    B --> C[MLflowで記録]
-    C --> D[モデル評価]
-    D --> E[モデル登録]
-    E --> F[モデルサービング]
-
-    style C fill:#fff9c4
-```
 
 ---
 
@@ -583,10 +524,6 @@ https://qiita.com/taka_yayoi/items/dddad5c37efe55491abc
 
 Unity Catalogメタストア管理者向けタスク。実際の運用方法を学びます。
 
-https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
-
-OSS Unity Catalogチュートリアルとタグ活用入門。
-
 ### 実践的な構造化パターン
 
 https://qiita.com/taka_yayoi/items/9e79f110ed2de517f15a
@@ -601,6 +538,10 @@ Unity Catalogのアクセスリクエスト機能で権限管理をスムーズ�
 
 # 補足資料・今後の学習
 
+:::note info
+以下はすべて**オプション**。基礎習得後に興味のあるトピックを深掘りする際に参考にしてください。
+:::
+
 ## AI機能の全体像
 
 https://qiita.com/taka_yayoi/items/ba79329ee86ca4f21701
@@ -611,13 +552,7 @@ Databricks AI機能の進化の歴史：2021年〜2025年（2025-11-21）。AI�
 
 https://qiita.com/taka_yayoi/items/fc3833a73b841de8b205
 
-Databricksで学ぶプロンプトエンジニアリングの基礎。Databricks Assistantの使い方を学ぶ中で自然に身につきます。
-
-## エンドツーエンドパイプライン
-
-https://qiita.com/taka_yayoi/items/4ea03bea8085cfa306f0
-
-エンドツーエンドのレイクハウスアナリティクスパイプライン（2023年版）。全体像を俯瞰します。
+Databricksで学ぶプロンプトエンジニアリングの基礎。Databricksアシスタントの使い方を学ぶ中で自然に身につきます。
 
 ## Databricks Apps
 
@@ -659,62 +594,11 @@ Databricks Free Editionの実践チュートリアル。Unity CatalogやPySpark�
 
 学習目的に応じて、以下の3つのパターンから選択できます。
 
-## パターン1: データエンジニア志望
-
-```mermaid
-graph LR
-    A[Week 1<br/>基礎] --> B[Week 2<br/>パイプライン]
-    B --> C[Week 3<br/>ガバナンス]
-    C --> D[Week 4<br/>実践]
-
-    style A fill:#e1f5ff
-    style B fill:#e8f5e9
-    style C fill:#fff9c4
-    style D fill:#ffebee
-```
-
-**Week 1**: レベル0-1（基本概念とAI支援ツール体験）
-**Week 2**: レベル2-3（データ処理とパイプライン構築）
-**Week 3**: レベル6（Unity Catalogとガバナンス）
-**Week 4**: 実践プロジェクト
-
-## パターン2: データサイエンティスト志望
-
-```mermaid
-graph LR
-    A[Week 1<br/>基礎] --> B[Week 2<br/>機械学習]
-    B --> C[Week 3<br/>生成AI]
-    C --> D[Week 4<br/>実践]
-
-    style A fill:#e1f5ff
-    style B fill:#fff9c4
-    style C fill:#ffebee
-    style D fill:#e8f5e9
-```
-
-**Week 1**: レベル0-2（基本概念とデータ処理）
-**Week 2**: レベル4（機械学習とMLflow）
-**Week 3**: レベル5（生成AI/LLM）
-**Week 4**: 実践プロジェクト
-
-## パターン3: 生成AI/LLMエンジニア志望
-
-```mermaid
-graph LR
-    A[Week 1<br/>基礎] --> B[Week 2<br/>生成AI]
-    B --> C[Week 3<br/>高度なAI]
-    C --> D[Week 4<br/>実践]
-
-    style A fill:#e1f5ff
-    style B fill:#ffebee
-    style C fill:#ffebee
-    style D fill:#e8f5e9
-```
-
-**Week 1**: レベル0-1（基本概念とAI支援ツール体験、Databricks基礎）
-**Week 2**: レベル5（RAG、AI関数、MLflow+LLM）
-**Week 3**: レベル6（複合AIシステム）+ レベル5（LLMops）
-**Week 4**: 実践プロジェクト（AIエージェント開発等）
+| 志望 | Week 1 | Week 2 | Week 3 | Week 4 | 実践例 |
+|------|--------|--------|--------|--------|--------|
+| **データエンジニア** | [Lv0](#レベル0-基本を知る)-[1](#レベル1-まず体験する)<br/>基礎・AI支援 | [Lv2](#レベル2-データ処理の基礎)-[3](#レベル3-データパイプライン)<br/>データ処理<br/>パイプライン | [Lv6](#レベル6-高度なトピック)<br/>Unity Catalog<br/>ガバナンス | 実践プロジェクト | ログデータの自動集計パイプライン、定期レポート自動生成 |
+| **データサイエンティスト** | [Lv0](#レベル0-基本を知る)-[2](#レベル2-データ処理の基礎)<br/>基礎<br/>データ処理 | [Lv4](#レベル4-機械学習)<br/>機械学習<br/>MLflow | [Lv5](#レベル5-生成aillm重点領域)<br/>生成AI/LLM | 実践プロジェクト | Kaggleデータセットで予測モデル構築、分析ダッシュボード作成 |
+| **生成AI/LLMエンジニア** | [Lv0](#レベル0-基本を知る)-[1](#レベル1-まず体験する)<br/>基礎・AI支援 | [Lv5](#レベル5-生成aillm重点領域)<br/>RAG・AI関数<br/>MLflow+LLM | [Lv6](#レベル6-高度なトピック)+[Lv5](#レベル5-生成aillm重点領域)<br/>複合AIシステム<br/>LLMops | 実践プロジェクト | 社内ドキュメントRAGチャットボット、AIエージェント開発 |
 
 ---
 
@@ -738,10 +622,10 @@ graph LR
 | 時間 | 内容 | 成果物 |
 |------|------|--------|
 | 60分 | 📘 データをクエリーして可視化（公式） | 最初のクエリ実行 |
-| 60分 | 📘 Databricks Assistant基本 | AI支援ツールの使い方 |
-| 30-60分 | 📝 Databricks AssistantでEDA | 実データでの分析体験 |
+| 60分 | 📘 Databricksアシスタント基本 | AI支援ツールの使い方 |
+| 30-60分 | 📝 Databricksアシスタントで探索的データ分析 | 実データでの分析体験 |
 
-**チェックポイント**: SQLでデータをクエリできる、Assistantでコード生成できる
+**チェックポイント**: SQLでデータをクエリできる、アシスタントでコード生成できる
 
 ## Day 3（2-3時間）：AI支援ツールをマスター
 
@@ -774,7 +658,7 @@ graph LR
 
 **Day 6**: これまでの復習
 - レベル0-2の記事を見直す（2時間）
-- わからなかった部分をAssistantに質問（1時間）
+- わからなかった部分をアシスタントに質問（1時間）
 - 簡単なデータ分析プロジェクトを企画（1時間）
 
 **Day 7**: ミニプロジェクト
@@ -789,7 +673,7 @@ graph LR
 :::note info
 **学習のコツ**:
 - 完璧を目指さない：最初は動けばOK
-- AI支援を活用：わからないことはAssistantに聞く
+- AI支援を活用：わからないことはアシスタントに聞く
 - 手を動かす：記事を読むだけでなく、必ずコードを実行
 - 毎日少しずつ：2-3時間×7日の方が、週末に14時間よりも効果的
 :::
@@ -802,7 +686,7 @@ graph LR
 
 1. **公式ドキュメントを優先**: 最新で正確な情報は公式から
 2. **Qiita記事で補足**: 実践的な知見や日本語での詳細解説
-3. **AI支援を活用**: Databricks AssistantとGenieを積極的に使う
+3. **AI支援を活用**: DatabricksアシスタントとGenieを積極的に使う
 4. **手を動かす**: 記事を読むだけでなく、必ず自分でコードを実行
 5. **小さく始める**: 完璧を目指さず、まず動かしてみる
 6. **コンセプト理解**: 技術の「なぜ」を理解してから「どうやって」に進む
@@ -810,44 +694,26 @@ graph LR
 
 ## よくある質問
 
-### Q: どのくらいの期間で基礎を習得できますか？
+**Q: 習得期間は？**
+A: AI支援ツール活用で2-3週間で基本操作、実務レベルは2-3ヶ月
 
-A: AI支援ツールを使えば、集中して学習すれば2-3週間で基本的な操作は習得できます。実務レベルには2-3ヶ月程度を目安にしてください。
+**Q: プログラミング経験不要？**
+A: アシスタントとGenieがあれば初心者でもOK。Python/SQL基礎知識があると理解が早い
 
-### Q: プログラミング経験がなくても大丈夫ですか？
+**Q: 公式ドキュメント vs Qiita記事？**
+A: 公式優先（最新・正確）。Qiita記事は詳細解説・実践例で活用
 
-A: Databricks AssistantやGenieを使えば、プログラミング初心者でも始めやすくなっています。PythonやSQLの基礎知識があると理解が早まります。
+**Q: Free Edition制限は？**
+- サーバレスのみ（カスタムクラスター不可）、R/Scala不可、一部制限あり
+- **学習には影響なし**：小〜中規模データ（数GB〜数十GB）で十分学習可能。詳細は[こちら](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)
 
-### Q: 公式ドキュメントとQiita記事、どちらを優先すべきですか？
-
-:::note warn
-公式ドキュメントを優先してください。最新で正確な情報が得られます。Qiita記事は、より詳しい解説や実践的なユースケースを学ぶ際に活用してください。
-:::
-
-### Q: Free Editionと製品版の違いは？
-
-A: 基本的な機能は同じですが、Free Editionには以下の制限があります：
-- サーバレスコンピュートのみ（カスタムクラスター設定不可）
-- R言語とScalaは使用不可（PythonとSQLは利用可能）
-- モデルサービングやSQLウェアハウスに一部制限
-- Unity Catalogは利用可能
-- Databricks Assistant、Genie、LakeFlowなど主要なAI機能は使用可能
-
-詳細は[こちら](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)をご覧ください。
-
-### Q: どの記事から読めばいいですか？
-
-:::note warn
-必ず以下の順序で進めてください：
-
-1. **公式: Databricksの基本概念** - 全体像を理解
-2. **Qiita: Free Edition登録** - 環境準備
-3. **公式: データをクエリーして可視化** - 最初のハンズオン
-4. **公式: Databricks Assistant** - AI支援ツールを体験
-5. **Qiita: Genieリサーチエージェント** - 最新のAI支援を体験
-
-その後は、興味のある分野の記事を選んで読み進めましょう。
-:::
+**Q: 推奨学習順序は？**
+1. 公式：Databricksの基本概念
+2. Qiita：Free Edition登録
+3. 公式：データをクエリーして可視化
+4. 公式：Databricksアシスタント
+5. Qiita：Genieリサーチエージェント
+→ その後は興味のある分野へ
 
 ---
 
@@ -859,7 +725,7 @@ A: 基本的な機能は同じですが、Free Editionには以下の制限が�
 graph TD
     A[📘 公式ドキュメント] --> C[効率的な学習]
     B[📝 Qiita記事<br/>2024-2025年版] --> C
-    D[🤖 AI支援ツール<br/>Assistant/Genie] --> C
+    D[🤖 AI支援ツール<br/>アシスタント/Genie] --> C
     C --> E[実務スキル習得]
 
     style C fill:#ffebee
@@ -875,7 +741,7 @@ graph TD
 1. 📘 [Databricksの基本概念（公式）](https://docs.databricks.com/ja/introduction/)を読む
 2. 📝 [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)に登録する
 3. 📘 [データをクエリーして可視化（公式）](https://docs.databricks.com/ja/getting-started/quick-start.html)を体験する
-4. 📘 [Databricks Assistant](https://docs.databricks.com/ja/notebooks/code-assistant.html)を使ってみる
+4. 📘 [Databricksアシスタント](https://docs.databricks.com/ja/notebooks/code-assistant.html)を使ってみる
 5. 📝 [Genieリサーチエージェント](https://qiita.com/taka_yayoi/items/1c472621a7a5f9cd99cb)を体験する
 
 # 参考リンク
@@ -885,9 +751,10 @@ graph TD
 - [Databricks Community（英語）](https://community.databricks.com/)
 - [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)
 
----
+### はじめてのDatabricks
 
-**📝 記事数サマリー**
-- 公式ドキュメント: 13リンク
-- Qiita記事: 27記事（2024-2025年版を優先）
-- 合計: 40リンク（目標達成！）
+[はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d)
+
+### Databricks無料トライアル
+
+[Databricks無料トライアル](https://databricks.com/jp/try-databricks)

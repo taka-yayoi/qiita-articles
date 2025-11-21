@@ -94,3 +94,11 @@ The repository uses GitHub Actions for automatic publishing:
 - Article filenames use hash-based IDs assigned by Qiita
 - Japanese language content is primary (articles appear to be in Japanese)
 - Git-based workflow: changes pushed to main/master are auto-published via GitHub Actions
+- 記事の末尾に以下を追加　### はじめてのDatabricks
+
+[はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d)
+
+### Databricks無料トライアル
+
+[Databricks無料トライアル](https://databricks.com/jp/try-databricks)
+- Qiitaの記事の書き方は https://qiita.com/Qiita/items/c686397e4a0f4f11683d
