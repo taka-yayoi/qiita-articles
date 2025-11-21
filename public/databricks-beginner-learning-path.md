@@ -54,56 +54,67 @@ graph TD
 ## Databricksの全体像
 
 ```mermaid
-graph TB
-    subgraph Storage["📦 ストレージ"]
-        S3[クラウドストレージ]
-        Delta[Delta Lake]
-    end
-
-    subgraph Governance["🔐 ガバナンス"]
-        UC[Unity Catalog]
-    end
-
-    subgraph Compute["⚙️ コンピュート"]
-        Spark[Apache Spark]
-        SQLWh[SQL Warehouse]
-    end
+graph TD
+    User[👤 ユーザー/開発者]
 
     subgraph Workspace["💻 ワークスペース"]
-        NB[Notebooks]
-        Jobs[Jobs/Workflows]
-        DBSQL[Databricks SQL]
-        ML[Databricks ML]
+        NB[Notebooks<br/>データ分析・開発]
+        DBSQL[Databricks SQL<br/>BI・クエリ]
+        ML[Databricks ML<br/>機械学習]
+        LFJobs[Lakeflowジョブ<br/>ワークフロー自動化]
     end
 
-    subgraph Tools["🤖 AI支援ツール"]
+    subgraph AI["🤖 AI支援"]
         Assistant[Databricks Assistant<br/>コード生成・デバッグ]
         Genie[Genie<br/>自然言語分析]
     end
 
-    S3 --> Delta
-    Delta --> UC
-    UC --> Spark
-    UC --> SQLWh
-    Spark --> NB
-    Spark --> Jobs
-    Spark --> ML
-    SQLWh --> DBSQL
+    subgraph Compute["⚙️ コンピュート"]
+        Spark[Apache Spark<br/>分散処理]
+        SQLWh[SQL Warehouse<br/>クエリ実行]
+    end
 
-    NB -.使用.-> Assistant
-    DBSQL -.使用.-> Genie
+    subgraph Governance["🔐 ガバナンス"]
+        UC[Unity Catalog<br/>アクセス制御・監査]
+    end
 
-    style UC fill:#e1f5ff
+    subgraph Storage["📦 ストレージ"]
+        Delta[Delta Lake<br/>ACIDトランザクション]
+        S3[クラウドストレージ<br/>S3/ADLS/GCS]
+    end
+
+    User --> NB
+    User --> DBSQL
+    User --> ML
+    User --> LFJobs
+
+    NB -.支援.-> Assistant
+    DBSQL -.支援.-> Genie
+
+    NB --> Spark
+    DBSQL --> SQLWh
+    ML --> Spark
+    LFJobs --> Spark
+
+    Spark --> UC
+    SQLWh --> UC
+
+    UC --> Delta
+    Delta --> S3
+
+    style User fill:#e1f5ff
     style Assistant fill:#ffebee
     style Genie fill:#ffebee
+    style UC fill:#fff9c4
+    style Delta fill:#e8f5e9
 ```
 
-**補足説明：**
-- **ストレージ**: クラウドストレージ上にDelta Lakeフォーマットでデータを保存
-- **ガバナンス**: Unity Catalogでアクセス制御・監査・リネージ管理
-- **コンピュート**: SparkとSQL Warehouseが実際の処理を実行
-- **ワークスペース**: 開発（Notebooks）、運用（Jobs）、分析（SQL）、ML
-- **AI支援ツール**: AssistantはNotebooksでコード作成を支援、GenieはSQLで自然言語分析を支援
+**フローの説明（上から下へ）：**
+1. **👤 ユーザー** → ワークスペースの各機能を利用
+2. **💻 ワークスペース** → NotebooksでコードをAssistantの支援で開発、SQLでGenieの支援で分析
+3. **⚙️ コンピュート** → SparkやSQL Warehouseで実際の処理を実行
+4. **🔐 ガバナンス** → Unity Catalogでアクセス制御・データリネージ管理
+5. **📦 ストレージ** → Delta Lake（ACIDトランザクション）でクラウドストレージにデータを保存
 
 # レベル0: 基本を知る
 
