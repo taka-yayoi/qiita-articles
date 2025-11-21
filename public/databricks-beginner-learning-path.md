@@ -55,43 +55,55 @@ graph TD
 
 ```mermaid
 graph TB
-    subgraph "データレイヤー"
+    subgraph Storage["📦 ストレージ"]
         S3[クラウドストレージ]
-        DL[Delta Lake]
+        Delta[Delta Lake]
+    end
+
+    subgraph Governance["🔐 ガバナンス"]
         UC[Unity Catalog]
     end
 
-    subgraph "処理レイヤー"
+    subgraph Compute["⚙️ コンピュート"]
         Spark[Apache Spark]
-        SQL[Databricks SQL]
-        LF[Lakeflow]
+        SQLWh[SQL Warehouse]
     end
 
-    subgraph "AI/MLレイヤー"
-        MLflow[MLflow]
-        GenAI[生成AI/LLM]
-        Agent[AIエージェント]
+    subgraph Workspace["💻 ワークスペース"]
+        NB[Notebooks]
+        Jobs[Jobs/Workflows]
+        DBSQL[Databricks SQL]
+        ML[Databricks ML]
     end
 
-    subgraph "AI支援ツール"
-        Assistant[Databricks Assistant]
-        Genie[Genie]
+    subgraph Tools["🤖 AI支援ツール"]
+        Assistant[Databricks Assistant<br/>コード生成・デバッグ]
+        Genie[Genie<br/>自然言語分析]
     end
 
-    S3 --> DL
-    DL --> UC
+    S3 --> Delta
+    Delta --> UC
     UC --> Spark
-    UC --> SQL
-    Spark --> LF
-    Spark --> MLflow
-    SQL --> Genie
-    MLflow --> GenAI
-    GenAI --> Agent
+    UC --> SQLWh
+    Spark --> NB
+    Spark --> Jobs
+    Spark --> ML
+    SQLWh --> DBSQL
 
-    Assistant -.支援.-> Spark
-    Assistant -.支援.-> MLflow
-    Assistant -.支援.-> GenAI
+    NB -.使用.-> Assistant
+    DBSQL -.使用.-> Genie
+
+    style UC fill:#e1f5ff
+    style Assistant fill:#ffebee
+    style Genie fill:#ffebee
 ```
+
+**補足説明：**
+- **ストレージ**: クラウドストレージ上にDelta Lakeフォーマットでデータを保存
+- **ガバナンス**: Unity Catalogでアクセス制御・監査・リネージ管理
+- **コンピュート**: SparkとSQL Warehouseが実際の処理を実行
+- **ワークスペース**: 開発（Notebooks）、運用（Jobs）、分析（SQL）、ML
+- **AI支援ツール**: AssistantはNotebooksでコード作成を支援、GenieはSQLで自然言語分析を支援
 
 # レベル0: 基本を知る
 
@@ -105,13 +117,13 @@ Databricksの全体像、レイクハウスアーキテクチャ、主要なコ�
 
 ## Free Editionで始める
 
-📝 https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
+https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
 
 無料で始められるDatabricks Free Editionの登録方法と使い方。実際に環境を準備します。
 
 ## レイクハウスアーキテクチャ
 
-📝 https://qiita.com/taka_yayoi/items/438f762126f57868aa35
+https://qiita.com/taka_yayoi/items/438f762126f57868aa35
 
 Databricksの基盤となるレイクハウスの概念を理解します。データウェアハウスとデータレイクの良いところを組み合わせたアーキテクチャです。
 
@@ -160,7 +172,7 @@ AI支援コーディングツールの基本的な使い方。`Cmd/Ctrl + I`で�
 
 ### 実践例：EDA
 
-📝 https://qiita.com/taka_yayoi/items/07c49c2de588a101b719
+https://qiita.com/taka_yayoi/items/07c49c2de588a101b719
 
 **重要！** Databricks Assistantで探索的データ分析（EDA）を体験。AIの力を借りながらデータ分析の基礎を学びます。
 
@@ -174,7 +186,7 @@ AI支援コーディングツールの基本的な使い方。`Cmd/Ctrl + I`で�
 
 ### 実践例：リサーチエージェント
 
-📝 https://qiita.com/taka_yayoi/items/1c472621a7a5f9cd99cb
+https://qiita.com/taka_yayoi/items/1c472621a7a5f9cd99cb
 
 **重要！** Genieのリサーチエージェント機能。複雑なビジネス課題を多段階推論で解決する方法を学びます。
 
@@ -213,17 +225,17 @@ Unity Catalogを使ったテーブル作成とアクセス権限管理の基礎�
 
 ### 概念理解
 
-📝 https://qiita.com/taka_yayoi/items/31190da754106b2d284e
+https://qiita.com/taka_yayoi/items/31190da754106b2d284e
 
 Apache Sparkとは何か。分散処理エンジンの基本概念を理解します。
 
 ### チュートリアル
 
-📝 https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
+https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
 
 Sparkの基礎とデータフレーム操作を実際に体験します。
 
-📝 https://qiita.com/taka_yayoi/items/435275f6124184090259
+https://qiita.com/taka_yayoi/items/435275f6124184090259
 
 [2024年版] データの読み込みと変換の最新チュートリアル。
 
@@ -231,7 +243,7 @@ Sparkの基礎とデータフレーム操作を実際に体験します。
 
 ### 概念理解
 
-📝 https://qiita.com/taka_yayoi/items/07c9396809edbf2699b6
+https://qiita.com/taka_yayoi/items/07c9396809edbf2699b6
 
 Delta Lakeとは何か。ACIDトランザクションを実現するストレージレイヤーの概念を理解します。
 
@@ -249,7 +261,7 @@ graph TB
 
 ### チュートリアル
 
-📝 https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
+https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
 Delta Lakeのクイックスタートガイド。実際にDeltaテーブルを作成し、データを取り込みます。
 
@@ -269,11 +281,11 @@ SQLクエリの作成と、データの可視化方法を学びます。
 
 ## ファイルシステムとデータベース
 
-📝 https://qiita.com/taka_yayoi/items/075c6b3aeafac54c8ac4
+https://qiita.com/taka_yayoi/items/075c6b3aeafac54c8ac4
 
 Databricksのファイルシステムをわかりやすく解説。
 
-📝 https://qiita.com/taka_yayoi/items/9d68dd5a3b070774d9a2
+https://qiita.com/taka_yayoi/items/9d68dd5a3b070774d9a2
 
 Databricksのデータベースをわかりやすく解説。
 
@@ -289,7 +301,7 @@ Databricksのデータベースをわかりやすく解説。
 
 **最新のパイプライン構築手法**。宣言的にデータパイプラインを定義し、Auto Loaderでデータを自動取り込みします。
 
-📝 https://qiita.com/taka_yayoi/items/bb5ccb3fa1dae1b8915e
+https://qiita.com/taka_yayoi/items/bb5ccb3fa1dae1b8915e
 
 Lakeflowの詳細なチュートリアル。実践的なパイプライン構築方法を学びます。
 
@@ -301,13 +313,13 @@ Sparkを使った従来型のETLパイプライン構築。データオーケス
 
 ## データ取り込み
 
-📝 https://qiita.com/taka_yayoi/items/b424e1f321cfbbf5a0e7
+https://qiita.com/taka_yayoi/items/b424e1f321cfbbf5a0e7
 
 COPY INTOコマンドでレイクハウスへのデータ取り込み。効率的なデータ取り込み手法を学びます。
 
 ## ジョブとワークフロー
 
-📝 https://qiita.com/taka_yayoi/items/70bfe4b30420078fdff9
+https://qiita.com/taka_yayoi/items/70bfe4b30420078fdff9
 
 Databricksジョブのチュートリアル（最新版）。パイプラインをスケジュール実行する方法を学びます。
 
@@ -342,19 +354,19 @@ scikit-learnとMLflowを使った機械学習の基礎。モデルのトレー�
 
 ### 概念理解
 
-📝 https://qiita.com/taka_yayoi/items/799b0320e4d8ae2e4234
+https://qiita.com/taka_yayoi/items/799b0320e4d8ae2e4234
 
 MLflowとは何か。機械学習ライフサイクル管理プラットフォームの概念を理解します。
 
 ### 最新版クイックスタート
 
-📝 https://qiita.com/taka_yayoi/items/ce83575abb55526c52a7
+https://qiita.com/taka_yayoi/items/ce83575abb55526c52a7
 
 MLflow 3.0のクイックスタート。最新のMLflow機能を学びます。
 
 ## 実践的な機械学習
 
-📝 https://qiita.com/taka_yayoi/items/cf5ce14552b2221465dd
+https://qiita.com/taka_yayoi/items/cf5ce14552b2221465dd
 
 XGBoostを使った機械学習。実務で使える機械学習ライブラリの使い方を学びます。
 
@@ -383,13 +395,13 @@ AI Playgroundを使って、コードを書かずにLLMを体験。様々なLLM�
 
 ## プロンプトエンジニアリング
 
-📝 https://qiita.com/taka_yayoi/items/fc3833a73b841de8b205
+https://qiita.com/taka_yayoi/items/fc3833a73b841de8b205
 
 Databricksで学ぶプロンプトエンジニアリングの基礎。効果的なプロンプトの書き方を学びます。
 
 ## RAG（Retrieval-Augmented Generation）
 
-📝 https://qiita.com/taka_yayoi/items/45cb187666242fcb542f
+https://qiita.com/taka_yayoi/items/45cb187666242fcb542f
 
 Databricks生成AIクックブック：RAGの基礎を学びます。自社データを活用したLLMシステムの構築方法。
 
@@ -409,19 +421,19 @@ graph LR
 
 ## 複合AIシステム
 
-📝 https://qiita.com/taka_yayoi/items/da5e019190bed65e9e87
+https://qiita.com/taka_yayoi/items/da5e019190bed65e9e87
 
 はじめての複合AIシステム構築。複数のAIコンポーネントを組み合わせた高度なシステムを構築します。
 
 ## AI関数の活用
 
-📝 https://qiita.com/taka_yayoi/items/08d3dbf3f5202d708c03
+https://qiita.com/taka_yayoi/items/08d3dbf3f5202d708c03
 
 ai_query関数の基礎から高度な使い方まで。SQLからLLMを直接呼び出す方法を学びます。
 
 ## MLflowとLLM
 
-📝 https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
+https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
 
 MLflowチュートリアル：ChatModelの使い方とRAGのリトリーバ評価。LLMシステムの評価とトラッキングを学びます。
 
@@ -433,11 +445,11 @@ MLflowチュートリアル：ChatModelの使い方とRAGのリトリーバ評�
 
 ## ストリーミングデータ処理
 
-📝 https://qiita.com/taka_yayoi/items/ae258e2e160c41239435
+https://qiita.com/taka_yayoi/items/ae258e2e160c41239435
 
 Spark構造化ストリーミングのチュートリアル。リアルタイムデータ処理の基礎を学びます。
 
-📝 https://qiita.com/taka_yayoi/items/176be641064170826bc5
+https://qiita.com/taka_yayoi/items/176be641064170826bc5
 
 Auto LoaderによるDelta Lakeへの継続的データ取り込み。ストリーミングデータの自動取り込みを学びます。
 
@@ -455,7 +467,7 @@ graph LR
 
 ### 概念理解
 
-📝 https://qiita.com/taka_yayoi/items/9095843d094637625e13
+https://qiita.com/taka_yayoi/items/9095843d094637625e13
 
 **重要！** Unity Catalogを理解する。データガバナンスとセキュリティの基本概念を学びます。
 
@@ -487,11 +499,11 @@ graph TB
 
 ### 実践チュートリアル
 
-📝 https://qiita.com/taka_yayoi/items/dddad5c37efe55491abc
+https://qiita.com/taka_yayoi/items/dddad5c37efe55491abc
 
 Unity Catalogメタストア管理者向けタスク。実際の運用方法を学びます。
 
-📝 https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
+https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
 
 OSS Unity Catalogチュートリアルとタグ活用入門。
 
@@ -501,13 +513,13 @@ OSS Unity Catalogチュートリアルとタグ活用入門。
 
 ## エンドツーエンドパイプライン
 
-📝 https://qiita.com/taka_yayoi/items/4ea03bea8085cfa306f0
+https://qiita.com/taka_yayoi/items/4ea03bea8085cfa306f0
 
 エンドツーエンドのレイクハウスアナリティクスパイプライン（2023年版）。全体像を俯瞰します。
 
 ## Databricks Apps
 
-📝 https://qiita.com/taka_yayoi/items/39ab8f9aacd42e638127
+https://qiita.com/taka_yayoi/items/39ab8f9aacd42e638127
 
 Databricks AppsのStreamlitチュートリアル。アプリケーション開発に進む際に参考にします。
 
@@ -515,7 +527,7 @@ Databricks AppsのStreamlitチュートリアル。アプリケーション開�
 
 ### Databricksクイックスタートガイド
 
-📝 https://qiita.com/taka_yayoi/items/5133f590f30fee3c12da
+https://qiita.com/taka_yayoi/items/5133f590f30fee3c12da
 
 電子書籍「データブリックス クイックスタートガイド」の紹介。
 
@@ -523,19 +535,19 @@ https://www.amazon.co.jp/dp/B09V1YXFVQ
 
 ### Apache Spark徹底入門
 
-📝 https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
+https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
 
 Apache Spark徹底入門（書籍紹介）。Sparkを深く学びたい方向け。
 
 ### dbdemos
 
-📝 https://qiita.com/taka_yayoi/items/d0f872d0d8d9c6b20beb
+https://qiita.com/taka_yayoi/items/d0f872d0d8d9c6b20beb
 
 dbdemos: Databricksのデモを簡単に体験。様々なユースケースをワンコマンドでセットアップ。
 
 ### 認定試験と学習コース
 
-📝 https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
+https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
 
 Databricks Free EditionチュートリアルとDatabricks認定試験の無料学習コース。
 
@@ -660,7 +672,7 @@ A: 必ず以下の順序で進めてください：
 ```mermaid
 graph TD
     A[📘 公式ドキュメント] --> C[効率的な学習]
-    B[📝 Qiita記事] --> C
+    B[Qiita記事] --> C
     D[🤖 AI支援ツール] --> C
     C --> E[実務スキル習得]
 
@@ -675,7 +687,7 @@ graph TD
 ## 次のステップ
 
 1. 📘 [Databricksの基本概念（公式）](https://docs.databricks.com/ja/introduction/)を読む
-2. 📝 [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)に登録する
+2. [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)に登録する
 3. 📘 [データをクエリーして可視化（公式）](https://docs.databricks.com/ja/getting-started/quick-start.html)を体験する
 4. 📘 [Databricks Assistant](https://docs.databricks.com/ja/notebooks/code-assistant.html)を使ってみる
 5. 興味のある分野のチュートリアルを試す
