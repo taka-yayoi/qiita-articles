@@ -1,5 +1,5 @@
 ---
-title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事57選
+title: Databricks初心者のための完全学習ガイド：ステップバイステップで学ぶ推奨記事63選
 tags:
   - Databricks
   - 初心者
@@ -12,7 +12,7 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
-Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した57の初心者向け記事を、学習ステージ別に体系的にまとめました。本記事では「はじめてのDatabricks」を起点に、あなたのスキルレベルや興味に応じた最適な学習パスを提供します。
+Databricksを初めて学ぶ方のために、2,100以上の記事の中から厳選した63の初心者向け記事を、学習ステージ別に体系的にまとめました。各技術の「とは何か」を理解する基本コンセプト記事から実践的なチュートリアルまで、段階的に学べる構成になっています。
 
 # この記事の使い方
 
@@ -58,12 +58,21 @@ https://qiita.com/taka_yayoi/items/8511ef61498a31734b00
 
 データとAIを統合する次世代プラットフォームとしてのDatabricksの全体像を理解できます。
 
+### レイクハウスとは？
+
+https://qiita.com/taka_yayoi/items/438f762126f57868aa35
+
+Databricksの基盤となるレイクハウスアーキテクチャの概念を理解します。
 
 # レベル1：基礎を固める（1-2週間）
 
 ## データエンジニアリングの基礎
 
 ### Apache Sparkの基本
+
+https://qiita.com/taka_yayoi/items/31190da754106b2d284e
+
+Apache Sparkとは何か？分散処理エンジンの基本概念を理解します。
 
 https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
 
@@ -75,11 +84,19 @@ https://qiita.com/taka_yayoi/items/435275f6124184090259
 
 ### Delta Lakeの基礎
 
+https://qiita.com/taka_yayoi/items/07c9396809edbf2699b6
+
+Delta Lakeとは何か？ACIDトランザクションを実現するストレージレイヤーの概念を理解します。
+
 https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
 Delta Lakeのクイックスタートガイドとデータ取り込みの基礎。
 
 ## Databricks SQLの基礎
+
+https://qiita.com/taka_yayoi/items/5b6e4537b086775a408a
+
+Databricks SQLとは何か？データウェアハウス機能の基本を理解します。
 
 https://qiita.com/taka_yayoi/items/fd0d5e4de3c7f50de617
 
@@ -122,6 +139,10 @@ Auto LoaderによるDelta Lakeへの継続的データ取り込み。
 ## 機械学習の基礎
 
 ### MLflowの基礎
+
+https://qiita.com/taka_yayoi/items/799b0320e4d8ae2e4234
+
+MLflowとは何か？機械学習ライフサイクル管理プラットフォームの基本概念を理解します。
 
 https://qiita.com/taka_yayoi/items/dd81ac0da656bf883a34
 
@@ -228,6 +249,10 @@ MLflowチュートリアル: ChatModelの使い方とRAGのリトリーバ評価
 # レベル4：高度なトピック（必要に応じて）
 
 ## Unity Catalogによるガバナンス
+
+https://qiita.com/taka_yayoi/items/9095843d094637625e13
+
+Unity Catalogを理解する：データガバナンスとセキュリティの基本概念。
 
 https://qiita.com/taka_yayoi/items/dddad5c37efe55491abc
 
@@ -435,7 +460,7 @@ A: 必ず「はじめてのDatabricks」から始めてください。その後�
 
 # まとめ
 
-Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した57の記事を活用すれば、体系的にスキルを身につけることができます。
+Databricksは強力なプラットフォームですが、学習曲線は比較的緩やかです。本記事で紹介した63の記事を活用すれば、体系的にスキルを身につけることができます。
 
 **重要なのは、完璧を目指さず、まず始めることです。**
 
