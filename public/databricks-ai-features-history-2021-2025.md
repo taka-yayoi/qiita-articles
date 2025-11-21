@@ -1,0 +1,383 @@
+---
+title: Databricks AI機能の進化の歴史：2021年〜2025年の新機能を振り返る
+tags:
+  - Databricks
+  - AI
+  - 生成AI
+  - MosaicAI
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+Databricksは、データと機械学習を統合するレイクハウスプラットフォームとして、AI機能の進化を続けてきました。本記事では、2021年から2025年にかけてリリースされたDatabricks AI機能の主要なアップデートを時系列で振り返り、従来のMLOpsから生成AI、AIエージェントまで対応する総合的なAIプラットフォームへの進化を紹介します。
+
+# 2021年：MLOps基盤の確立
+
+## モデルサービングのRESTエンドポイント（2021年3月）
+
+https://qiita.com/taka_yayoi/items/b1bd68009102108870dc
+
+機械学習モデルを本番環境に簡単にデプロイできるRESTエンドポイント機能が導入されました。これにより、モデルの迅速なデプロイとテストが可能になりました。
+
+## Databricks Feature Storeの登場（2021年9月）
+
+https://qiita.com/taka_yayoi/items/1bbf01ee4db01cff46b4
+
+**MLOpsにおける重要なマイルストーン**。データと機械学習モデルの統合管理を実現する、業界初のデータネイティブな特徴量ストアが登場しました。
+
+![Feature Store](https://databricks.com/wp-content/uploads/2021/09/feature-store-blog-img-1.png)
+
+### 主な機能
+
+- 特徴量の一元管理とバージョニング
+- オフラインとオンラインの特徴量提供
+- モデルとの自動紐付け
+- 系譜管理とガバナンス
+
+## Databricks Autologging（2021年9月）
+
+https://qiita.com/taka_yayoi/items/37bb3eb78edb7e0e09d9
+
+機械学習エクスペリメントの自動トラッキング機能が導入され、モデル開発の効率が大幅に向上しました。
+
+# 2022年：MLOps機能の拡充
+
+## Databricks AutoMLの登場（2022年8月）
+
+https://qiita.com/taka_yayoi/items/3bf4f4e89990b299c6c9
+
+https://qiita.com/taka_yayoi/items/0ed860131a02aeade14f
+
+**ガラスボックスアプローチによるAutoML**が導入されました。生成されたノートブックを確認・カスタマイズできる透明性の高い自動機械学習ツールです。
+
+![AutoML](https://cms.databricks.com/sites/default/files/inline-images/db-218-blog-img-1.gif)
+
+### サポート対象
+
+- 分類問題
+- 回帰問題
+- 時系列予測
+
+https://qiita.com/taka_yayoi/items/7d42bab3017774737ca9
+
+## サーバレスリアルタイム推論（2022年11月）
+
+https://qiita.com/taka_yayoi/items/32266655075795f5ab65
+
+サーバレスでスケーラブルなモデルサービング機能が正式提供され、インフラ管理の負担が大幅に軽減されました。
+
+## Databricksモデルサービングの正式提供（2023年3月）
+
+https://qiita.com/taka_yayoi/items/f6c8c11333761f96164f
+
+モデルサービングが正式提供(GA)となり、本番環境での利用が本格化しました。
+
+# 2023年：生成AI元年
+
+## AI Functionsの登場（2023年4月）
+
+https://qiita.com/taka_yayoi/items/fd4d4ba4cd9b01572a38
+
+**Databricks SQLから直接LLMを呼び出せる**革新的な機能が登場しました。SQLクエリ内でAIの力を活用できるようになりました。
+
+![AI Functions](https://cms.databricks.com/sites/default/files/inline-images/db-603-blog-img-1.png)
+
+### 主要な関数
+
+#### ai_query()
+
+https://qiita.com/taka_yayoi/items/5f1db6447055a79284b8
+
+プロンプトを使ってLLMに質問を投げることができます。
+
+#### ai_generate_text()
+
+https://qiita.com/taka_yayoi/items/2c19b37f2e4e1ea3b055
+
+SQLからテキスト生成を実行できます。
+
+```sql
+SELECT ai_generate_text(
+  '次の商品説明を改善してください: ' || product_description
+) AS improved_description
+FROM products
+```
+
+## Dolly - オープンソースLLMの登場（2023年4月）
+
+https://qiita.com/taka_yayoi/items/e9c895c169da652c6efb
+
+https://qiita.com/taka_yayoi/items/59f0ba1a07c620a70a75
+
+DatabricksがオープンソースのInstruction-tuned LLM「Dolly」をリリースし、誰でも商用利用可能な大規模言語モデルを提供しました。
+
+## LLMとの統合強化（2023年）
+
+https://qiita.com/taka_yayoi/items/2141310748850e865990
+
+https://qiita.com/taka_yayoi/items/ad370a7f57c4eae58800
+
+LangChain、Hugging Face Transformersなど、主要なLLMフレームワークとの統合が進みました。
+
+# 2024年：Mosaic AIプラットフォームへの進化
+
+## Foundation Model APIの提供（2024年1月）
+
+https://qiita.com/taka_yayoi/items/e5a8dba9bfad7810a0d8
+
+外部LLMを統一的なインターフェースで利用できるFoundation Model APIが提供開始されました。
+
+### サポートモデル
+
+- OpenAI (GPT-4, GPT-3.5)
+- Anthropic Claude
+- Cohere
+- その他多数のモデル
+
+## AI Functionsの拡張（2024年3月）
+
+https://qiita.com/taka_yayoi/items/1c62e3c18d5b22f51fb8
+
+新しいAI関数が追加され、より高度なテキスト処理が可能になりました。
+
+### ai_extract()
+
+https://qiita.com/taka_yayoi/items/3bc6ad72093976bfcc12
+
+非構造化テキストから構造化データを抽出できます。
+
+```sql
+SELECT ai_extract(
+  review_text,
+  ARRAY('sentiment', 'key_points', 'rating')
+) FROM customer_reviews
+```
+
+## DBRXの発表（2024年3月）
+
+https://qiita.com/taka_yayoi/items/c4a3e07a5c91b5f90301
+
+**新たなSOTA（State-of-the-art）オープンLLM**であるDBRXがリリースされました。高性能かつ効率的な推論を実現します。
+
+![DBRX](https://cms.databricks.com/sites/default/files/inline-images/image2-1.png)
+
+## Vector Searchの正式提供（2024年）
+
+https://qiita.com/taka_yayoi/items/0e0c3a5ae424e33f16ab
+
+RAG（Retrieval-Augmented Generation）アプリケーション構築に不可欠なベクトル検索機能が提供されました。
+
+### 主な機能
+
+- Delta Sync Index: Delta Tableと自動同期
+- Direct Vector Access Index: 直接ベクトルを管理
+- ハイブリッド検索のサポート
+
+## RAGアプリケーションのサポート強化（2024年）
+
+https://qiita.com/taka_yayoi/items/7eddeac3a1dbda4ea5a5
+
+https://qiita.com/taka_yayoi/items/dc66ebbbd8a3bd2a25da
+
+RAGアプリケーション構築のための包括的なツールとドキュメントが整備されました。
+
+## Databricks Assistantの登場（2024年5月）
+
+https://qiita.com/taka_yayoi/items/9489ea6c56a0487ed201
+
+**ノートブックやSQLエディタ内でAIアシスタントが利用可能**になりました。コード生成、エラー解決、クエリ最適化などを支援します。
+
+![Databricks Assistant](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/1925ef1b-9160-4e48-5bdc-92ac5ce22be9.png)
+
+### 主な機能
+
+- コードの生成と説明
+- エラーの診断と修正提案
+- SQLクエリの最適化
+- ドキュメント参照
+
+## AI Playgroundの導入（2024年）
+
+https://qiita.com/taka_yayoi/items/b2eeeeed3e43fe318b87
+
+様々なLLMモデルを試せるプレイグラウンド環境が提供され、最適なモデル選択が容易になりました。
+
+## Mosaic AIブランディング（2024年）
+
+https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d
+
+DatabricksのAI機能が「Mosaic AI」としてブランド統合され、生成AIプラットフォームとしての位置づけが明確になりました。
+
+# 2025年：AIエージェント時代の到来
+
+## Mosaic AI Agent Frameworkの登場（2025年2月）
+
+https://qiita.com/taka_yayoi/items/9da86b94eb4cc2f7e18e
+
+**エージェントシステム構築のための統合フレームワーク**が提供されました。
+
+![Agent Framework](https://cms.databricks.com/sites/default/files/inline-images/db-1115-blog-img-1.png)
+
+### 主な機能
+
+- エージェントの開発、テスト、デプロイの統合環境
+- 人間のフィードバック収集
+- エージェントの評価とモニタリング
+- Unity Catalogとの統合
+
+### 実例
+
+https://qiita.com/taka_yayoi/items/a87632c1c63b81f4f0f3
+
+医療コスト分析エージェントなど、実ビジネスでの活用事例が紹介されています。
+
+## MLflow Tracingの統合（2025年2月）
+
+https://qiita.com/taka_yayoi/items/35c96ecd401c199e617b
+
+https://qiita.com/taka_yayoi/items/148b07697d2e87f31fbf
+
+LLMアプリケーションとエージェントの実行トレースを可視化する機能が統合されました。
+
+![MLflow Tracing](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1168882/bd7de7a0-af62-441c-b152-3f7eeffcc873.png)
+
+### トレーシング機能
+
+- チェーン/エージェントの実行フローの可視化
+- レイテンシーとコストの分析
+- エラー箇所の特定とデバッグ
+- スパン単位での詳細分析
+
+## AI/BIの進化（2025年）
+
+https://qiita.com/taka_yayoi/items/fbb929d1f9b10f0fe88f
+
+従来のDatabricks SQLがAI/BIに進化し、自然言語でのダッシュボード作成が可能になりました。
+
+### 主な機能
+
+#### Genie（AI分析アシスタント）
+
+https://qiita.com/taka_yayoi/items/03c1ba6de2d3e4f96e5f
+
+自然言語でデータ分析を実行できるAIアシスタントです。
+
+#### 計算メジャー
+
+https://qiita.com/taka_yayoi/items/81d47ab3f3c79e49dbcc
+
+ダッシュボード内での動的な計算が可能になりました。
+
+## LLMバッチ推論の強化（2025年）
+
+https://qiita.com/taka_yayoi/items/77896f7ad8a93bb72c4b
+
+大量のデータに対する効率的なLLM推論機能が強化されました。
+
+## 最新LLMモデルへの対応（2025年）
+
+### DeepSeek R1
+
+https://qiita.com/taka_yayoi/items/86e43dee09ea6b8e8d12
+
+https://qiita.com/taka_yayoi/items/06dc71ce699a66bf2db4
+
+推論プロセスを可視化できる新世代LLMのサポート。
+
+### GPT-4.5
+
+https://qiita.com/taka_yayoi/items/66ea9dd4ab61ce40e074
+
+OpenAIの最新モデルにも対応しています。
+
+## Mosaic AI Model Servingの地域拡大（2025年3月）
+
+https://qiita.com/taka_yayoi/items/2e94a7eec69fc6b02b49
+
+Azure Databricksの日本東部リージョンでもModel Servingが利用可能になりました。
+
+# まとめ：Databricks AI機能の進化の軌跡
+
+2021年から2025年にかけて、Databricks AI機能は以下のような大きな進化を遂げました：
+
+## 主要なトレンド
+
+### 1. **MLOpsからAIエージェントへの進化** ⭐最大の変化
+
+- 2021-2022: Model Serving、Feature Store、AutoMLによるMLOps基盤の確立
+- 2023: AI Functions、Dollyによる生成AI対応の開始
+- 2024: RAG、Vector Search、DBRXによる生成AIプラットフォーム化
+- 2025: Agent Framework、Tracingによるエージェント時代への移行
+
+### 2. **SQLとAIの融合**
+
+- AI Functions（ai_query、ai_generate、ai_extract）によるSQL内でのLLM活用
+- AI/BIによる自然言語でのデータ分析
+- Genieによる会話型インターフェース
+
+### 3. **開発者体験の向上**
+
+- Databricks Assistant: コード生成とエラー解決の支援
+- AI Playground: モデルの試行と比較
+- MLflow Tracing: デバッグとモニタリング
+
+### 4. **オープン性とエコシステム**
+
+- Dolly、DBRXなどのオープンソースLLM
+- LangChain、Hugging Faceとの統合
+- 外部LLMへのアクセス（Foundation Model API）
+
+### 5. **RAGとベクトル検索**
+
+- Vector Searchの提供
+- オンラインテーブルによるリアルタイム特徴量
+- 包括的なRAG構築ツール
+
+### 6. **エンタープライズ対応**
+
+- Unity Catalogとの統合
+- ガバナンスとセキュリティ（AIセキュリティフレームワーク）
+- 系譜管理とモニタリング
+
+## Databricks AI機能の現在地
+
+Databricksは、**従来のMLOpsから生成AI、AIエージェントまでをカバーする総合的なAIプラットフォーム**へと進化を遂げました。
+
+### 提供される主要機能
+
+1. **モデル開発**: AutoML、MLflow、Feature Store
+2. **LLM活用**: AI Functions、Foundation Model API、Databricks Assistant
+3. **RAGアプリケーション**: Vector Search、オンラインテーブル
+4. **エージェント**: Mosaic AI Agent Framework、MLflow Tracing
+5. **デプロイ**: Model Serving、サーバレス推論
+6. **分析**: AI/BI、Genie
+
+これらすべてを統合的に提供する唯一のデータ+AIプラットフォームとして、その地位を確立しています。
+
+## 今後の展望
+
+生成AI技術の急速な進化に伴い、Databricks AI機能もさらなる拡張が期待されます：
+
+- より高度なエージェント機能
+- マルチモーダルAIのサポート強化
+- エッジデプロイメント機能
+- コスト最適化とガバナンス強化
+
+最新の情報については、公式ドキュメントをご確認ください。
+
+# 参考リンク
+
+- [Databricks公式ドキュメント（日本語）](https://docs.databricks.com/ja/index.html)
+- [Databricks Japan Blog](https://www.databricks.com/jp/blog)
+- [Mosaic AI](https://www.databricks.com/product/machine-learning/mosaic-ai)
+
+### はじめてのDatabricks
+
+[はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d)
+
+### Databricks無料トライアル
+
+[Databricks無料トライアル](https://databricks.com/jp/try-databricks)
