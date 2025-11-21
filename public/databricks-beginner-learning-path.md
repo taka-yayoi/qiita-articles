@@ -81,7 +81,7 @@ Delta Lakeのクイックスタートガイドとデータ取り込みの基礎�
 
 ## Databricks SQLの基礎
 
-https://qiita.com/taka_yayoi/items/17ba3b779a0c7c06e29c
+https://qiita.com/taka_yayoi/items/fd0d5e4de3c7f50de617
 
 Databricks SQLのユーザー向けクイックスタート。
 
