@@ -7,7 +7,7 @@ tags:
   - 入門
   - pandas
 private: false
-updated_at: '2025-11-22T08:41:12+09:00'
+updated_at: '2025-11-22T08:49:56+09:00'
 id: b687ffc1a8901839e46b
 organization_url_name: null
 slide: false
@@ -889,4 +889,4 @@ graph TD
 
 ---
 
-**お役に立ちましたら、LGTM・ストックをお願いします！質問・フィードバックもお待ちしています。**
+**お役に立ちましたら、いいね・ストックをお願いします！質問・フィードバックもお待ちしています。**
