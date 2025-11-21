@@ -58,11 +58,6 @@ https://qiita.com/taka_yayoi/items/8511ef61498a31734b00
 
 データとAIを統合する次世代プラットフォームとしてのDatabricksの全体像を理解できます。
 
-## 1. Databricks Free Editionで体験
-
-https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72
-
-Databricks Free Editionと製品版の違いを理解しましょう。
 
 # レベル1：基礎を固める（1-2週間）
 
@@ -72,11 +67,7 @@ Databricks Free Editionと製品版の違いを理解しましょう。
 
 https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
 
-Databricksの中核技術であるSp arkの基礎を学びます。
-
-https://qiita.com/taka_yayoi/items/c12a9ab6b6f75f95bc04
-
-データフレームの操作方法をチュートリアル形式で学習します。
+Databricksの中核技術であるSparkの基礎とデータフレーム操作を学びます。
 
 https://qiita.com/taka_yayoi/items/435275f6124184090259
 
@@ -86,15 +77,7 @@ https://qiita.com/taka_yayoi/items/435275f6124184090259
 
 https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
 
-Delta Lakeのクイックスタートガイド。
-
-https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
-
-Delta Lakeの詳細なチュートリアル。
-
-https://qiita.com/taka_yayoi/items/b888710c37d64cde4e45
-
-Delta Lakeへのデータ取り込みの基礎。
+Delta Lakeのクイックスタートガイドとデータ取り込みの基礎。
 
 ## Databricks SQLの基礎
 
@@ -104,11 +87,7 @@ Databricks SQLのユーザー向けクイックスタート。
 
 https://qiita.com/taka_yayoi/items/8b6154eb8bfe202951c6
 
-管理者向けクイックスタート。
-
-https://qiita.com/taka_yayoi/items/8b6154eb8bfe202951c6
-
-Databricks SQLの包括的なチュートリアル。
+管理者向けクイックスタートとDatabricks SQLの包括的なチュートリアル。
 
 ## ファイルシステムとデータベースの理解
 
@@ -136,11 +115,7 @@ Delta Live Tablesのチュートリアル（2025年版）。
 
 https://qiita.com/taka_yayoi/items/20d5d5f99186f1a4a917
 
-SQLを用いたデータパイプラインの宣言。
-
-https://qiita.com/taka_yayoi/items/20d5d5f99186f1a4a917
-
-新機能のウォークスルー。
+SQLを用いたデータパイプラインの宣言と新機能のウォークスルー。
 
 ### Lakeflow (最新)
 
@@ -168,11 +143,7 @@ PythonによるMLflowクイックスタートガイド。
 
 https://qiita.com/taka_yayoi/items/3b19d88d89d7b052cde8
 
-MLflow Logging APIクイックスタート。
-
-https://qiita.com/taka_yayoi/items/3b19d88d89d7b052cde8
-
-MLflowのクイックスタートウォークスルー。
+MLflow Logging APIのクイックスタートとウォークスルー。
 
 https://qiita.com/taka_yayoi/items/ce83575abb55526c52a7
 
@@ -186,11 +157,7 @@ Databricksにおける機械学習の10分チュートリアル。
 
 https://qiita.com/taka_yayoi/items/f169dcf4d517ac8dd644
 
-Databricks Apache Spark機械学習チュートリアル。
-
-https://qiita.com/taka_yayoi/items/f169dcf4d517ac8dd644
-
-MLlibを用いた機械学習チュートリアル。
+Databricks Apache SparkとMLlibを用いた機械学習チュートリアル。
 
 ### AutoMLで簡単に始める
 
@@ -254,25 +221,13 @@ ai_query関数の基礎から高度な使い方まで。
 
 https://qiita.com/taka_yayoi/items/22ccfeea661820375455
 
-LangChainのクイックスタートガイド。
-
-https://qiita.com/taka_yayoi/items/22ccfeea661820375455
-
-LangChainエージェントチュートリアル。
-
-https://qiita.com/taka_yayoi/items/22ccfeea661820375455
-
-LangChainの基礎とイントロダクション。
+LangChainのクイックスタートガイドとエージェントチュートリアル。
 
 ### LangGraphの実践
 
 https://qiita.com/taka_yayoi/items/d6e5fd6a724eb9b65fbc
 
-LangGraphのクイックスタート(その1)。
-
-https://qiita.com/taka_yayoi/items/d6e5fd6a724eb9b65fbc
-
-LangGraphのクイックスタート(その2)。
+LangGraphのクイックスタート(その1・その2)。
 
 https://qiita.com/taka_yayoi/items/311048184657aa8ad53f
 
@@ -284,21 +239,13 @@ LangGraphのクイックスタート(その4)。
 
 https://qiita.com/taka_yayoi/items/58f2434defe5257dd8da
 
-LangGraphのクイックスタート(その5)。
-
-https://qiita.com/taka_yayoi/items/58f2434defe5257dd8da
-
-LangGraphのクイックスタート(その6)。
+LangGraphのクイックスタート(その5・その6)。
 
 ## MLflowとLLM
 
 https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
 
-MLflowチュートリアル: ChatModelを使い始める。
-
-https://qiita.com/taka_yayoi/items/fd2f8b36aada402589d0
-
-MLflowによるRAGのリトリーバ評価。
+MLflowチュートリアル: ChatModelの使い方とRAGのリトリーバ評価。
 
 # レベル4：高度なトピック（必要に応じて）
 
@@ -310,11 +257,7 @@ Unity Catalogメタストア管理者向けタスク。
 
 https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
 
-OSS Unity Catalogチュートリアル。
-
-https://qiita.com/taka_yayoi/items/c1d407c6ea45bbe39c02
-
-データとAI資産のガバナンスのためのタグ活用入門。
+OSS Unity Catalogチュートリアルとタグ活用入門。
 
 https://qiita.com/taka_yayoi/items/e0182ce6724efd76e560
 
@@ -360,11 +303,7 @@ Free Editionで画像データを分析。
 
 https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
 
-Spark NLPで自然言語処理。
-
-https://qiita.com/taka_yayoi/items/ebec25578a7cfe2f50b0
-
-無料のFree Editionで大規模言語モデルを体験。
+Spark NLPで自然言語処理、Free Editionで大規模言語モデルを体験。
 
 ## 機械学習ライブラリ
 
@@ -426,11 +365,7 @@ Databricksチュートリアル。
 
 https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
 
-Databricks Free Editionチュートリアル。
-
-https://qiita.com/taka_yayoi/items/d45da4e3048b35152208
-
-無料の学習コースでDatabricks認定試験取得。
+Databricks Free EditionチュートリアルとDatabricks認定試験の無料学習コース。
 
 ## その他の便利なガイド
 
@@ -466,11 +401,7 @@ https://qiita.com/taka_yayoi/items/4603091dd325c77d577f
 
 https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
 
-Apache Spark徹底入門を出版。
-
-https://qiita.com/taka_yayoi/items/798767c8a585c64212f9
-
-50歳ITエンジニアが語る出版への道。
+Apache Spark徹底入門（書籍紹介と出版への道）。
 
 # 推奨学習パス
 
@@ -523,10 +454,12 @@ A: PythonやSQLの基礎知識があると理解しやすいですが、初心�
 
 ### Q: Free Editionと製品版の違いは？
 
-A: 基本的な機能は同じですが、Free Editionには以下の制限があります：
-- クラスターサイズの制限
-- Unity Catalogが使えない
-- 一部の高度な機能が制限される
+A: Free Editionは学習・エクスペリメント用の無料版で、以下の特徴があります：
+- サーバレスコンピュートのみ（カスタムクラスター設定不可）
+- R言語とScalaは使用不可（PythonとSQLは利用可能）
+- モデルサービングやSQLウェアハウスに一部制限
+- Unity Catalogは利用可能
+- Databricks Assistant、Genie、LakeFlowなど主要なAI機能は使用可能
 
 詳細は[こちら](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)をご覧ください。
 
@@ -554,11 +487,3 @@ Databricksは強力なプラットフォームですが、学習曲線は比較�
 - [Databricks公式ドキュメント（日本語）](https://docs.databricks.com/ja/index.html)
 - [Databricks Japan Blog](https://www.databricks.com/jp/blog)
 - [Databricks Free Edition](https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72)
-
-### はじめてのDatabricks
-
-[はじめてのDatabricks](https://qiita.com/taka_yayoi/items/8dc72d083edb879a5e5d)
-
-### Databricks無料トライアル
-
-[Databricks無料トライアル](https://databricks.com/jp/try-databricks)
