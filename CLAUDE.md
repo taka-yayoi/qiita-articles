@@ -102,3 +102,26 @@ The repository uses GitHub Actions for automatic publishing:
 
 [Databricks無料トライアル](https://databricks.com/jp/try-databricks)
 - Qiitaの記事の書き方は https://qiita.com/Qiita/items/c686397e4a0f4f11683d
+- git actionsで記事を公開する前に、別経路で更新された差分を取り込むように公開記事をpullする
+- 生成した記事は対象読者の観点でレビューする
+- Databricks Community EditionではなくDatabricks Free Edition
+
+## Article Formatting Rules
+
+### Organization Attribution
+- **Default organization**: `databricks`
+- Unless explicitly instructed to create a personal article, always set `organization_url_name: databricks` in frontmatter
+- Example:
+  ```yaml
+  organization_url_name: databricks
+  ```
+
+### Bold Text Formatting (Qiita-specific)
+- **Issue**: Bold formatting (`**text**`) does not render correctly in Qiita when the text contains certain symbols (「」『』【】（）・:：etc.)
+- **Solution**: Add half-width spaces inside the bold markers
+- **Examples**:
+  - ❌ Bad: `**生成AI・LLMOpsへの強い注力**`
+  - ✅ Good: `** 生成AI・LLMOpsへの強い注力 **`
+  - ❌ Bad: `**「最新技術の即座な実装と体系化」**`
+  - ✅ Good: `**「最新技術の即座な実装と体系化」** `
+- **When to apply**: Always check and fix bold text containing symbols before publishing
