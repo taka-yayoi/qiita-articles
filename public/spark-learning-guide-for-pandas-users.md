@@ -7,7 +7,7 @@ tags:
   - pandas
   - Databricks
 private: false
-updated_at: '2025-11-22T08:58:01+09:00'
+updated_at: '2025-11-22T09:15:42+09:00'
 id: b687ffc1a8901839e46b
 organization_url_name: null
 slide: false
@@ -214,6 +214,10 @@ result.show()  # ← ここで初めて最適化して一気に実行（Action�
 - 📘 [Apache Spark公式ガイド](https://spark.apache.org/docs/latest/)
 - 📘 [Spark SQL、DataFrames、Datasets](https://spark.apache.org/docs/latest/sql-programming-guide.html)
 
+### 関連記事（基礎理解）
+- ⭐ [Apache Sparkとは何か](https://qiita.com/taka_yayoi/items/31190da754106b2d284e)（55,770閲覧）
+- ⭐ [PySparkことはじめ](https://qiita.com/taka_yayoi/items/a7ee6287031374efa88a)（44,373閲覧）
+
 ### 環境構築
 
 **ローカルでの環境構築（最も簡単）**
@@ -248,6 +252,10 @@ python -c "import pyspark; print(pyspark.__version__)"
 **このレベルで学ぶこと**: Spark DataFrameの作成、基本操作、pandas対比
 **所要時間**: 3-4時間
 **完了後にできること**: Spark DataFrameを作成・表示・基本操作できる
+
+### 関連記事（pandas比較）
+- ⭐ [サンプルを通じたPandasとPySparkデータフレームの比較](https://qiita.com/taka_yayoi/items/5f1ab08c6a97ba96bb1f)（16,654閲覧）
+- ⭐ [Pandas API on SparkでpandasとSparkの良いところ取り](https://qiita.com/taka_yayoi/items/43bd3935f77828c4e33e)（11,439閲覧）
 
 ## pandas vs Spark DataFrame 対比表
 
@@ -489,6 +497,9 @@ error_summary.show(10)
 **所要時間**: 5-7時間
 **完了後にできること**: 複雑なデータ処理、ユーザー定義関数の作成
 
+### 関連記事（高度な処理）
+- ⭐ [実践を通じて学ぶSpark SQL](https://qiita.com/taka_yayoi/items/06e06731a88af9debebc)（9,473閲覧）
+
 ## Window関数（pandasのrolling相当）
 
 ```python
@@ -557,6 +568,10 @@ result.show()
 **Free Editionでの学習制約**
 このレベルの一部の最適化テクニック（パーティション数の細かい調整、リソース割り当てなど）は、Free Editionのサーバレスコンピュートでは制限があります。概念理解と基本的な最適化手法の学習には十分ですが、本格的なチューニングにはクラシッククラスターが必要です。
 :::
+
+### 関連記事（パフォーマンス最適化）
+- ⭐ [[翻訳] Sparkのパーティション](https://qiita.com/taka_yayoi/items/bb32d5b7abafd600af98)（14,291閲覧）
+- ⭐ [Sparkにおけるパフォーマンスとパーティショニング戦略](https://qiita.com/taka_yayoi/items/8d964a4949f41e2bf6bd)（8,511閲覧）
 
 ## パーティション最適化
 
@@ -674,6 +689,9 @@ windowed_counts = streaming_df \
 **このレベルで学ぶこと**: エラー処理、モニタリング、デバッグ
 **所要時間**: 6-8時間
 **完了後にできること**: 本番環境でのSpark運用、問題解決
+
+### 関連記事（デバッグ・モニタリング）
+- ⭐ [Spark Web UI - Sparkの処理を理解する](https://qiita.com/taka_yayoi/items/069c627b2be2a92d2ccc)（9,983閲覧）
 
 ## よくあるエラーと解決方法
 
