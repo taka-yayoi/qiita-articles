@@ -199,7 +199,7 @@ GA以降、Unity Catalogは急速に機能を拡充していきました：
 
 ![Unity Catalog Volumesオブジェクトモデル](https://docs.databricks.com/aws/en/assets/images/object-model-volume-d472dba24dca8002ff629cde896d4753.png)
 
-> **関連記事**: [Unity Catalog Volumesの詳細（公式ドキュメント）](https://docs.databricks.com/en/connect/unity-catalog/volumes.html)
+> **関連記事**: [Unity Catalog Volumesの詳細（公式ドキュメント）](https://docs.databricks.com/ja/connect/unity-catalog/volumes.html)
 
 **Hive MetastoreとAWS Glue Federation GA**：
 - 既存のHiveメタストアとの統合
@@ -244,7 +244,7 @@ graph TB
     style RS fill:#ff9900,color:#000
 ```
 
-> **関連記事**: [Lakehouse Federationの詳細（公式ドキュメント）](https://docs.databricks.com/en/query-federation/index.html)
+> **関連記事**: [Lakehouse Federationの詳細（公式ドキュメント）](https://docs.databricks.com/ja/query-federation/index.html)
 
 # オープンソース化（2024年6月）
 
