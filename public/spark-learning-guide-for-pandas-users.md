@@ -7,9 +7,9 @@ tags:
   - pandas
   - Databricks
 private: false
-updated_at: '2025-11-22T09:15:42+09:00'
+updated_at: '2025-11-22T09:34:16+09:00'
 id: b687ffc1a8901839e46b
-organization_url_name: null
+organization_url_name: databricks
 slide: false
 ignorePublish: false
 ---

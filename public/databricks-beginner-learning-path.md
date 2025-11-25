@@ -7,9 +7,9 @@ tags:
   - Databricks
   - 生成AI
 private: false
-updated_at: '2025-11-21T16:49:21+09:00'
+updated_at: '2025-11-22T09:33:58+09:00'
 id: 1fe076a0f87a7442d39a
-organization_url_name: null
+organization_url_name: databricks
 slide: false
 ignorePublish: false
 ---
