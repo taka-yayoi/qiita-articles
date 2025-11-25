@@ -1,14 +1,14 @@
 ---
 title: Databricks Unity Catalogの進化の歴史：Hiveメタストア時代から現在まで
 tags:
+  - hive
   - Databricks
-  - Unity Catalog
   - データガバナンス
-  - Hive
+  - UnityCatalog
   - メタストア
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-25T11:50:19+09:00'
+id: c2c6adca40870f158c2d
 organization_url_name: null
 slide: false
 ignorePublish: false
