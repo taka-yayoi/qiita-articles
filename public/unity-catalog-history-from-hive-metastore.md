@@ -195,7 +195,7 @@ GA以降、Unity Catalogは急速に機能を拡充していきました：
 **Unity Catalog Volumes GA（2024年前半）**：
 - 非構造化データ（画像、動画、ドキュメントなど）の管理
 - MLモデルのアーティファクト保存
-- ファイルレベルのアクセス制御
+- ボリュームレベルの統一的なアクセス制御
 
 ![Unity Catalog Volumesオブジェクトモデル](https://docs.databricks.com/aws/en/assets/images/object-model-volume-d472dba24dca8002ff629cde896d4753.png)
 
