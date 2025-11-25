@@ -112,13 +112,13 @@ Databricksは、2021年5月26日のData and AI Summit 2021で **Unity Catalog** 
 
 Unity CatalogがAWSとAzure向けにゲーテッドパブリックプレビューとして公開されました。
 
-## 2022年8月：Azure DatabricksでGA
+## 2022年8月25日：AWSとAzure同時GA
 
-Unity CatalogがAzure Databricks上で **一般提供（GA: General Availability）** に到達しました。
+Unity CatalogがAWS DatabricksとAzure Databricks上で **一般提供（GA: General Availability）** に到達しました。
 
 ![Unity Catalog with workspace](https://docs.databricks.com/_images/with-unity-catalog.png)
 
-これにより、Azure Databricksのユーザーは本番環境でUnity Catalogを利用できるようになりました。
+これにより、AWSとAzure Databricksのユーザーは本番環境でUnity Catalogを利用できるようになりました。
 
 **GA時の主要機能**：
 - Databricksランタイム11.1以降のサポート
@@ -150,17 +150,16 @@ Unity CatalogがGoogle Cloud Platform（GCP）上でも **一般提供（GA）**
 
 ```
 Unity Catalog GAタイムライン:
-2022年8月  → Azure Databricks
-2022年     → AWS Databricks
-2023年3月  → Google Cloud Platform
+2022年8月25日 → AWS & Azure Databricks（同時GA）
+2023年3月     → Google Cloud Platform
 ```
 
 ```mermaid
 graph TB
     UC[Unity Catalog<br/>統一されたガバナンス]
 
-    Azure[Azure Databricks<br/>2022年8月 GA]
-    AWS[AWS Databricks<br/>2022年 GA]
+    Azure[Azure Databricks<br/>2022年8月25日 GA]
+    AWS[AWS Databricks<br/>2022年8月25日 GA]
     GCP[Google Cloud Platform<br/>2023年3月 GA]
 
     UC --> Azure
@@ -192,7 +191,7 @@ GA以降、Unity Catalogは急速に機能を拡充していきました：
 
 ## 2024年：さらなる進化
 
-**Unity Catalog Volumes GA（2024年前半）**：
+**Unity Catalog Volumes GA（2024年2月22日）**：
 - 非構造化データ（画像、動画、ドキュメントなど）の管理
 - MLモデルのアーティファクト保存
 - ボリュームレベルの統一的なアクセス制御
@@ -206,7 +205,7 @@ GA以降、Unity Catalogは急速に機能を拡充していきました：
 - AWS Glueカタログとの連携
 - 段階的な移行パスの提供
 
-**Lakehouse Federation GA（2024年）**：
+**Lakehouse Federation GA（2024年8月1日）**：
 - AWS、Azure、GCPすべてで利用可能
 - 外部データソース（PostgreSQL、MySQL、Snowflakeなど）への統合アクセス
 - Unity Catalog経由での一元的な権限管理
@@ -613,21 +612,22 @@ Unity Catalog:
 ## Databricksメタデータ管理の進化
 
 ```
-2013年頃  → Hiveメタストア採用
-   ↓        （ワークスペースレベルの管理）
-2021年5月 → Unity Catalog発表
-   ↓        （アカウントレベルの統一管理）
-2022年4月 → パブリックプレビュー
+2013年頃      → Hiveメタストア採用
+   ↓            （ワークスペースレベルの管理）
+2021年5月26日 → Unity Catalog発表
+   ↓            （アカウントレベルの統一管理）
+2022年4月     → パブリックプレビュー
    ↓
-2022年8月 → Azure GA
-2022年12月→ データリネージ GA
+2022年8月25日 → AWS & Azure 同時GA
+2022年12月    → データリネージ GA
    ↓
-2023年3月 → GCP GA（全クラウド対応完了）
+2023年3月     → GCP GA（全クラウド対応完了）
    ↓
-2024年    → Volumes GA、Lakehouse Federation GA
-2024年6月 → オープンソース化
+2024年2月22日 → Unity Catalog Volumes GA
+2024年6月     → オープンソース化
+2024年8月1日  → Lakehouse Federation GA
    ↓
-2025年    → 業界標準のユニバーサルカタログへ
+2025年        → 業界標準のユニバーサルカタログへ
 ```
 
 ## Unity Catalogがもたらしたもの
