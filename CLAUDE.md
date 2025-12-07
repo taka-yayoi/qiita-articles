@@ -84,9 +84,46 @@ The repository uses GitHub Actions for automatic publishing:
 - Update can be done via `npx qiita publish <basename>` or git push
 
 ### Synchronizing with Qiita
-- Use `npx qiita pull` to fetch latest versions from Qiita.com
-- This overwrites local files with remote content
+
+**重要**: 必ず `--force` オプションを使用すること
+
+```bash
+npx qiita pull --force
+```
+
+- 通常の `npx qiita pull` はローカルに変更があるファイルをスキップする
+- `--force` を使うことでQiitaの内容を確実にローカルに反映できる
+- Qiitaで直接編集した記事も正しく同期される
 - Commit changes after pull to track in git
+
+### Qiitaで削除された記事の対処
+
+GitHub Actionsで `QiitaNotFoundError: Not found` エラーが発生した場合：
+
+1. Qiitaで削除された記事がローカルに残っている可能性がある
+2. 以下のスクリプトで確認：
+   ```bash
+   python3 << 'EOF'
+   import json, os, re
+   public_dir = '/Users/takaaki.yayoi/Workspace/qiita-articles/public'
+   with open('article_stats.json') as f:
+       api_ids = set(json.load(f).keys())
+   local_ids = set()
+   for fn in os.listdir(public_dir):
+       if fn.endswith('.md'):
+           with open(f'{public_dir}/{fn}') as f:
+               m = re.search(r"^id:\s*'?([a-f0-9]+)'?$", f.read(500), re.M)
+               if m: local_ids.add(m.group(1))
+   missing = local_ids - api_ids
+   print(f"削除済み記事: {missing}" if missing else "なし")
+   EOF
+   ```
+3. 該当ファイルを削除するか、`ignorePublish: true` に設定
+
+### IDフィールドの注意点
+
+- IDはクォートなしで記載: `id: abc123def456`
+- クォート付き `id: 'abc123def456'` は問題を引き起こす可能性あり
 
 ## Repository Conventions
 
@@ -125,3 +162,39 @@ The repository uses GitHub Actions for automatic publishing:
   - ❌ Bad: `**「最新技術の即座な実装と体系化」**`
   - ✅ Good: `**「最新技術の即座な実装と体系化」** `
 - **When to apply**: Always check and fix bold text containing symbols before publishing
+
+## まとめ記事の管理
+
+### まとめ記事一覧
+- **その1** (`c6907e2b861cb1070f4d.md`): イベント、チュートリアル、学習コンテンツ、コンセプト
+- **その2** (`68fc3d67880d2dcb32bb.md`): ツール連携、Spark、Delta Lake、Unity Catalog、Lakeflow等
+- **その3** (`6a39a3fc5d24780b09a0.md`): 機械学習、NLP、生成AI/LLM
+- **その4** (`51498e315d95692b243a.md`): AIエージェント、LLMOps、MLflow、Apps、AI/BI
+
+### まとめ記事の更新手順
+
+1. **Qiitaから最新を取得**
+   ```bash
+   npx qiita pull --force
+   ```
+
+2. **統計情報を取得**
+   ```bash
+   python3 fetch_article_stats.py
+   ```
+
+3. **新記事を適切なまとめページに追加**（手動）
+   - 日付順（新しい順）で追加
+   - フォーマット: `- [YYYY-MM-DD] [タイトル](URL)`
+
+4. **人気マーカーを更新**
+   ```bash
+   python3 add_popularity_markers.py
+   ```
+   - 🔥: いいね20件以上 または 閲覧数10,000以上
+   - ⭐: いいね10件以上 または 閲覧数5,000以上
+
+5. **コミット・プッシュ**
+   ```bash
+   git add . && git commit -m "まとめ記事を更新" && git push
+   ```
