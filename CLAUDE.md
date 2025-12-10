@@ -198,3 +198,18 @@ GitHub Actionsで `QiitaNotFoundError: Not found` エラーが発生した場合
    ```bash
    git add . && git commit -m "まとめ記事を更新" && git push
    ```
+
+### 自動更新（GitHub Actions）
+
+毎週月曜日の日本時間9時に自動実行されます。
+
+- ワークフロー: `.github/workflows/update-matome.yml`
+- スクリプト: `scripts/update_matome.py`
+- 手動実行: GitHub Actions画面から「Run workflow」
+
+**自動更新の処理内容:**
+1. Qiitaから最新記事をpull
+2. 過去30日以内の新記事を検出
+3. タイトル・タグからカテゴリを判定し適切なまとめに追加
+4. 人気マーカーを更新
+5. 自動コミット・プッシュ
