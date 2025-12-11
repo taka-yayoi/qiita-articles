@@ -213,3 +213,18 @@ GitHub Actionsで `QiitaNotFoundError: Not found` エラーが発生した場合
 3. タイトル・タグからカテゴリを判定し適切なまとめに追加
 4. 人気マーカーを更新
 5. 自動コミット・プッシュ
+
+### 生成AI記事まとめの自動更新
+
+記事 `2af61d3fa992a589ec26` (生成AIによるDatabricks最新記事まとめ) の自動更新:
+
+- ワークフロー: `.github/workflows/update-ai-summary.yml`
+- スクリプト: `scripts/generate_ai_summary.py`
+- 実行タイミング: 毎日8時（日本時間）
+- 必要なSecret: `QIITA_TOKEN`, `OPENAI_API_KEY`
+
+**処理内容:**
+1. 過去30日のDatabricksタグ記事を取得
+2. GPT-4o-miniで各記事を要約（日付付き）
+3. 著者傾向分析を生成
+4. Qiitaに記事を公開
