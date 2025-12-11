@@ -101,7 +101,7 @@ def summarize_article(client, article):
             max_tokens=500,
             temperature=0.3,
         )
-        return response.choices[0].message.content.strip()
+        return strip_code_block(response.choices[0].message.content.strip())
     except Exception as e:
         import traceback
         print(f"Error summarizing {article['title']}")
@@ -109,6 +109,15 @@ def summarize_article(client, article):
         print(f"  Error message: {e}")
         traceback.print_exc()
         return f"（要約生成エラー: {article['title']}）"
+
+
+def strip_code_block(text):
+    """コードブロックマーカーを除去"""
+    import re
+    # ```markdown や ``` で囲まれている場合に除去
+    text = re.sub(r'^```(?:markdown)?\s*\n?', '', text, flags=re.MULTILINE)
+    text = re.sub(r'\n?```\s*$', '', text, flags=re.MULTILINE)
+    return text.strip()
 
 
 def generate_trend_analysis(client, articles):
@@ -146,7 +155,7 @@ def generate_trend_analysis(client, articles):
             max_tokens=1500,
             temperature=0.5,
         )
-        return response.choices[0].message.content.strip()
+        return strip_code_block(response.choices[0].message.content.strip())
     except Exception as e:
         import traceback
         print(f"Error generating trend analysis")
