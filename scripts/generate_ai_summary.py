@@ -103,7 +103,11 @@ def summarize_article(client, article):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"Error summarizing {article['title']}: {e}")
+        import traceback
+        print(f"Error summarizing {article['title']}")
+        print(f"  Error type: {type(e).__name__}")
+        print(f"  Error message: {e}")
+        traceback.print_exc()
         return f"（要約生成エラー: {article['title']}）"
 
 
@@ -144,7 +148,11 @@ def generate_trend_analysis(client, articles):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"Error generating trend analysis: {e}")
+        import traceback
+        print(f"Error generating trend analysis")
+        print(f"  Error type: {type(e).__name__}")
+        print(f"  Error message: {e}")
+        traceback.print_exc()
         return "（傾向分析の生成に失敗しました）"
 
 
@@ -193,7 +201,23 @@ def main():
     if not api_key:
         raise ValueError("OPENAI_API_KEY is not set")
 
+    print(f"API Key length: {len(api_key)}")
+    print(f"API Key prefix: {api_key[:10]}...")
+
     client = OpenAI(api_key=api_key)
+
+    # APIキーの検証
+    print("Testing OpenAI API connection...")
+    try:
+        test_response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": "Hello"}],
+            max_tokens=5,
+        )
+        print(f"API test successful: {test_response.choices[0].message.content}")
+    except Exception as e:
+        print(f"API test failed: {type(e).__name__}: {e}")
+        raise
 
     # 1. 記事取得
     articles = fetch_recent_articles()
