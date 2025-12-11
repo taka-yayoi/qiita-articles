@@ -53,7 +53,7 @@ jobs:
         env:
           QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
         run: |
-          npx qiita publish 2af61d3fa992a589ec26
+          npx qiita publish 2af61d3fa992a589ec26 --force
 
       - name: Commit changes
         run: |
