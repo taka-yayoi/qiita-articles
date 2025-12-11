@@ -19,6 +19,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Qiita CLI
+        run: npm install -g @qiita/qiita-cli
+
+      # Qiitaから最新を取得（直接編集された記事を同期）
+      - name: Pull latest from Qiita
+        env:
+          QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
+        run: npx qiita pull --force
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -34,14 +48,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python scripts/generate_ai_summary.py
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Qiita CLI
-        run: npm install -g @qiita/qiita-cli
 
       - name: Publish to Qiita
         env:
