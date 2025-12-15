@@ -22,37 +22,57 @@ MATOME_FILES = {
     "matome4": "51498e315d95692b243a.md",  # AIエージェント、MLflow、Apps等
 }
 
-# カテゴリキーワード（タイトルまたはタグで判定）
-# 注意: 辞書の順序でチェックされるため、優先度の高いものを先に定義
-CATEGORY_KEYWORDS = {
-    "matome1_free": {
-        "keywords": ["Free Edition", "Free_Edition", "フリーエディション", "無料版"],
-        "section": "## Databricks Free Edition",
-        "matome": "matome1"
-    },
-    "matome1_event": {
+# タグ → カテゴリマッピング（優先度順）
+# タグが完全一致した場合に使用
+TAG_TO_CATEGORY = {
+    # matome1: イベント、チュートリアル、Free Edition
+    "Databricks_Free_Edition": ("matome1", "## Databricks Free Edition"),
+    "Databricksチュートリアル": ("matome1", "# Databricksチュートリアル"),
+    # matome2: Spark, Delta, Unity Catalog等
+    "pyspark": ("matome2", "## Apache Spark"),
+    "Spark": ("matome2", "## Apache Spark"),
+    "DeltaLake": ("matome2", "## Delta Lake"),
+    "Delta_Lake": ("matome2", "## Delta Lake"),
+    "Unity_Catalog": ("matome2", "## Unity Catalog"),
+    "Lakeflow": ("matome2", "## Lakeflow"),
+    "DatabricksSQL": ("matome2", "## Databricks SQL"),
+    "Delta_Sharing": ("matome2", "## Delta Sharing"),
+    # matome3: 機械学習、生成AI/LLM
+    "LLM": ("matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"),
+    "生成AI": ("matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"),
+    "機械学習": ("matome3", "## Databricksにおける機械学習"),
+    "NLP": ("matome3", "## 自然言語処理 (NLP)"),
+    # matome4: AIエージェント、MLflow、Apps等
+    "Databricks_AI_Agent": ("matome4", "## DatabricksにおけるAIエージェント開発"),
+    "AIエージェント": ("matome4", "## DatabricksにおけるAIエージェント開発"),
+    "MLflow": ("matome4", "## MLflow"),
+    "Databricks_AI_BI": ("matome4", "## AI/BI"),
+    "DatabricksApps": ("matome4", "## Databricks Apps"),
+    "MosaicAI": ("matome4", "## Mosaic AI"),
+    "FeatureStore": ("matome4", "## Feature Store"),
+}
+
+# キーワードフォールバック（タグでマッチしない場合に使用）
+KEYWORD_FALLBACK = {
+    "matome1": {
         "keywords": ["セミナー", "ハンズオン", "イベント", "チュートリアル", "入門",
-                     "はじめて", "クックブック", "ユースケース"],
-        "section": "# Databricksイベント",
-        "matome": "matome1"
+                     "はじめて", "クックブック", "ユースケース", "Free Edition", "無料版"],
+        "section": "# Databricksイベント"
     },
     "matome2": {
         "keywords": ["Spark", "PySpark", "Delta", "Unity Catalog", "Volume", "Lakeflow",
                      "DLT", "Delta Sharing", "SQL", "pandas", "DataFrame"],
-        "section": "## Apache Spark",
-        "matome": "matome2"
+        "section": "## Apache Spark"
     },
     "matome3": {
         "keywords": ["LLM", "GPT", "Claude", "Gemini", "生成AI", "言語モデル", "NLP",
                      "自然言語", "機械学習", "ML", "深層学習", "ニューラル"],
-        "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)",
-        "matome": "matome3"
+        "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)"
     },
     "matome4": {
         "keywords": ["エージェント", "Agent", "MCP", "MLflow", "Apps", "AI/BI",
                      "Feature Store", "AutoML", "Mosaic", "LLMOps"],
-        "section": "## DatabricksにおけるAIエージェント開発",
-        "matome": "matome4"
+        "section": "## DatabricksにおけるAIエージェント開発"
     },
 }
 
@@ -133,19 +153,29 @@ def get_existing_article_ids():
 
 
 def categorize_article(title, tags):
-    """記事をカテゴリに分類"""
+    """記事をカテゴリに分類（タグ優先 + キーワードフォールバック）"""
+
+    # 1. タグで完全一致を探す（優先）
+    for tag in tags:
+        if tag in TAG_TO_CATEGORY:
+            matome_key, section = TAG_TO_CATEGORY[tag]
+            print(f"  -> Matched by tag '{tag}' -> {matome_key}")
+            return matome_key, section
+
+    # 2. キーワードフォールバック
     title_lower = title.lower()
     tags_lower = [t.lower() for t in tags]
 
-    for category_key, config in CATEGORY_KEYWORDS.items():
+    for matome_key, config in KEYWORD_FALLBACK.items():
         for keyword in config["keywords"]:
             keyword_lower = keyword.lower()
             if keyword_lower in title_lower or keyword_lower in tags_lower:
-                matome_key = config.get("matome", category_key)
+                print(f"  -> Matched by keyword '{keyword}' -> {matome_key}")
                 return matome_key, config["section"]
 
-    # デフォルトはmatome3（生成AI/LLM）
-    return "matome3", CATEGORY_KEYWORDS["matome3"]["section"]
+    # 3. デフォルトはmatome3（生成AI/LLM）
+    print(f"  -> No match, defaulting to matome3")
+    return "matome3", KEYWORD_FALLBACK["matome3"]["section"]
 
 
 def add_article_to_matome(matome_key, section, article_id, title, date):
