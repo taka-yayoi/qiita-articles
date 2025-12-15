@@ -23,26 +23,36 @@ MATOME_FILES = {
 }
 
 # カテゴリキーワード（タイトルまたはタグで判定）
+# 注意: 辞書の順序でチェックされるため、優先度の高いものを先に定義
 CATEGORY_KEYWORDS = {
+    "matome1_free": {
+        "keywords": ["Free Edition", "Free_Edition", "フリーエディション", "無料版"],
+        "section": "## Databricks Free Edition",
+        "matome": "matome1"
+    },
+    "matome1_event": {
+        "keywords": ["セミナー", "ハンズオン", "イベント", "チュートリアル", "入門",
+                     "はじめて", "クックブック", "ユースケース"],
+        "section": "# Databricksイベント",
+        "matome": "matome1"
+    },
     "matome2": {
         "keywords": ["Spark", "PySpark", "Delta", "Unity Catalog", "Volume", "Lakeflow",
                      "DLT", "Delta Sharing", "SQL", "pandas", "DataFrame"],
-        "section": "## Apache Spark"  # デフォルト追加先
+        "section": "## Apache Spark",
+        "matome": "matome2"
     },
     "matome3": {
         "keywords": ["LLM", "GPT", "Claude", "Gemini", "生成AI", "言語モデル", "NLP",
                      "自然言語", "機械学習", "ML", "深層学習", "ニューラル"],
-        "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)"
+        "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)",
+        "matome": "matome3"
     },
     "matome4": {
         "keywords": ["エージェント", "Agent", "MCP", "MLflow", "Apps", "AI/BI",
                      "Feature Store", "AutoML", "Mosaic", "LLMOps"],
-        "section": "## DatabricksにおけるAIエージェント開発"
-    },
-    "matome1": {
-        "keywords": ["セミナー", "ハンズオン", "イベント", "チュートリアル", "入門",
-                     "はじめて", "クックブック", "ユースケース"],
-        "section": "# Databricksイベント"
+        "section": "## DatabricksにおけるAIエージェント開発",
+        "matome": "matome4"
     },
 }
 
@@ -127,11 +137,12 @@ def categorize_article(title, tags):
     title_lower = title.lower()
     tags_lower = [t.lower() for t in tags]
 
-    for matome, config in CATEGORY_KEYWORDS.items():
+    for category_key, config in CATEGORY_KEYWORDS.items():
         for keyword in config["keywords"]:
             keyword_lower = keyword.lower()
             if keyword_lower in title_lower or keyword_lower in tags_lower:
-                return matome, config["section"]
+                matome_key = config.get("matome", category_key)
+                return matome_key, config["section"]
 
     # デフォルトはmatome3（生成AI/LLM）
     return "matome3", CATEGORY_KEYWORDS["matome3"]["section"]
