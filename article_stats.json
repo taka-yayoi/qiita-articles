@@ -2,7 +2,7 @@
   "3600258b3b8e7e55dc5b": {
     "title": "【2025年版】Google Colab/Jupyter経験者のためのDatabricks学習ロードマップ",
     "likes_count": 0,
-    "page_views_count": 70,
+    "page_views_count": 74,
     "created_at": "2025-12-14T15:21:25+09:00",
     "tags": [
       "Databricks"
@@ -11,7 +11,7 @@
   "b5f0dbe7d720dba369ca": {
     "title": "Databricks無料版で始めるGenie入門 〜自然言語でデータ分析を体験しよう〜",
     "likes_count": 0,
-    "page_views_count": 146,
+    "page_views_count": 149,
     "created_at": "2025-12-12T13:55:32+09:00",
     "tags": [
       "Databricks",
@@ -22,7 +22,7 @@
   "12f56f42700ff8641004": {
     "title": "DatabricksのAI関数ai_parse_documentのデバッグ",
     "likes_count": 2,
-    "page_views_count": 190,
+    "page_views_count": 194,
     "created_at": "2025-12-11T14:50:36+09:00",
     "tags": [
       "OCR",
@@ -33,7 +33,7 @@
   "6e9a588e69f87feef564": {
     "title": "どうやったらDatabricks上でRAGがストリーミングしてくれるのか",
     "likes_count": 1,
-    "page_views_count": 233,
+    "page_views_count": 237,
     "created_at": "2025-12-11T10:26:42+09:00",
     "tags": [
       "ストリーミング",
@@ -44,7 +44,7 @@
   "538eca03bacd153a52db": {
     "title": "Databricks Runtime 17.1で追加された組み込みExcel読み込み機能を試してみた",
     "likes_count": 2,
-    "page_views_count": 573,
+    "page_views_count": 575,
     "created_at": "2025-12-09T11:44:03+09:00",
     "tags": [
       "Excel",
@@ -55,7 +55,7 @@
   "fa114d87004779671112": {
     "title": "Claude Codeで始めるDatabricks Apps開発",
     "likes_count": 3,
-    "page_views_count": 459,
+    "page_views_count": 460,
     "created_at": "2025-12-08T10:34:36+09:00",
     "tags": [
       "Databricks",
@@ -66,7 +66,7 @@
   "056f85048a181c1489ad": {
     "title": "Sparkの遅延評価を体感で理解する：Spark UIで「何も起きていない」を確認しよう",
     "likes_count": 0,
-    "page_views_count": 377,
+    "page_views_count": 380,
     "created_at": "2025-12-06T12:04:56+09:00",
     "tags": [
       "Python",
@@ -78,7 +78,7 @@
   "a70a6deb9232e4ce3389": {
     "title": "DatabricksのGemini CLI連携を試してみる",
     "likes_count": 2,
-    "page_views_count": 299,
+    "page_views_count": 302,
     "created_at": "2025-12-05T15:18:55+09:00",
     "tags": [
       "Databricks",
@@ -88,7 +88,7 @@
   "cfa29d078353861b3ae9": {
     "title": "pandasの常識を捨てよう：PySparkで求められる思考法シフト",
     "likes_count": 2,
-    "page_views_count": 479,
+    "page_views_count": 482,
     "created_at": "2025-12-04T17:54:17+09:00",
     "tags": [
       "pandas",
@@ -99,7 +99,7 @@
   "96cde5834f2dab2a5114": {
     "title": "Databricksの「非会話型エージェント」とは何か？会話型との違いを解説",
     "likes_count": 0,
-    "page_views_count": 297,
+    "page_views_count": 300,
     "created_at": "2025-12-03T15:50:07+09:00",
     "tags": [
       "Databricks",
@@ -109,7 +109,7 @@
   "6a87bfdf0fb8edeb6345": {
     "title": "Databricks AppsでVolumeを読み書きする際に注意すること",
     "likes_count": 2,
-    "page_views_count": 291,
+    "page_views_count": 293,
     "created_at": "2025-12-03T10:42:38+09:00",
     "tags": [
       "Databricks",
@@ -119,7 +119,7 @@
   "498b18e1c44cfd6210d3": {
     "title": "Databricksボリュームにおける動画、音声ファイルのプレビューのサポート",
     "likes_count": 0,
-    "page_views_count": 291,
+    "page_views_count": 293,
     "created_at": "2025-12-01T11:22:14+09:00",
     "tags": [
       "Databricks"
@@ -128,7 +128,7 @@
   "51498e315d95692b243a": {
     "title": "Databricks記事のまとめページ(その4)",
     "likes_count": 0,
-    "page_views_count": 324,
+    "page_views_count": 325,
     "created_at": "2025-11-27T21:13:30+09:00",
     "tags": [
       "Databricks"
@@ -137,7 +137,7 @@
   "6a39a3fc5d24780b09a0": {
     "title": "Databricks記事のまとめページ(その3)",
     "likes_count": 0,
-    "page_views_count": 321,
+    "page_views_count": 323,
     "created_at": "2025-11-27T20:47:44+09:00",
     "tags": [
       "Databricks"
@@ -146,7 +146,7 @@
   "4859670620af26d5244a": {
     "title": "GPT-5やClaudeなどによる会話型トレース分析のためのMLflow MCPサーバーの活用",
     "likes_count": 0,
-    "page_views_count": 316,
+    "page_views_count": 318,
     "created_at": "2025-11-27T15:15:30+09:00",
     "tags": [
       "Databricks",
@@ -158,7 +158,7 @@
   "96bd3f52b9e5884b8a46": {
     "title": "生成AIアプリケーション管理の革新: DatabricksにおけるMLflow 3のプロンプトレジストリ",
     "likes_count": 0,
-    "page_views_count": 394,
+    "page_views_count": 396,
     "created_at": "2025-11-25T20:57:47+09:00",
     "tags": [
       "プロンプト",
@@ -171,7 +171,7 @@
   "c2c6adca40870f158c2d": {
     "title": "Databricks Unity Catalogの進化の歴史：Hiveメタストア時代から現在まで",
     "likes_count": 1,
-    "page_views_count": 426,
+    "page_views_count": 427,
     "created_at": "2025-11-25T11:50:19+09:00",
     "tags": [
       "hive",
@@ -184,7 +184,7 @@
   "b975cd6832fb94e787a5": {
     "title": "Lakeflowジョブ入門：15分で始めるDatabricksのワークフロー自動化",
     "likes_count": 2,
-    "page_views_count": 556,
+    "page_views_count": 558,
     "created_at": "2025-11-24T19:37:06+09:00",
     "tags": [
       "チュートリアル",
@@ -197,7 +197,7 @@
   "b687ffc1a8901839e46b": {
     "title": "pandas経験者のためのApache Spark完全学習ガイド：ステップバイステップでSparkをマスター",
     "likes_count": 2,
-    "page_views_count": 729,
+    "page_views_count": 730,
     "created_at": "2025-11-22T08:41:12+09:00",
     "tags": [
       "Python",
@@ -210,7 +210,7 @@
   "1fe076a0f87a7442d39a": {
     "title": "Databricks初心者のための完全学習ガイド：生成AI時代のデータ分析・機械学習・LLM入門",
     "likes_count": 2,
-    "page_views_count": 1455,
+    "page_views_count": 1457,
     "created_at": "2025-11-21T16:49:21+09:00",
     "tags": [
       "初心者",
@@ -223,7 +223,7 @@
   "ba79329ee86ca4f21701": {
     "title": "Databricks AI機能の進化の歴史：2021年〜2025年の新機能を振り返る",
     "likes_count": 1,
-    "page_views_count": 719,
+    "page_views_count": 720,
     "created_at": "2025-11-21T13:05:27+09:00",
     "tags": [
       "AI",
@@ -235,7 +235,7 @@
   "bff08769b09e75eeb118": {
     "title": "MLflowの進化の歴史：2021年〜2025年の機能拡張を振り返る",
     "likes_count": 1,
-    "page_views_count": 428,
+    "page_views_count": 430,
     "created_at": "2025-11-21T11:37:07+09:00",
     "tags": [
       "Databricks",
@@ -247,7 +247,7 @@
   "17747c8008ef715b93a8": {
     "title": "Databricksノートブックの進化の歴史：2021年〜2025年の新機能を振り返る",
     "likes_count": 1,
-    "page_views_count": 338,
+    "page_views_count": 339,
     "created_at": "2025-11-21T10:34:51+09:00",
     "tags": [
       "Databricks",
@@ -299,7 +299,7 @@
   "c0788e77b12437454b93": {
     "title": "Databricksに入社して5年目の振り返り",
     "likes_count": 7,
-    "page_views_count": 4435,
+    "page_views_count": 4436,
     "created_at": "2025-11-16T14:44:16+09:00",
     "tags": [
       "ポエム",
@@ -309,7 +309,7 @@
   "2af61d3fa992a589ec26": {
     "title": "生成AIによるDatabricks最新記事まとめと著者傾向分析(自動生成)",
     "likes_count": 0,
-    "page_views_count": 641,
+    "page_views_count": 642,
     "created_at": "2025-11-14T16:21:51+09:00",
     "tags": [
       "Databricks"
@@ -338,7 +338,7 @@
   "ae47e1953cbfc886d113": {
     "title": "Databricks Free Edition HackathonのつもりでNetflixデータを分析してみる",
     "likes_count": 1,
-    "page_views_count": 429,
+    "page_views_count": 430,
     "created_at": "2025-11-11T14:42:17+09:00",
     "tags": [
       "Databricks",
@@ -348,7 +348,7 @@
   "19d2572c0b11b7462850": {
     "title": "Databricks Free Edition Hackathon: 無料で学べるデータ・AI開発コンテスト(2025年11月開催)",
     "likes_count": 5,
-    "page_views_count": 3912,
+    "page_views_count": 3915,
     "created_at": "2025-11-11T08:29:35+09:00",
     "tags": [
       "hackathon",
@@ -497,7 +497,7 @@
   "bb5ccb3fa1dae1b8915e": {
     "title": "Lakeflow Spark宣言型パイプラインのチュートリアル",
     "likes_count": 0,
-    "page_views_count": 629,
+    "page_views_count": 630,
     "created_at": "2025-10-28T15:09:01+09:00",
     "tags": [
       "Databricks",
@@ -581,7 +581,7 @@
   "555fdb6fb88158fa6792": {
     "title": "Databricksのデータ自動分類機能がパブリックプレビューになりました",
     "likes_count": 0,
-    "page_views_count": 449,
+    "page_views_count": 450,
     "created_at": "2025-10-17T21:31:40+09:00",
     "tags": [
       "Databricks",
@@ -713,7 +713,7 @@
   "7e1481ad8a988eb54aeb": {
     "title": "MLflow LoggedModel 完全ガイド",
     "likes_count": 3,
-    "page_views_count": 843,
+    "page_views_count": 845,
     "created_at": "2025-10-01T11:42:03+09:00",
     "tags": [
       "Databricks",
@@ -800,7 +800,7 @@
   "00cb953efae41ff98cfe": {
     "title": "Databricks Appsのユーザー代理認証(OBO)",
     "likes_count": 2,
-    "page_views_count": 779,
+    "page_views_count": 783,
     "created_at": "2025-09-28T21:01:43+09:00",
     "tags": [
       "Databricks",
@@ -966,7 +966,7 @@
   "9a16f515ef8dcb3cf421": {
     "title": "Databricksにおける属性ベースアクセスコントロール(ABAC)",
     "likes_count": 0,
-    "page_views_count": 669,
+    "page_views_count": 671,
     "created_at": "2025-09-05T13:59:19+09:00",
     "tags": [
       "Databricks",
@@ -977,7 +977,7 @@
   "1b9841e033b7668f9f2d": {
     "title": "DatabricksのABACをマスターする",
     "likes_count": 0,
-    "page_views_count": 962,
+    "page_views_count": 963,
     "created_at": "2025-09-05T08:57:33+09:00",
     "tags": [
       "Databricks",
@@ -1043,7 +1043,7 @@
   "fdb9fe9087b97e671e1f": {
     "title": "Databricksサーバレスのベース環境管理機能",
     "likes_count": 0,
-    "page_views_count": 812,
+    "page_views_count": 813,
     "created_at": "2025-08-30T14:17:55+09:00",
     "tags": [
       "Databricks"
@@ -1250,7 +1250,7 @@
   "8da95446d03123548cb5": {
     "title": "生成AIワークショップはじめました - Databricksにおけるエージェントの構築と評価(後編)",
     "likes_count": 1,
-    "page_views_count": 852,
+    "page_views_count": 853,
     "created_at": "2025-08-06T10:50:37+09:00",
     "tags": [
       "Databricks",
@@ -1522,7 +1522,7 @@
   "ea71be9624eb6f91dc3a": {
     "title": "Databricks AIガバナンスフレームワーク(DAGF)",
     "likes_count": 1,
-    "page_views_count": 911,
+    "page_views_count": 912,
     "created_at": "2025-07-10T08:43:15+09:00",
     "tags": [
       "Databricks",
@@ -1574,7 +1574,7 @@
   "8511ef61498a31734b00": {
     "title": "Databricks入門：データとAIを統合する次世代プラットフォーム",
     "likes_count": 2,
-    "page_views_count": 2812,
+    "page_views_count": 2815,
     "created_at": "2025-07-04T13:58:50+09:00",
     "tags": [
       "Databricks"
@@ -1697,7 +1697,7 @@
   "a4c9bc89452d7e5c91a7": {
     "title": "Databricks AI/BIダッシュボードのファイルアップロードとテーマ",
     "likes_count": 1,
-    "page_views_count": 564,
+    "page_views_count": 568,
     "created_at": "2025-06-25T10:20:16+09:00",
     "tags": [
       "Databricks",
@@ -1821,7 +1821,7 @@
   "d2d7b74f0806975a8d63": {
     "title": "Databricks Free Editionで学ぶAI/BI Genie",
     "likes_count": 4,
-    "page_views_count": 2571,
+    "page_views_count": 2572,
     "created_at": "2025-06-14T22:27:51+09:00",
     "tags": [
       "Databricks",
@@ -1854,7 +1854,7 @@
   "33e9cfa7ca9ca9febe72": {
     "title": "Databricks Free Edition",
     "likes_count": 9,
-    "page_views_count": 6736,
+    "page_views_count": 6737,
     "created_at": "2025-06-12T09:07:49+09:00",
     "tags": [
       "Databricks",
@@ -1874,7 +1874,7 @@
   "86c2d289eb79f52aeec5": {
     "title": "Databricksの属性ベースのアクセス制御(ABAC)",
     "likes_count": 3,
-    "page_views_count": 1703,
+    "page_views_count": 1706,
     "created_at": "2025-06-10T17:09:56+09:00",
     "tags": [
       "Databricks",
@@ -1920,7 +1920,7 @@
   "842efd5ad1d43ab613e0": {
     "title": "データとAI資産のガバナンスのためのDatabricksにおけるタグ活用の入門書",
     "likes_count": 2,
-    "page_views_count": 1123,
+    "page_views_count": 1124,
     "created_at": "2025-06-09T11:31:06+09:00",
     "tags": [
       "タグ",
@@ -2016,7 +2016,7 @@
   "dddad5c37efe55491abc": {
     "title": "Unity Catalogによる従来の機械学習開発の強化",
     "likes_count": 1,
-    "page_views_count": 889,
+    "page_views_count": 890,
     "created_at": "2025-06-02T11:42:49+09:00",
     "tags": [
       "機械学習",
@@ -2057,7 +2057,7 @@
   "c6a7f3347d7620c102d7": {
     "title": "Databricksのワークスペース システムテーブル",
     "likes_count": 1,
-    "page_views_count": 538,
+    "page_views_count": 542,
     "created_at": "2025-05-29T11:18:09+09:00",
     "tags": [
       "Databricks"
@@ -2120,7 +2120,7 @@
   "9d1c7568b2e25bd848ed": {
     "title": "OpenAIのVision & Responses APIを使用した画像理解とRAG",
     "likes_count": 0,
-    "page_views_count": 3122,
+    "page_views_count": 3123,
     "created_at": "2025-05-25T09:49:12+09:00",
     "tags": [
       "OpenAI",
@@ -2172,7 +2172,7 @@
   "74bb42d30bf5e58e6e04": {
     "title": "ワークスペースでのDatabricksアセットバンドルの活用",
     "likes_count": 2,
-    "page_views_count": 1329,
+    "page_views_count": 1330,
     "created_at": "2025-05-22T10:15:23+09:00",
     "tags": [
       "Databricks",
@@ -2191,7 +2191,7 @@
   "c1cc0ada066607ee1991": {
     "title": "Databricksにおけるサーバレスバッチ推論をわかりやすく説明",
     "likes_count": 0,
-    "page_views_count": 676,
+    "page_views_count": 677,
     "created_at": "2025-05-21T11:34:00+09:00",
     "tags": [
       "Databricks"
@@ -2371,7 +2371,7 @@
   "6c88eb8f04f0e6f1de1b": {
     "title": "Databricksにおける知識グラフRAGシステムの構築",
     "likes_count": 2,
-    "page_views_count": 1532,
+    "page_views_count": 1533,
     "created_at": "2025-05-09T18:24:29+09:00",
     "tags": [
       "neo4j",
@@ -2488,7 +2488,7 @@
   "2c6b673162599c523359": {
     "title": "GPT-4.1とGPT-4oをDatabricksで比較してみる",
     "likes_count": 1,
-    "page_views_count": 6553,
+    "page_views_count": 6554,
     "created_at": "2025-04-29T13:12:08+09:00",
     "tags": [
       "OpenAI",
@@ -2500,7 +2500,7 @@
   "e812a528d86a27ef2784": {
     "title": "Databricksユーザー会JEDAI in Osaka 2025 春",
     "likes_count": 4,
-    "page_views_count": 1447,
+    "page_views_count": 1448,
     "created_at": "2025-04-27T08:37:35+09:00",
     "tags": [
       "Databricks",
@@ -2647,7 +2647,7 @@
   "84b4e21dffa71274b492": {
     "title": "DatabricksのUnity CatalogバッチPythonユーザー定義関数",
     "likes_count": 0,
-    "page_views_count": 577,
+    "page_views_count": 578,
     "created_at": "2025-04-16T09:42:43+09:00",
     "tags": [
       "udf",
@@ -2700,7 +2700,7 @@
   "aa4614b89633e336bac8": {
     "title": "Databricksのデータ分類を試してみる",
     "likes_count": 2,
-    "page_views_count": 1495,
+    "page_views_count": 1496,
     "created_at": "2025-04-12T07:31:54+09:00",
     "tags": [
       "Databricks",
@@ -2776,7 +2776,7 @@
   "b29edb7daa50057d9e36": {
     "title": "Genie Conversation APIを活用したDatabricks MCPサーバーを作ってみる",
     "likes_count": 4,
-    "page_views_count": 2288,
+    "page_views_count": 2289,
     "created_at": "2025-04-08T21:56:02+09:00",
     "tags": [
       "MCP",
@@ -2798,7 +2798,7 @@
   "fb1ac5c46d60864d1ea6": {
     "title": "OpenAIのResponses APIを使用したRAGアプローチによるマルチツールオーケストレーション",
     "likes_count": 0,
-    "page_views_count": 2669,
+    "page_views_count": 2670,
     "created_at": "2025-04-07T11:07:18+09:00",
     "tags": [
       "OpenAI",
@@ -2958,7 +2958,7 @@
   "323220b34d97bc341959": {
     "title": "Mosaic AIエージェントフレームワークによるツール呼び出しOpenAI Responses APIエージェントの作成とデプロイ",
     "likes_count": 1,
-    "page_views_count": 1542,
+    "page_views_count": 1543,
     "created_at": "2025-03-26T18:10:10+09:00",
     "tags": [
       "OpenAI",
@@ -2970,7 +2970,7 @@
   "e887fc0ccf7c2349d72d": {
     "title": "Unity Catalog Python UDFにおける外部ライブラリのインストール",
     "likes_count": 0,
-    "page_views_count": 526,
+    "page_views_count": 527,
     "created_at": "2025-03-26T13:21:14+09:00",
     "tags": [
       "Databricks",
@@ -3136,7 +3136,7 @@
   "9fb6faa4c296d922682c": {
     "title": "OpenAIのResponses APIを試してみる",
     "likes_count": 4,
-    "page_views_count": 3407,
+    "page_views_count": 3412,
     "created_at": "2025-03-13T15:21:53+09:00",
     "tags": [
       "OpenAI",
@@ -3178,7 +3178,7 @@
   "c41e648688c8cce718f7": {
     "title": "マルチエージェントシステムでのGenieの使用",
     "likes_count": 6,
-    "page_views_count": 2552,
+    "page_views_count": 2554,
     "created_at": "2025-03-12T09:27:49+09:00",
     "tags": [
       "Databricks",
@@ -3189,7 +3189,7 @@
   "716e1b82ca069375d357": {
     "title": "プリント基盤(PCB)の画像分類 - 欠陥検知のためのディープラーニング",
     "likes_count": 1,
-    "page_views_count": 1246,
+    "page_views_count": 1251,
     "created_at": "2025-03-11T14:45:45+09:00",
     "tags": [
       "Databricks",
@@ -3428,7 +3428,7 @@
   "f0fd89e2c93808423102": {
     "title": "GPTの視覚的機能とTTS APIを用いた動画の処理とナレーション生成",
     "likes_count": 3,
-    "page_views_count": 906,
+    "page_views_count": 907,
     "created_at": "2025-02-26T15:44:07+09:00",
     "tags": [
       "TTS",
@@ -3554,7 +3554,7 @@
   "a76336cb52f160076b84": {
     "title": "PandasとSparkのPivotとMelt",
     "likes_count": 6,
-    "page_views_count": 3433,
+    "page_views_count": 3434,
     "created_at": "2025-02-19T09:41:55+09:00",
     "tags": [
       "Spark",
@@ -3586,7 +3586,7 @@
   "d180c3e65da26befe9de": {
     "title": "Databricksのエクスプレスセットアップ",
     "likes_count": 0,
-    "page_views_count": 1076,
+    "page_views_count": 1077,
     "created_at": "2025-02-18T13:41:17+09:00",
     "tags": [
       "Databricks"
@@ -3717,7 +3717,7 @@
   "5ec2244ec69e055c52d1": {
     "title": "DatabricksノートブックにおけるExcelダウンロードのサポート",
     "likes_count": 1,
-    "page_views_count": 721,
+    "page_views_count": 723,
     "created_at": "2025-02-08T06:50:57+09:00",
     "tags": [
       "Excel",
@@ -3947,7 +3947,7 @@
   "c51743a212586af14dc6": {
     "title": "Databricksにおけるデータ管理に関する資料のまとめ",
     "likes_count": 6,
-    "page_views_count": 3660,
+    "page_views_count": 3661,
     "created_at": "2025-01-26T09:11:03+09:00",
     "tags": [
       "Databricks",
@@ -3985,7 +3985,7 @@
   "2441e271a057a827950c": {
     "title": "Databricksノートブックのコメントでメンションできるようになりました！",
     "likes_count": 1,
-    "page_views_count": 715,
+    "page_views_count": 716,
     "created_at": "2025-01-22T16:55:57+09:00",
     "tags": [
       "Databricks"
@@ -4075,7 +4075,7 @@
   "2429e5276f5dabf320a6": {
     "title": "[翻訳] DSPyにおける最適化",
     "likes_count": 1,
-    "page_views_count": 2509,
+    "page_views_count": 2510,
     "created_at": "2025-01-15T16:04:10+09:00",
     "tags": [
       "DSPy"
@@ -4084,7 +4084,7 @@
   "95e0ae78ee76da1657bf": {
     "title": "[翻訳] DSPyにおける評価",
     "likes_count": 0,
-    "page_views_count": 744,
+    "page_views_count": 745,
     "created_at": "2025-01-15T13:10:38+09:00",
     "tags": [
       "DSPy"
@@ -4093,7 +4093,7 @@
   "20c73eb634df4c86cdf9": {
     "title": "[翻訳] DSPyプログラミング",
     "likes_count": 0,
-    "page_views_count": 1382,
+    "page_views_count": 1383,
     "created_at": "2025-01-15T11:34:30+09:00",
     "tags": [
       "DSPy"
@@ -4102,7 +4102,7 @@
   "4c658d12e34b2c7707b5": {
     "title": "Databricksにおけるテキスト分類器のDSPyプログラムの作成",
     "likes_count": 1,
-    "page_views_count": 1199,
+    "page_views_count": 1200,
     "created_at": "2025-01-14T20:47:26+09:00",
     "tags": [
       "Databricks",
@@ -4157,7 +4157,7 @@
   "0bade766d740098b2d64": {
     "title": "DatabricksでLangChainのMLflow連携を試してみる",
     "likes_count": 0,
-    "page_views_count": 1108,
+    "page_views_count": 1109,
     "created_at": "2025-01-09T16:57:13+09:00",
     "tags": [
       "Databricks",
@@ -4416,7 +4416,7 @@
   "57923e2d159a65a22118": {
     "title": "Databricksリリースノート(毎日更新)",
     "likes_count": 5,
-    "page_views_count": 4297,
+    "page_views_count": 4300,
     "created_at": "2024-12-14T15:43:09+09:00",
     "tags": [
       "Databricks"
@@ -4425,7 +4425,7 @@
   "5a896bba6b6dae577a14": {
     "title": "Databricksコスト最適化のベストプラクティスに対する個人的解釈",
     "likes_count": 1,
-    "page_views_count": 2776,
+    "page_views_count": 2777,
     "created_at": "2024-12-13T10:16:49+09:00",
     "tags": [
       "Databricks"
@@ -4464,7 +4464,7 @@
   "62da2ab414d08a74c69c": {
     "title": "[2024/12版] Unity Catalogセットアップガイド",
     "likes_count": 2,
-    "page_views_count": 2416,
+    "page_views_count": 2417,
     "created_at": "2024-12-11T17:20:01+09:00",
     "tags": [
       "Databricks",
@@ -4474,7 +4474,7 @@
   "4376b3403a3dbfdfe89f": {
     "title": "DatabricksのMERGE INTOとAPPLY CHANGES INTOの違い",
     "likes_count": 3,
-    "page_views_count": 2125,
+    "page_views_count": 2126,
     "created_at": "2024-12-10T17:26:39+09:00",
     "tags": [
       "Databricks",
@@ -4497,7 +4497,7 @@
   "6199b0104f51066ba5d2": {
     "title": "Parquetでデータをロードする際にSparkのパーティションがどのように影響を受けるのか",
     "likes_count": 2,
-    "page_views_count": 2099,
+    "page_views_count": 2100,
     "created_at": "2024-12-09T17:41:59+09:00",
     "tags": [
       "Spark",
@@ -4528,7 +4528,7 @@
   "0cf385d781f891ccf573": {
     "title": "Unity Catalogのマネージドストレージとは何か",
     "likes_count": 4,
-    "page_views_count": 2074,
+    "page_views_count": 2077,
     "created_at": "2024-12-05T21:39:01+09:00",
     "tags": [
       "Databricks",
@@ -4538,7 +4538,7 @@
   "b67690da563597582af0": {
     "title": "SparkのパーティションがParquetファイルの保存に与える影響",
     "likes_count": 3,
-    "page_views_count": 1423,
+    "page_views_count": 1424,
     "created_at": "2024-12-05T14:14:57+09:00",
     "tags": [
       "Spark",
@@ -4588,7 +4588,7 @@
   "7f279be7d708d03d748f": {
     "title": "[翻訳] Apache Sparkにおける出力ファイルサイズの最適化",
     "likes_count": 1,
-    "page_views_count": 1006,
+    "page_views_count": 1007,
     "created_at": "2024-11-30T13:20:23+09:00",
     "tags": [
       "Spark"
@@ -4757,7 +4757,7 @@
   "ce7fa8d85f0605d9a226": {
     "title": "Databricks Unity Catalogの関数: ユーザーとエージェントのためのツール",
     "likes_count": 0,
-    "page_views_count": 1059,
+    "page_views_count": 1060,
     "created_at": "2024-11-18T20:32:41+09:00",
     "tags": [
       "Databricks",
@@ -4903,7 +4903,7 @@
   "cb2bcd316436a8d56139": {
     "title": "Sparkのデータシャッフルの発生理由と対策",
     "likes_count": 1,
-    "page_views_count": 1993,
+    "page_views_count": 1997,
     "created_at": "2024-11-15T21:58:24+09:00",
     "tags": [
       "Spark",
@@ -5013,7 +5013,7 @@
   "e70843b6795e010f5425": {
     "title": "DatabricksにおけるLLMOpsのベストプラクティス",
     "likes_count": 2,
-    "page_views_count": 1744,
+    "page_views_count": 1747,
     "created_at": "2024-11-07T20:57:01+09:00",
     "tags": [
       "Databricks",
@@ -5225,7 +5225,7 @@
   "df9cb37679b1b1a39911": {
     "title": "DatabricksにおけるAIエージェントのデプロイメントおよび評価",
     "likes_count": 0,
-    "page_views_count": 2334,
+    "page_views_count": 2336,
     "created_at": "2024-10-21T10:28:08+09:00",
     "tags": [
       "Databricks",
@@ -5260,7 +5260,7 @@
   "9c4c35151a7e75ffd689": {
     "title": "DatabricksテーブルデータのCSVダウンロード",
     "likes_count": 0,
-    "page_views_count": 3076,
+    "page_views_count": 3077,
     "created_at": "2024-10-17T09:56:54+09:00",
     "tags": [
       "Databricks",
@@ -5379,7 +5379,7 @@
   "9ee9ba97ebdb82704244": {
     "title": "Databricks Apps(アプリ)がやってきました！",
     "likes_count": 15,
-    "page_views_count": 13142,
+    "page_views_count": 13143,
     "created_at": "2024-10-08T13:15:08+09:00",
     "tags": [
       "Flask",
@@ -5415,7 +5415,7 @@
   "755d1e52b6b07b760ebe": {
     "title": "DatabricksにおけるシングルGPUにおけるHugging Faceモデルのファインチューニング",
     "likes_count": 1,
-    "page_views_count": 899,
+    "page_views_count": 901,
     "created_at": "2024-10-06T14:43:36+09:00",
     "tags": [
       "Databricks",
@@ -5533,7 +5533,7 @@
   "6ec27e773da8241a160b": {
     "title": "DatabricksにおけるFunction Calling",
     "likes_count": 1,
-    "page_views_count": 1373,
+    "page_views_count": 1374,
     "created_at": "2024-09-30T14:42:38+09:00",
     "tags": [
       "Databricks",
@@ -5575,7 +5575,7 @@
   "a341abb5dd0cb191c589": {
     "title": "Databricks AI/BIダッシュボードからのAI/BI Genieの有効化",
     "likes_count": 0,
-    "page_views_count": 2146,
+    "page_views_count": 2152,
     "created_at": "2024-09-27T11:58:29+09:00",
     "tags": [
       "Databricks",
@@ -5724,7 +5724,7 @@
   "b774c4b4a7e8453d544b": {
     "title": "DatabricksのOAuth user-to-machine (U2M)認証",
     "likes_count": 0,
-    "page_views_count": 1422,
+    "page_views_count": 1425,
     "created_at": "2024-09-17T17:35:31+09:00",
     "tags": [
       "OAuth",
@@ -5908,7 +5908,7 @@
   "7d00578f0d0cf64c5d82": {
     "title": "新たなResource Quotas APIを用いたクォータに対するUnity Catalogオブジェクトの使用量の監視",
     "likes_count": 0,
-    "page_views_count": 422,
+    "page_views_count": 424,
     "created_at": "2024-09-05T16:13:36+09:00",
     "tags": [
       "Databricks",
@@ -5930,7 +5930,7 @@
   "b88d47bcfabf2f6bfa48": {
     "title": "大規模言語モデルに声を与える",
     "likes_count": 2,
-    "page_views_count": 1569,
+    "page_views_count": 1571,
     "created_at": "2024-09-02T21:28:38+09:00",
     "tags": [
       "RaspberryPi",
@@ -6223,7 +6223,7 @@
   "ce5716082b492495fe42": {
     "title": "DatabricksにおけるKaggleのWebサーバーログ分析のウォークスルー",
     "likes_count": 1,
-    "page_views_count": 1251,
+    "page_views_count": 1257,
     "created_at": "2024-07-31T15:04:54+09:00",
     "tags": [
       "K-means",
@@ -6947,7 +6947,7 @@
   "b7ca4df53000afe9ba02": {
     "title": "AI/BI Genieのウォークスルー",
     "likes_count": 4,
-    "page_views_count": 4055,
+    "page_views_count": 4056,
     "created_at": "2024-06-18T12:02:14+09:00",
     "tags": [
       "Databricks",
@@ -6957,7 +6957,7 @@
   "7d6e13ebc0200c71babc": {
     "title": "UnstructuredによるPDFからの画像抽出",
     "likes_count": 3,
-    "page_views_count": 7757,
+    "page_views_count": 7758,
     "created_at": "2024-06-17T12:01:29+09:00",
     "tags": [
       "Databricks",
@@ -7140,7 +7140,7 @@
   "68462b0a797e10756915": {
     "title": "[翻訳] Rayの概要",
     "likes_count": 0,
-    "page_views_count": 2455,
+    "page_views_count": 2458,
     "created_at": "2024-06-06T15:51:11+09:00",
     "tags": [
       "Ray"
@@ -7409,7 +7409,7 @@
   "47962b105d0f6c16504a": {
     "title": "S3に格納されているCSVファイルのDatabricksへの取り込み",
     "likes_count": 2,
-    "page_views_count": 3222,
+    "page_views_count": 3227,
     "created_at": "2024-05-14T21:35:24+09:00",
     "tags": [
       "AWS",
@@ -7473,7 +7473,7 @@
   "7f89dda373ec8d5b03b7": {
     "title": "Databricksにおけるパフォーマンス最適化のベストプラクティス",
     "likes_count": 3,
-    "page_views_count": 5212,
+    "page_views_count": 5214,
     "created_at": "2024-05-09T20:09:57+09:00",
     "tags": [
       "Databricks",
@@ -7776,7 +7776,7 @@
   "d01ac37c109d86362d85": {
     "title": "Unity Catalogにおける関数のサポート",
     "likes_count": 1,
-    "page_views_count": 1305,
+    "page_views_count": 1306,
     "created_at": "2024-04-16T19:50:11+09:00",
     "tags": [
       "Databricks",
@@ -8543,7 +8543,7 @@
   "5d788b10ec8939ed3474": {
     "title": "CLIPエンべディングを用いた画像による画像検索およびGPT4Vを用いた画像関連性の理由づけ",
     "likes_count": 1,
-    "page_views_count": 3270,
+    "page_views_count": 3274,
     "created_at": "2024-02-23T11:07:34+09:00",
     "tags": [
       "Databricks",
@@ -8555,7 +8555,7 @@
   "a136a4d9e1732d351337": {
     "title": "アイデンティティ、主キー、外部キーを用いたDatabricksのデータウェアハウジング",
     "likes_count": 2,
-    "page_views_count": 1907,
+    "page_views_count": 1911,
     "created_at": "2024-02-22T17:18:02+09:00",
     "tags": [
       "SQL",
@@ -8970,7 +8970,7 @@
   "1f7825b06c16e8b721da": {
     "title": "DatabricksにおけるRetrieval Augmented Generation(RAG)",
     "likes_count": 1,
-    "page_views_count": 3367,
+    "page_views_count": 3368,
     "created_at": "2024-01-15T17:46:31+09:00",
     "tags": [
       "Databricks",
@@ -9053,7 +9053,7 @@
   "8dc72d083edb879a5e5d": {
     "title": "はじめてのDatabricks",
     "likes_count": 53,
-    "page_views_count": 39160,
+    "page_views_count": 39164,
     "created_at": "2024-01-07T22:13:36+09:00",
     "tags": [
       "Databricks"
@@ -9124,7 +9124,7 @@
   "3328b7eb2d841168addc": {
     "title": "DatabricksのAI PlaygroundによるLLMの動作確認",
     "likes_count": 1,
-    "page_views_count": 2197,
+    "page_views_count": 2198,
     "created_at": "2023-12-24T10:59:07+09:00",
     "tags": [
       "Databricks",
@@ -9312,7 +9312,7 @@
   "6808081c52648f709c83": {
     "title": "Databricks Feature & Function Servingとは？",
     "likes_count": 1,
-    "page_views_count": 1077,
+    "page_views_count": 1078,
     "created_at": "2023-12-11T11:53:04+09:00",
     "tags": [
       "Databricks"
@@ -9509,7 +9509,7 @@
   "530c922528e4269120bf": {
     "title": "データブリックスのUnity Catalogで実現する真のデータガバナンス",
     "likes_count": 3,
-    "page_views_count": 2270,
+    "page_views_count": 2272,
     "created_at": "2023-11-29T21:41:27+09:00",
     "tags": [
       "Databricks",
@@ -9926,7 +9926,7 @@
   "0256a3d1fc57413420d5": {
     "title": "コンピュータビジョンとリアルタイムサーバレス推論を用いたプリント基盤(PCB)の製品品質調査",
     "likes_count": 0,
-    "page_views_count": 2078,
+    "page_views_count": 2084,
     "created_at": "2023-10-15T15:35:36+09:00",
     "tags": [
       "Databricks",
@@ -10122,7 +10122,7 @@
   "e146907224aa4b927675": {
     "title": "JEDAI勉強会：生成AIとは何か？",
     "likes_count": 6,
-    "page_views_count": 1970,
+    "page_views_count": 1973,
     "created_at": "2023-09-28T09:26:46+09:00",
     "tags": [
       "Databricks",
@@ -10340,7 +10340,7 @@
   "6c5d78434487e0cc93dd": {
     "title": "Streamlitのチャットbot UIを試してみる",
     "likes_count": 7,
-    "page_views_count": 7619,
+    "page_views_count": 7624,
     "created_at": "2023-09-11T20:00:07+09:00",
     "tags": [
       "Databricks",
@@ -10410,7 +10410,7 @@
   "74a27964527929032efc": {
     "title": "Databricksクラスター上でstreamlitを動かしてみる",
     "likes_count": 4,
-    "page_views_count": 5190,
+    "page_views_count": 5195,
     "created_at": "2023-09-07T15:59:46+09:00",
     "tags": [
       "Databricks",
@@ -10588,7 +10588,7 @@
   "30ee2c73895f2e56d202": {
     "title": "Databricksにおけるタグの適用",
     "likes_count": 1,
-    "page_views_count": 1750,
+    "page_views_count": 1751,
     "created_at": "2023-08-24T08:59:12+09:00",
     "tags": [
       "Databricks",
@@ -10669,7 +10669,7 @@
   "31190da754106b2d284e": {
     "title": "Apache Sparkとは何か",
     "likes_count": 103,
-    "page_views_count": 57090,
+    "page_views_count": 57091,
     "created_at": "2023-08-16T12:27:08+09:00",
     "tags": [
       "Spark",
@@ -11245,7 +11245,7 @@
   "603d4db1c353fe9c8b73": {
     "title": "DatabricksワークスペースでのSSOのセットアップ",
     "likes_count": 1,
-    "page_views_count": 2444,
+    "page_views_count": 2451,
     "created_at": "2023-07-02T18:04:31+09:00",
     "tags": [
       "SSO",
@@ -11298,7 +11298,7 @@
   "4bada5cf8909c8d842a0": {
     "title": "Delta Live TablesとUnity Catalogで制御されたパイプラインを構築",
     "likes_count": 1,
-    "page_views_count": 1067,
+    "page_views_count": 1068,
     "created_at": "2023-06-30T16:28:23+09:00",
     "tags": [
       "Databricks",
@@ -11331,7 +11331,7 @@
   "5f9899bc0586b6675daa": {
     "title": "Unity Catalogのカタログの作成と管理",
     "likes_count": 1,
-    "page_views_count": 3735,
+    "page_views_count": 3736,
     "created_at": "2023-06-29T19:05:32+09:00",
     "tags": [
       "Databricks",
@@ -11732,7 +11732,7 @@
   "7d75c3d1a35bee719582": {
     "title": "DatabricksレイクハウスプラットフォームにおけるData Vault実装の規範的ガイド",
     "likes_count": 0,
-    "page_views_count": 1802,
+    "page_views_count": 1803,
     "created_at": "2023-06-02T08:49:24+09:00",
     "tags": [
       "Databricks",
@@ -12580,7 +12580,7 @@
   "59f0ba1a07c620a70a75": {
     "title": "Free Dolly: 世界初の真にオープンな指示でチューニングされたLLM",
     "likes_count": 101,
-    "page_views_count": 33380,
+    "page_views_count": 33381,
     "created_at": "2023-04-13T05:31:09+09:00",
     "tags": [
       "Databricks",
@@ -12887,7 +12887,7 @@
   "e9c895c169da652c6efb": {
     "title": "Hello Dolly: オープンなモデルでChatGPTの魔法を民主化する",
     "likes_count": 55,
-    "page_views_count": 27716,
+    "page_views_count": 27717,
     "created_at": "2023-03-25T10:48:37+09:00",
     "tags": [
       "Databricks",
@@ -13447,7 +13447,7 @@
   "5f3fd1aaf9a4bf481b97": {
     "title": "Databricks REST APIのサンプル",
     "likes_count": 1,
-    "page_views_count": 7460,
+    "page_views_count": 7462,
     "created_at": "2023-02-13T17:25:01+09:00",
     "tags": [
       "REST-API",
@@ -13641,7 +13641,7 @@
   "0c4e80fbf00030b9c912": {
     "title": "Databricksにおけるデータとストレージの取り扱い",
     "likes_count": 0,
-    "page_views_count": 3985,
+    "page_views_count": 3986,
     "created_at": "2023-01-28T15:44:44+09:00",
     "tags": [
       "Databricks"
@@ -13671,7 +13671,7 @@
   "7a9aad3d4c7560af9f11": {
     "title": "Unity Catalogでクロスアカウントの外部ロケーションと外部テーブルを作成する",
     "likes_count": 1,
-    "page_views_count": 2886,
+    "page_views_count": 2891,
     "created_at": "2023-01-26T20:54:36+09:00",
     "tags": [
       "AWS",
@@ -13949,7 +13949,7 @@
   "cfd853a9859586c26477": {
     "title": "Terraformを使ってDatabricksワークスペースをデプロイしてみる",
     "likes_count": 1,
-    "page_views_count": 3429,
+    "page_views_count": 3430,
     "created_at": "2023-01-10T17:50:38+09:00",
     "tags": [
       "Terraform",
@@ -14009,7 +14009,7 @@
   "3d41a022c0d81b78afaf": {
     "title": "Delta LakeにおけるZ-orderインデックスを用いたデータスキッピング",
     "likes_count": 2,
-    "page_views_count": 5351,
+    "page_views_count": 5362,
     "created_at": "2023-01-07T09:28:57+09:00",
     "tags": [
       "Databricks",
@@ -14037,7 +14037,7 @@
   "82f8fdc147ada0f0bced": {
     "title": "Databricksにおけるジョブ失敗のトラブルシュートとリペア",
     "likes_count": 0,
-    "page_views_count": 1709,
+    "page_views_count": 1710,
     "created_at": "2023-01-03T21:36:23+09:00",
     "tags": [
       "Databricks"
@@ -14386,7 +14386,7 @@
   "89318c12b58e05c728f6": {
     "title": "VACUUMを用いてDeltaテーブルの未使用データを削除する",
     "likes_count": 0,
-    "page_views_count": 3423,
+    "page_views_count": 3424,
     "created_at": "2022-12-09T18:45:13+09:00",
     "tags": [
       "Databricks",
@@ -14546,7 +14546,7 @@
   "a596d5ccca63cf3fecd9": {
     "title": "PySparkにおけるメモリーのプロファイリング",
     "likes_count": 0,
-    "page_views_count": 3179,
+    "page_views_count": 3180,
     "created_at": "2022-12-02T09:56:50+09:00",
     "tags": [
       "Spark",
@@ -14838,7 +14838,7 @@
   "50c5a75caff8a6fb721d": {
     "title": "Databricksにおけるテーブルのクローン",
     "likes_count": 1,
-    "page_views_count": 4387,
+    "page_views_count": 4390,
     "created_at": "2022-11-13T11:22:19+09:00",
     "tags": [
       "Databricks",
@@ -15316,7 +15316,7 @@
   "2e652c2796a8738acac8": {
     "title": "今さら聞けない画像処理",
     "likes_count": 3,
-    "page_views_count": 8591,
+    "page_views_count": 8593,
     "created_at": "2022-10-10T07:07:25+09:00",
     "tags": [
       "画像処理",
@@ -15635,7 +15635,7 @@
   "5b2c2a601b8e66fb8af8": {
     "title": "ソリューションアクセラレータ：DatabricksとOSRMによるスケーラブルなルート生成(実践編)",
     "likes_count": 0,
-    "page_views_count": 3517,
+    "page_views_count": 3518,
     "created_at": "2022-09-18T20:03:44+09:00",
     "tags": [
       "osrm",
@@ -15685,7 +15685,7 @@
   "8bf0221d9433aad25711": {
     "title": "無料の学習コースによってDatabricks認定試験の取得が簡単になりました",
     "likes_count": 3,
-    "page_views_count": 3331,
+    "page_views_count": 3332,
     "created_at": "2022-09-13T08:46:13+09:00",
     "tags": [
       "Databricks"
@@ -15809,7 +15809,7 @@
   "6b064914642f022b9cc5": {
     "title": "ソリューションアクセラレータ：DatabricksとOSRMによるスケーラブルなルート生成",
     "likes_count": 0,
-    "page_views_count": 1204,
+    "page_views_count": 1205,
     "created_at": "2022-09-07T08:59:33+09:00",
     "tags": [
       "osrm",
@@ -15959,7 +15959,7 @@
   "a8d6fce746688dbf2306": {
     "title": "信頼できる唯一の情報源(single source of truth)の構築は何を意味するのか？",
     "likes_count": 0,
-    "page_views_count": 6191,
+    "page_views_count": 6192,
     "created_at": "2022-08-30T14:32:18+09:00",
     "tags": [
       "Databricks",
@@ -17293,7 +17293,7 @@
   "1c02542125bc327282d5": {
     "title": "Databricks Community Editionで画像データを分析してみる",
     "likes_count": 0,
-    "page_views_count": 2839,
+    "page_views_count": 2845,
     "created_at": "2022-06-14T09:53:25+09:00",
     "tags": [
       "Databricks_Community_Edition",
@@ -17738,7 +17738,7 @@
   "93d7597d7fc739b48bb7": {
     "title": "Databricksクラスターポリシーの管理",
     "likes_count": 3,
-    "page_views_count": 5396,
+    "page_views_count": 5397,
     "created_at": "2022-05-27T02:56:56+09:00",
     "tags": [
       "Databricks"
@@ -18013,7 +18013,7 @@
   "0f75e9d2e4578ff652d6": {
     "title": "Databricks SQL CLIを試してみる",
     "likes_count": 2,
-    "page_views_count": 2959,
+    "page_views_count": 2960,
     "created_at": "2022-05-13T16:51:28+09:00",
     "tags": [
       "Databricks",
@@ -18953,7 +18953,7 @@
   "15aede468bdca58ec6a3": {
     "title": "DatabricksのUnity Catalogとは？",
     "likes_count": 8,
-    "page_views_count": 22356,
+    "page_views_count": 22359,
     "created_at": "2022-03-12T17:10:50+09:00",
     "tags": [
       "Databricks",
@@ -19169,7 +19169,7 @@
   "173d5228c1d08c5130ef": {
     "title": "eコマース向け類似画像レコメンデーションシステムの構築",
     "likes_count": 1,
-    "page_views_count": 3058,
+    "page_views_count": 3063,
     "created_at": "2022-03-02T14:21:03+09:00",
     "tags": [
       "Spark",
@@ -19596,7 +19596,7 @@
   "08a4dbea3c943a5ae2ea": {
     "title": "MLflowによるPyTorch MNIST分類器のトラッキング・サービング",
     "likes_count": 5,
-    "page_views_count": 7294,
+    "page_views_count": 7295,
     "created_at": "2022-01-29T15:27:05+09:00",
     "tags": [
       "Databricks",
@@ -19648,7 +19648,7 @@
   "a82b0b8fbdc74e6f9f01": {
     "title": "Databricksにおけるデータファイル管理によるパフォーマンスの最適化",
     "likes_count": 0,
-    "page_views_count": 4665,
+    "page_views_count": 4666,
     "created_at": "2022-01-26T17:53:22+09:00",
     "tags": [
       "Databricks",
@@ -19709,7 +19709,7 @@
   "f31703f1c770a15304dd": {
     "title": "DatabricksにおけるOpenCVの活用",
     "likes_count": 0,
-    "page_views_count": 2441,
+    "page_views_count": 2446,
     "created_at": "2022-01-24T11:59:50+09:00",
     "tags": [
       "OpenCV",
@@ -19986,7 +19986,7 @@
   "887343d522fceb7e793c": {
     "title": "データレイクハウスでコンピュータービジョンアプリケーションを実現する",
     "likes_count": 0,
-    "page_views_count": 1459,
+    "page_views_count": 1466,
     "created_at": "2021-12-25T14:30:47+09:00",
     "tags": [
       "画像処理",
@@ -20121,7 +20121,7 @@
   "329e7284bebf29e90634": {
     "title": "Databricks Feature Storeで特徴量テーブルを操作する",
     "likes_count": 1,
-    "page_views_count": 3587,
+    "page_views_count": 3588,
     "created_at": "2021-12-08T10:23:45+09:00",
     "tags": [
       "Databricks",
@@ -20448,7 +20448,7 @@
   "f01d1bbbaeda2857d5f7": {
     "title": "Adaptive Query Execution : Spark SQLの実行スピードの高速化",
     "likes_count": 2,
-    "page_views_count": 5179,
+    "page_views_count": 5180,
     "created_at": "2021-11-08T11:36:26+09:00",
     "tags": [
       "Spark",
@@ -21063,7 +21063,7 @@
   "c6907e2b861cb1070f4d": {
     "title": "Databricks記事のまとめページ(その1)",
     "likes_count": 43,
-    "page_views_count": 34390,
+    "page_views_count": 34394,
     "created_at": "2021-10-02T21:28:48+09:00",
     "tags": [
       "Databricks"
@@ -21113,7 +21113,7 @@
   "063c2360670f59b38471": {
     "title": "DatabricksにおけるPySpark、pandasデータフレームの変換の最適化",
     "likes_count": 1,
-    "page_views_count": 6382,
+    "page_views_count": 6383,
     "created_at": "2021-09-27T10:33:20+09:00",
     "tags": [
       "pandas",
@@ -21159,7 +21159,7 @@
   "8d951b660cd87c6c5f18": {
     "title": "Databricksクラスターの設定",
     "likes_count": 6,
-    "page_views_count": 11774,
+    "page_views_count": 11779,
     "created_at": "2021-09-21T16:33:29+09:00",
     "tags": [
       "Databricks",
@@ -21529,7 +21529,7 @@
   "ac38efeb49cecd2ab77a": {
     "title": "AWS PrivateLinkによるプライベートDatabricksワークスペースのパブリックプレビュー",
     "likes_count": 0,
-    "page_views_count": 2836,
+    "page_views_count": 2837,
     "created_at": "2021-08-11T08:33:57+09:00",
     "tags": [
       "AWS",
@@ -21871,7 +21871,7 @@
   "d5ea3dede05a180091b2": {
     "title": "Databricksの良いところ(Jupyter notebookとの比較)",
     "likes_count": 11,
-    "page_views_count": 11147,
+    "page_views_count": 11149,
     "created_at": "2021-07-06T20:40:24+09:00",
     "tags": [
       "Jupyter",
@@ -22143,7 +22143,7 @@
   "f23bd799e1960e2eccbe": {
     "title": "Databricksにおける顧客管理VPC",
     "likes_count": 4,
-    "page_views_count": 8746,
+    "page_views_count": 8747,
     "created_at": "2021-06-02T21:29:29+09:00",
     "tags": [
       "AWS",
@@ -22342,7 +22342,7 @@
   "8d4b1b61699d68a34e58": {
     "title": "Databricksにおける画像の取り扱い",
     "likes_count": 1,
-    "page_views_count": 4889,
+    "page_views_count": 4894,
     "created_at": "2021-05-19T12:54:54+09:00",
     "tags": [
       "Databricks"
@@ -22371,7 +22371,7 @@
   "41be81691df3f7c8e6bf": {
     "title": "画像アプリケーションに対するDatabricksリファレンスソリューション",
     "likes_count": 1,
-    "page_views_count": 2712,
+    "page_views_count": 2716,
     "created_at": "2021-05-17T13:03:43+09:00",
     "tags": [
       "Databricks",
@@ -22973,7 +22973,7 @@
   "b89f199ff0d3a4c16140": {
     "title": "Databricks ReposによるGit連携",
     "likes_count": 12,
-    "page_views_count": 15606,
+    "page_views_count": 15607,
     "created_at": "2021-03-28T10:00:00+09:00",
     "tags": [
       "Python",
