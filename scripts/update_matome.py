@@ -46,10 +46,10 @@ TAG_TO_CATEGORY = {
     "Databricks_AI_Agent": ("matome4", "## DatabricksにおけるAIエージェント開発"),
     "AIエージェント": ("matome4", "## DatabricksにおけるAIエージェント開発"),
     "MLflow": ("matome4", "## MLflow"),
-    "Databricks_AI_BI": ("matome4", "## AI/BI"),
+    "Databricks_AI_BI": ("matome4", "## Databricks AI/BI"),
     "DatabricksApps": ("matome4", "## Databricks Apps"),
     "MosaicAI": ("matome4", "## Mosaic AI"),
-    "FeatureStore": ("matome4", "## Feature Store"),
+    "FeatureStore": ("matome4", "## Databricks Feature Store"),
 }
 
 # キーワードフォールバック（タグでマッチしない場合に使用）
