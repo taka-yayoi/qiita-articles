@@ -6,7 +6,7 @@ tags:
   - LakeFlow
   - LakeFlowDeclarativePipeline
 private: false
-updated_at: '2025-12-22T07:38:08+09:00'
+updated_at: '2025-12-22T09:39:10+09:00'
 id: c38069b6ddd93fbaacab
 organization_url_name: databricks
 slide: false
@@ -509,7 +509,7 @@ file2.jsonを新規追加 → 処理される
 - 「なぜSTは箱とデータの入れ方が分離されているの?」
 - 「複数のソースから1つのSTにデータを入れられる?」
 
-次の記事 **「Level 4: Lakeflow SDPのフローを理解する」** では、フローの概念と使い方を詳しく学びます。
+次の記事 [**Level 4: Lakeflow SDPのフローを理解する**](https://qiita.com/taka_yayoi/items/3e966dee494d0800ec0c)では、フローの概念と使い方を詳しく学びます。
 
 # 参考リンク
 
