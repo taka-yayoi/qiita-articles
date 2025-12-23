@@ -46,15 +46,6 @@ jobs:
         run: |
           python scripts/update_matome.py
 
-      - name: Publish matome articles to Qiita
-        env:
-          QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
-        run: |
-          npx qiita publish c6907e2b861cb1070f4d --force
-          npx qiita publish 68fc3d67880d2dcb32bb --force
-          npx qiita publish 6a39a3fc5d24780b09a0 --force
-          npx qiita publish 51498e315d95692b243a --force
-
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
