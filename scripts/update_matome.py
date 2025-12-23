@@ -22,8 +22,7 @@ MATOME_FILES = {
     "matome4": "51498e315d95692b243a.md",  # AIエージェント、MLflow、Apps等
 }
 
-# タグ → カテゴリマッピング（優先度順）
-# タグが完全一致した場合に使用
+# タグ → カテゴリマッピング
 TAG_TO_CATEGORY = {
     # matome1: イベント、チュートリアル、Free Edition
     "Databricks_Free_Edition": ("matome1", "## Databricks Free Edition"),
@@ -52,29 +51,55 @@ TAG_TO_CATEGORY = {
     "FeatureStore": ("matome4", "## Databricks Feature Store"),
 }
 
-# キーワードフォールバック（タグでマッチしない場合に使用）
-KEYWORD_FALLBACK = {
-    "matome1": {
-        "keywords": ["セミナー", "ハンズオン", "イベント", "チュートリアル", "入門",
-                     "はじめて", "クックブック", "ユースケース", "Free Edition", "無料版"],
-        "section": "# Databricksイベント"
-    },
-    "matome2": {
-        "keywords": ["Spark", "PySpark", "Delta", "Unity Catalog", "Volume", "Lakeflow",
-                     "DLT", "Delta Sharing", "SQL", "pandas", "DataFrame"],
-        "section": "## Apache Spark"
-    },
-    "matome3": {
-        "keywords": ["LLM", "GPT", "Claude", "Gemini", "生成AI", "言語モデル", "NLP",
-                     "自然言語", "機械学習", "ML", "深層学習", "ニューラル"],
-        "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)"
-    },
-    "matome4": {
-        "keywords": ["エージェント", "Agent", "MCP", "MLflow", "Apps", "AI/BI",
-                     "Feature Store", "AutoML", "Mosaic", "LLMOps"],
-        "section": "## DatabricksにおけるAIエージェント開発"
-    },
-}
+# キーワード定義（優先度付き）
+# priority: 高いほど優先（技術固有名 > 一般キーワード）
+KEYWORDS = [
+    # 高優先度: 具体的な技術名（これらが含まれていれば他のキーワードより優先）
+    {"keyword": "Lakeflow", "matome": "matome2", "section": "## Lakeflow", "priority": 100},
+    {"keyword": "Unity Catalog", "matome": "matome2", "section": "## Unity Catalog", "priority": 100},
+    {"keyword": "Delta Lake", "matome": "matome2", "section": "## Delta Lake", "priority": 100},
+    {"keyword": "Delta Sharing", "matome": "matome2", "section": "## Delta Sharing", "priority": 100},
+    {"keyword": "MLflow", "matome": "matome4", "section": "## MLflow", "priority": 100},
+    {"keyword": "Feature Store", "matome": "matome4", "section": "## Databricks Feature Store", "priority": 100},
+    {"keyword": "Mosaic", "matome": "matome4", "section": "## Mosaic AI", "priority": 100},
+    {"keyword": "Apps", "matome": "matome4", "section": "## Databricks Apps", "priority": 90},
+    {"keyword": "AI/BI", "matome": "matome4", "section": "## Databricks AI/BI", "priority": 90},
+    {"keyword": "Genie", "matome": "matome4", "section": "## Databricks AI/BI", "priority": 90},
+    # 中優先度: 技術カテゴリ
+    {"keyword": "Spark", "matome": "matome2", "section": "## Apache Spark", "priority": 80},
+    {"keyword": "PySpark", "matome": "matome2", "section": "## Apache Spark", "priority": 80},
+    {"keyword": "Delta", "matome": "matome2", "section": "## Delta Lake", "priority": 80},
+    {"keyword": "SQL", "matome": "matome2", "section": "## Databricks SQL", "priority": 70},
+    {"keyword": "DataFrame", "matome": "matome2", "section": "## Apache Spark", "priority": 70},
+    {"keyword": "pandas", "matome": "matome2", "section": "## Apache Spark", "priority": 70},
+    {"keyword": "Volume", "matome": "matome2", "section": "## Unity Catalog", "priority": 70},
+    {"keyword": "DLT", "matome": "matome2", "section": "## Lakeflow", "priority": 70},
+    {"keyword": "LLM", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "生成AI", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "GPT", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "Claude", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "Gemini", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "機械学習", "matome": "matome3", "section": "## Databricksにおける機械学習", "priority": 80},
+    {"keyword": "NLP", "matome": "matome3", "section": "## 自然言語処理 (NLP)", "priority": 80},
+    {"keyword": "自然言語", "matome": "matome3", "section": "## 自然言語処理 (NLP)", "priority": 80},
+    {"keyword": "深層学習", "matome": "matome3", "section": "## Databricksにおける機械学習", "priority": 80},
+    {"keyword": "エージェント", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "Agent", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "MCP", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "LLMOps", "matome": "matome4", "section": "## DatabricksにおけるLLMOps", "priority": 80},
+    {"keyword": "AutoML", "matome": "matome4", "section": "## Databricks AutoML", "priority": 80},
+    {"keyword": "Free Edition", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
+    {"keyword": "無料版", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
+    # 低優先度: 一般的なキーワード（他にマッチしない場合のみ使用）
+    {"keyword": "入門", "matome": "matome1", "section": "# Databricksチュートリアル", "priority": 10},
+    {"keyword": "チュートリアル", "matome": "matome1", "section": "# Databricksチュートリアル", "priority": 10},
+    {"keyword": "はじめて", "matome": "matome1", "section": "# Databricksチュートリアル", "priority": 10},
+    {"keyword": "セミナー", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
+    {"keyword": "ハンズオン", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
+    {"keyword": "イベント", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
+    {"keyword": "クックブック", "matome": "matome1", "section": "# 生成AIクックブック", "priority": 10},
+    {"keyword": "ユースケース", "matome": "matome1", "section": "# ユースケース", "priority": 10},
+]
 
 # 除外するID（まとめ記事自体、リリースノート等）
 EXCLUDE_IDS = set([
@@ -153,33 +178,39 @@ def get_existing_article_ids():
 
 
 def categorize_article(title, tags):
-    """記事をカテゴリに分類（タグ優先 + キーワードフォールバック）"""
+    """記事をカテゴリに分類（全体を見て最適なカテゴリを選択）"""
 
-    # 1. タグで完全一致を探す（優先）
+    # 1. タグで完全一致を探す（最優先）
     for tag in tags:
         if tag in TAG_TO_CATEGORY:
             matome_key, section = TAG_TO_CATEGORY[tag]
-            print(f"  -> Matched by tag '{tag}' -> {matome_key}")
+            print(f"  -> Matched by tag '{tag}' -> {matome_key} ({section})")
             return matome_key, section
 
-    # 2. キーワードフォールバック
+    # 2. タイトルとタグから全てのマッチを収集し、最高優先度のものを選択
     title_lower = title.lower()
-    tags_lower = [t.lower() for t in tags]
+    tags_str = " ".join(tags).lower()
+    search_text = f"{title_lower} {tags_str}"
 
-    for matome_key, config in KEYWORD_FALLBACK.items():
-        for keyword in config["keywords"]:
-            keyword_lower = keyword.lower()
-            if keyword_lower in title_lower or keyword_lower in tags_lower:
-                print(f"  -> Matched by keyword '{keyword}' -> {matome_key}")
-                return matome_key, config["section"]
+    matches = []
+    for kw_def in KEYWORDS:
+        keyword = kw_def["keyword"]
+        if keyword.lower() in search_text:
+            matches.append(kw_def)
+
+    if matches:
+        # 最高優先度のマッチを選択
+        best_match = max(matches, key=lambda x: x["priority"])
+        print(f"  -> Best match: '{best_match['keyword']}' (priority={best_match['priority']}) -> {best_match['matome']} ({best_match['section']})")
+        return best_match["matome"], best_match["section"]
 
     # 3. デフォルトはmatome3（生成AI/LLM）
     print(f"  -> No match, defaulting to matome3")
-    return "matome3", KEYWORD_FALLBACK["matome3"]["section"]
+    return "matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"
 
 
 def add_article_to_matome(matome_key, section, article_id, title, date):
-    """まとめ記事に新記事を追加"""
+    """まとめ記事に新記事を追加（日付降順で適切な位置に挿入）"""
     filepath = os.path.join(PUBLIC_DIR, MATOME_FILES[matome_key])
 
     with open(filepath, "r", encoding="utf-8") as f:
@@ -191,24 +222,50 @@ def add_article_to_matome(matome_key, section, article_id, title, date):
 
     # セクションを探して追加
     if section in content:
-        # セクションの次の行（最初の記事リスト）を探す
         lines = content.split("\n")
         new_lines = []
         found_section = False
         inserted = False
+        date_pattern = re.compile(r'^- \[(\d{4}-\d{2}-\d{2})\]')
 
         for i, line in enumerate(lines):
-            new_lines.append(line)
             if section in line and not found_section:
                 found_section = True
-            elif found_section and not inserted:
+                new_lines.append(line)
+                continue
+
+            if found_section and not inserted:
                 # 空行やiframeをスキップ
                 if line.strip() == "" or line.startswith("<iframe") or line.startswith("["):
+                    new_lines.append(line)
                     continue
-                # 最初の記事リストの前に挿入
+
+                # 記事リスト行の場合、日付を比較して適切な位置に挿入
                 if line.startswith("- ["):
-                    new_lines.insert(len(new_lines) - 1, new_line)
+                    match = date_pattern.match(line)
+                    if match:
+                        existing_date = match.group(1)
+                        # 新しい記事の日付が既存の日付より新しい場合、ここに挿入
+                        if date_str >= existing_date:
+                            new_lines.append(new_line)
+                            inserted = True
+                    else:
+                        # 日付パターンがない場合は先頭に挿入
+                        new_lines.append(new_line)
+                        inserted = True
+
+                # 次のセクション（#で始まる行）に到達した場合、セクション末尾に追加
+                elif line.startswith("#") and not inserted:
+                    new_lines.append(new_line)
                     inserted = True
+
+            new_lines.append(line)
+
+        # セクションの最後まで到達した場合（ファイル末尾）
+        if found_section and not inserted:
+            # 最後の記事リストの後に追加
+            new_lines.append(new_line)
+            inserted = True
 
         if inserted:
             content = "\n".join(new_lines)
