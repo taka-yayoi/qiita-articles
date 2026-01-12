@@ -93,6 +93,19 @@ KEYWORDS = [
     {"keyword": "AutoML", "matome": "matome4", "section": "## Databricks AutoML", "priority": 80},
     {"keyword": "Free Edition", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
     {"keyword": "無料版", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
+    # CI/CD関連
+    {"keyword": "アセットバンドル", "matome": "matome2", "section": "## DatabricksにおけるCI/CD", "priority": 90},
+    {"keyword": "バンドル", "matome": "matome2", "section": "## DatabricksにおけるCI/CD", "priority": 70},
+    {"keyword": "デプロイ", "matome": "matome2", "section": "## DatabricksにおけるCI/CD", "priority": 70},
+    {"keyword": "CI/CD", "matome": "matome2", "section": "## DatabricksにおけるCI/CD", "priority": 90},
+    # 学習コンテンツ関連
+    {"keyword": "ロードマップ", "matome": "matome1", "section": "# Databricks学習コンテンツ", "priority": 80},
+    {"keyword": "学習", "matome": "matome1", "section": "# Databricks学習コンテンツ", "priority": 60},
+    {"keyword": "Colab", "matome": "matome1", "section": "# Databricks学習コンテンツ", "priority": 70},
+    {"keyword": "Jupyter", "matome": "matome1", "section": "# Databricks学習コンテンツ", "priority": 70},
+    # コンセプト関連
+    {"keyword": "機能一覧", "matome": "matome1", "section": "# Databricksのコンセプト", "priority": 80},
+    {"keyword": "とは", "matome": "matome1", "section": "# Databricksのコンセプト", "priority": 50},
     # 低優先度: 一般的なキーワード（他にマッチしない場合のみ使用）
     {"keyword": "入門", "matome": "matome1", "section": "# Databricksチュートリアル", "priority": 10},
     {"keyword": "チュートリアル", "matome": "matome1", "section": "# Databricksチュートリアル", "priority": 10},
