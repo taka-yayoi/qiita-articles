@@ -74,6 +74,9 @@ KEYWORDS = [
     {"keyword": "pandas", "matome": "matome2", "section": "## Apache Spark", "priority": 70},
     {"keyword": "Volume", "matome": "matome2", "section": "## Unity Catalog", "priority": 70},
     {"keyword": "DLT", "matome": "matome2", "section": "## Lakeflow", "priority": 70},
+    {"keyword": "権限", "matome": "matome2", "section": "## Databricksのベストプラクティス", "priority": 70},
+    {"keyword": "ワークスペース", "matome": "matome2", "section": "## Databricksのベストプラクティス", "priority": 60},
+    {"keyword": "運用", "matome": "matome2", "section": "## Databricksのベストプラクティス", "priority": 50},
     {"keyword": "LLM", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
     {"keyword": "生成AI", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
     {"keyword": "GPT", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
@@ -98,6 +101,8 @@ KEYWORDS = [
     {"keyword": "ハンズオン", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
     {"keyword": "イベント", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
     {"keyword": "振り返り", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
+    {"keyword": "アシスタント", "matome": "matome1", "section": "### Databricksアシスタント", "priority": 80},
+    {"keyword": "Assistant", "matome": "matome1", "section": "### Databricksアシスタント", "priority": 80},
     {"keyword": "クックブック", "matome": "matome1", "section": "# 生成AIクックブック", "priority": 10},
     {"keyword": "ユースケース", "matome": "matome1", "section": "# ユースケース", "priority": 10},
 ]
