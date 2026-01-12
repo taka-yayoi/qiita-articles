@@ -114,8 +114,8 @@ KEYWORDS = [
     {"keyword": "ハンズオン", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
     {"keyword": "イベント", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
     {"keyword": "振り返り", "matome": "matome1", "section": "# Databricksイベント", "priority": 10},
-    {"keyword": "アシスタント", "matome": "matome1", "section": "### Databricksアシスタント", "priority": 80},
-    {"keyword": "Assistant", "matome": "matome1", "section": "### Databricksアシスタント", "priority": 80},
+    {"keyword": "アシスタント", "matome": "matome1", "section": "# Databricksアシスタント", "priority": 80},
+    {"keyword": "Assistant", "matome": "matome1", "section": "# Databricksアシスタント", "priority": 80},
     {"keyword": "クックブック", "matome": "matome1", "section": "# 生成AIクックブック", "priority": 10},
     {"keyword": "ユースケース", "matome": "matome1", "section": "# ユースケース", "priority": 10},
 ]
