@@ -37,18 +37,18 @@ TAG_TO_CATEGORY = {
     "DatabricksSQL": ("matome2", "# Databricks SQL"),
     "Delta_Sharing": ("matome2", "# Delta Sharing"),
     # matome3: 機械学習、生成AI/LLM
-    "LLM": ("matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"),
-    "生成AI": ("matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"),
-    "機械学習": ("matome3", "## Databricksにおける機械学習"),
-    "NLP": ("matome3", "## 自然言語処理 (NLP)"),
+    "LLM": ("matome3", "# Databricksにおける生成AI、大規模言語モデル(LLM)"),
+    "生成AI": ("matome3", "# Databricksにおける生成AI、大規模言語モデル(LLM)"),
+    "機械学習": ("matome3", "# Databricksにおける機械学習"),
+    "NLP": ("matome3", "# Databricksにおける自然言語処理(NLP)"),
     # matome4: AIエージェント、MLflow、Apps等
-    "Databricks_AI_Agent": ("matome4", "## DatabricksにおけるAIエージェント開発"),
-    "AIエージェント": ("matome4", "## DatabricksにおけるAIエージェント開発"),
-    "MLflow": ("matome4", "## MLflow"),
-    "Databricks_AI_BI": ("matome4", "## Databricks AI/BI"),
-    "DatabricksApps": ("matome4", "## Databricks Apps"),
-    "MosaicAI": ("matome4", "## Mosaic AI"),
-    "FeatureStore": ("matome4", "## Databricks Feature Store"),
+    "Databricks_AI_Agent": ("matome4", "# DatabricksにおけるAIエージェント開発"),
+    "AIエージェント": ("matome4", "# DatabricksにおけるAIエージェント開発"),
+    "MLflow": ("matome4", "# MLflow"),
+    "Databricks_AI_BI": ("matome4", "# Databricks AI/BI"),
+    "DatabricksApps": ("matome4", "# Databricks Apps"),
+    "MosaicAI": ("matome4", "# Mosaic AI"),
+    "FeatureStore": ("matome4", "# Databricks Feature Store"),
 }
 
 # キーワード定義（優先度付き）
@@ -59,12 +59,12 @@ KEYWORDS = [
     {"keyword": "Unity Catalog", "matome": "matome2", "section": "# Unity Catalog", "priority": 100},
     {"keyword": "Delta Lake", "matome": "matome2", "section": "# Delta Lake", "priority": 100},
     {"keyword": "Delta Sharing", "matome": "matome2", "section": "# Delta Sharing", "priority": 100},
-    {"keyword": "MLflow", "matome": "matome4", "section": "## MLflow", "priority": 100},
-    {"keyword": "Feature Store", "matome": "matome4", "section": "## Databricks Feature Store", "priority": 100},
-    {"keyword": "Mosaic", "matome": "matome4", "section": "## Mosaic AI", "priority": 100},
-    {"keyword": "Apps", "matome": "matome4", "section": "## Databricks Apps", "priority": 90},
-    {"keyword": "AI/BI", "matome": "matome4", "section": "## Databricks AI/BI", "priority": 90},
-    {"keyword": "Genie", "matome": "matome4", "section": "## Databricks AI/BI", "priority": 90},
+    {"keyword": "MLflow", "matome": "matome4", "section": "# MLflow", "priority": 100},
+    {"keyword": "Feature Store", "matome": "matome4", "section": "# Databricks Feature Store", "priority": 100},
+    {"keyword": "Mosaic", "matome": "matome4", "section": "# Mosaic AI", "priority": 100},
+    {"keyword": "Apps", "matome": "matome4", "section": "# Databricks Apps", "priority": 90},
+    {"keyword": "AI/BI", "matome": "matome4", "section": "# Databricks AI/BI", "priority": 90},
+    {"keyword": "Genie", "matome": "matome4", "section": "# Databricks AI/BI", "priority": 90},
     # 中優先度: 技術カテゴリ
     {"keyword": "Spark", "matome": "matome2", "section": "# Apache Spark", "priority": 80},
     {"keyword": "PySpark", "matome": "matome2", "section": "# Apache Spark", "priority": 80},
@@ -77,20 +77,20 @@ KEYWORDS = [
     {"keyword": "権限", "matome": "matome2", "section": "# Databricksのベストプラクティス", "priority": 70},
     {"keyword": "ワークスペース", "matome": "matome2", "section": "# Databricksのベストプラクティス", "priority": 60},
     {"keyword": "運用", "matome": "matome2", "section": "# Databricksのベストプラクティス", "priority": 50},
-    {"keyword": "LLM", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
-    {"keyword": "生成AI", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
-    {"keyword": "GPT", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
-    {"keyword": "Claude", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
-    {"keyword": "Gemini", "matome": "matome3", "section": "## Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
-    {"keyword": "機械学習", "matome": "matome3", "section": "## Databricksにおける機械学習", "priority": 80},
-    {"keyword": "NLP", "matome": "matome3", "section": "## 自然言語処理 (NLP)", "priority": 80},
-    {"keyword": "自然言語", "matome": "matome3", "section": "## 自然言語処理 (NLP)", "priority": 80},
-    {"keyword": "深層学習", "matome": "matome3", "section": "## Databricksにおける機械学習", "priority": 80},
-    {"keyword": "エージェント", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
-    {"keyword": "Agent", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
-    {"keyword": "MCP", "matome": "matome4", "section": "## DatabricksにおけるAIエージェント開発", "priority": 80},
-    {"keyword": "LLMOps", "matome": "matome4", "section": "## DatabricksにおけるLLMOps", "priority": 80},
-    {"keyword": "AutoML", "matome": "matome4", "section": "## Databricks AutoML", "priority": 80},
+    {"keyword": "LLM", "matome": "matome3", "section": "# Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "生成AI", "matome": "matome3", "section": "# Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "GPT", "matome": "matome3", "section": "# Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "Claude", "matome": "matome3", "section": "# Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "Gemini", "matome": "matome3", "section": "# Databricksにおける生成AI、大規模言語モデル(LLM)", "priority": 80},
+    {"keyword": "機械学習", "matome": "matome3", "section": "# Databricksにおける機械学習", "priority": 80},
+    {"keyword": "NLP", "matome": "matome3", "section": "# Databricksにおける自然言語処理(NLP)", "priority": 80},
+    {"keyword": "自然言語", "matome": "matome3", "section": "# Databricksにおける自然言語処理(NLP)", "priority": 80},
+    {"keyword": "深層学習", "matome": "matome3", "section": "# Databricksにおける機械学習", "priority": 80},
+    {"keyword": "エージェント", "matome": "matome4", "section": "# DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "Agent", "matome": "matome4", "section": "# DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "MCP", "matome": "matome4", "section": "# DatabricksにおけるAIエージェント開発", "priority": 80},
+    {"keyword": "LLMOps", "matome": "matome4", "section": "# DatabricksにおけるLLMOps", "priority": 80},
+    {"keyword": "AutoML", "matome": "matome4", "section": "# Databricks AutoML", "priority": 80},
     {"keyword": "Free Edition", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
     {"keyword": "無料版", "matome": "matome1", "section": "## Databricks Free Edition", "priority": 80},
     # CI/CD関連
@@ -225,7 +225,7 @@ def categorize_article(title, tags):
 
     # 3. デフォルトはmatome3（生成AI/LLM）
     print(f"  -> No match, defaulting to matome3")
-    return "matome3", "## Databricksにおける生成AI、大規模言語モデル(LLM)"
+    return "matome3", "# Databricksにおける生成AI、大規模言語モデル(LLM)"
 
 
 def add_article_to_matome(matome_key, section, article_id, title, date):
