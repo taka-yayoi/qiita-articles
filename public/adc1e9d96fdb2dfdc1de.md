@@ -4,6 +4,7 @@ tags:
   - AppKit
   - Databricks
   - DatabricksApps
+  - ClaudeCode
 private: false
 updated_at: '2026-04-03T10:39:04+09:00'
 id: adc1e9d96fdb2dfdc1de
