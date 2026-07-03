@@ -10,6 +10,8 @@ id: 7abe6fa94cd89e12ba6e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 主要クラウドサービス(AWS、Azure、GCP)で動作するDatabricksですが、AWSでデプロイする際には自分でVPCの構成を決めたり、PrivateLink構成を選択することができます(他のCSPでも順次対応しています)。
 

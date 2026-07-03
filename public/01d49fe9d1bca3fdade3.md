@@ -9,6 +9,8 @@ id: 01d49fe9d1bca3fdade3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Best practices: pools \| Databricks on AWS](https://docs.databricks.com/clusters/instance-pools/pool-best-practices.html) [2021/9/22時点]の翻訳です。
 

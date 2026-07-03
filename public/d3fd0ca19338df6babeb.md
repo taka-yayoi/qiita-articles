@@ -9,6 +9,8 @@ id: d3fd0ca19338df6babeb
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Customer Story: StrongArm Tech \- Databricks](https://databricks.com/customers/strongarm)の翻訳です。
 

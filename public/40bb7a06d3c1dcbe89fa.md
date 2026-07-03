@@ -9,6 +9,8 @@ id: 40bb7a06d3c1dcbe89fa
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Build Reliable and Cost Effective Streaming Data Pipelines With Delta Live Tables’ Enhanced Autoscaling \- The Databricks Blog](https://www.databricks.com/blog/2022/12/08/build-reliable-and-cost-effective-streaming-data-pipelines.html)の翻訳です。
 

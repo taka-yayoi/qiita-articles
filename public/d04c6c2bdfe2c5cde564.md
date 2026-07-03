@@ -9,6 +9,8 @@ id: d04c6c2bdfe2c5cde564
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Databricks on Google Cloud: Public Preview feature list \| Databricks on Google Cloud](https://docs.gcp.databricks.com/release-notes/gcp-preview-features.html) [2021/4/20時点]の翻訳です。
 

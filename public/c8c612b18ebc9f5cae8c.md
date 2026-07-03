@@ -9,6 +9,8 @@ id: c8c612b18ebc9f5cae8c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらで公開されているQ&A botのソリューションアクセラレータ(すぐにユースケースを実現できるサンプルノートブック)を翻訳したのでウォークスルーします。
 

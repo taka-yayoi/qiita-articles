@@ -9,6 +9,8 @@ id: 8d61e6e2afe30a8cb5ec
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [How to Make Your Lakehouses Run More Efficiently and Faster With Delta Lake 1\.1 \- The Databricks Blog](https://databricks.com/blog/2022/01/31/make-your-data-lakehouse-run-faster-with-delta-lake-1-1.html)の翻訳です。
 

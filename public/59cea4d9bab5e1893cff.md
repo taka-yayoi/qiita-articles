@@ -11,6 +11,8 @@ id: 59cea4d9bab5e1893cff
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 43ff3363e32f43d7507c
+agreed_posting_campaign_term: true
 ---
 こちらの続きです。
 

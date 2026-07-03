@@ -8,6 +8,8 @@ id: 11aeafed36bdc4b7ed8e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 16baee61b1d8bd4aac5a
+agreed_posting_campaign_term: true
 ---
 考えたらきちんと手順をまとめたことがありませんでした。
 

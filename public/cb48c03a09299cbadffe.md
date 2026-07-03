@@ -10,6 +10,8 @@ id: cb48c03a09299cbadffe
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [How to Simply Scale ETL with Azure Data Factory and Azure Databricks](https://databricks.com/blog/2020/03/06/connect-90-data-sources-to-your-data-lake-with-azure-databricks-and-azure-data-factory.html)の翻訳です。
 

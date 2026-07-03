@@ -9,6 +9,8 @@ id: bfa1c940af3fddd3201c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Data sharing guide \| Databricks on AWS](https://docs.databricks.com/data-sharing/index.html) [2022/8/25時点]の翻訳です。
 

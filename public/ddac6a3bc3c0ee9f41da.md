@@ -10,6 +10,8 @@ id: ddac6a3bc3c0ee9f41da
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Databricks Repos Integrates With Git Providers for a Better Development Experience\- The Databricks Blog](https://databricks.com/blog/2021/03/16/productionize-data-science-with-repos-on-databricks.html)の翻訳です。
 

@@ -11,6 +11,8 @@ id: fa12fb46ecee06d86ebc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 16baee61b1d8bd4aac5a
+agreed_posting_campaign_term: true
 ---
 [Unsupervised Outlier Detection on Databricks \| Databricks Blog](https://www.databricks.com/blog/2023/03/13/unsupervised-outlier-detection-databricks.html)の翻訳です。
 

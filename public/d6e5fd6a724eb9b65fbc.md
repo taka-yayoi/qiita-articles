@@ -9,6 +9,8 @@ id: d6e5fd6a724eb9b65fbc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: fd9d012cdc6dcd0b2f5c
+agreed_posting_campaign_term: true
 ---
 LangGrahp勉強中です。
 

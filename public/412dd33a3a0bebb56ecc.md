@@ -9,6 +9,8 @@ id: 412dd33a3a0bebb56ecc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [An Overview of All the New Structured Streaming Features Developed In 2021 For Databricks & Apache Spark\. \- The Databricks Blog](https://databricks.com/blog/2022/02/07/structured-streaming-a-year-in-review.html)の翻訳です。
 

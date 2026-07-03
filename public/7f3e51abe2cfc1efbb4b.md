@@ -9,6 +9,8 @@ id: 7f3e51abe2cfc1efbb4b
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Scalable Partition Handling for Cloud\-Native Architecture in Apache Spark 2\.1 \- The Databricks Blog](https://databricks.com/blog/2016/12/15/scalable-partition-handling-for-cloud-native-architecture-in-apache-spark-2-1.html)の翻訳です。
 

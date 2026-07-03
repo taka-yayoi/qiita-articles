@@ -9,6 +9,8 @@ id: 7bfd40daf0ff98fd0f7e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [General Availability \(GA\) of Power BI Connector for Databricks \- The Databricks Blog](https://databricks.com/blog/2021/02/26/announcing-general-availability-ga-of-the-power-bi-connector-for-databricks.html)の翻訳です。
 

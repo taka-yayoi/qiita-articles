@@ -12,6 +12,8 @@ id: ac0c3f2cb561e1b8bcb3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 社内でサーバレス熱が高まっているので、自分も乗っかります。
 

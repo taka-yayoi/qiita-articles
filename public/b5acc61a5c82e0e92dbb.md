@@ -10,6 +10,8 @@ id: b5acc61a5c82e0e92dbb
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Use Unity Catalog with your Delta Live Tables pipelines \| Databricks on AWS](https://docs.databricks.com/delta-live-tables/unity-catalog.html) [2023/6/14時点]の翻訳です。
 

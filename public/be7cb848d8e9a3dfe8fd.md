@@ -10,6 +10,8 @@ id: be7cb848d8e9a3dfe8fd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 探索的データ分析(Explanatory Data Analysis: EDA)のチュートリアルが新しくなっていました。
 

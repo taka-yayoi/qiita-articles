@@ -11,6 +11,8 @@ id: 7bebfa4bc107b0638eab
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Extracting Oncology Insights from Real\-World Clinical Data with NLP \- The Databricks Blog](https://databricks.com/blog/2021/09/22/extracting-oncology-insights-from-real-world-clinical-data-with-nlp.html)の翻訳です。
 

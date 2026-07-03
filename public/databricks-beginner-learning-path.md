@@ -12,6 +12,8 @@ id: 1fe076a0f87a7442d39a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## Databricksとは？
 

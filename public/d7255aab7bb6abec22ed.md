@@ -9,6 +9,8 @@ id: d7255aab7bb6abec22ed
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [What is data warehousing on Databricks? \| Databricks on AWS](https://docs.databricks.com/sql/index.html) [2023/3/3時点]の翻訳です。
 

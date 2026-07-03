@@ -9,6 +9,8 @@ id: fb11c6b77a7dbfa08ee3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introducing New Built\-in and Higher\-Order Functions for Complex Data Types in Apache Spark 2\.4 \- The Databricks Blog](https://www.databricks.com/blog/2018/11/16/introducing-new-built-in-functions-and-higher-order-functions-for-complex-data-types-in-apache-spark.html)の翻訳です。
 

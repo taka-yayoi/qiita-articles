@@ -9,6 +9,8 @@ id: 00cb953efae41ff98cfe
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのユーザー代理認証(on-behalf-of-user authorization)、実際に触ったことがなかったのでした。
 

@@ -11,6 +11,8 @@ id: e4344fddbf3f1cea1f79
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 12da67d1f5723af75e60
+agreed_posting_campaign_term: true
 ---
 [2\.3\. Evaluation & monitoring — Databricks Generative AI Cookbook](https://ai-cookbook.io/nbs/2-fundamentals-unstructured-eval.html) [2024/6/21時点]の翻訳です。
 

@@ -8,6 +8,8 @@ id: 225c4db5dffa51cbbbae
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Data object privileges \| Databricks on AWS](https://docs.databricks.com/security/access-control/table-acls/object-privileges.html) [2021/6/21時点]の翻訳です。
 

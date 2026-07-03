@@ -9,6 +9,8 @@ id: 40aaa04a7c6adfdda6e8
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: d340ce2d6bd2d5b557f5
+agreed_posting_campaign_term: true
 ---
 [Python Dependency Management in Spark Connect \| Databricks Blog](https://www.databricks.com/blog/python-dependency-management-spark-connect)の翻訳です。
 

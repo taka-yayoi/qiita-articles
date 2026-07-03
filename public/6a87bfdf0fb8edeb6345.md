@@ -9,6 +9,8 @@ id: 6a87bfdf0fb8edeb6345
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 テーブルの読み書きはやったことがあったのですが、よく考えたらボリュームの読み書きの実装をしたことがありませんでした。
 

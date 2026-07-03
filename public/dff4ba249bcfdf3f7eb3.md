@@ -8,6 +8,8 @@ id: dff4ba249bcfdf3f7eb3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Databricksのクラスターにはいくつかの種類があります。Unity Catalogを活用する際には共有クラスターがお勧めなのですが、initスクリプトが使えないなどの制限がありました。
 

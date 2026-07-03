@@ -10,6 +10,8 @@ id: 4cd7ff171bbbe227eb4d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [SQL databases using JDBC \| Databricks on AWS](https://docs.databricks.com/data/data-sources/sql-databases.html) [2021/8/13時点]の翻訳です。
 

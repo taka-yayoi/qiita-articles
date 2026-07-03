@@ -9,6 +9,8 @@ id: 8219aeafe1f69ad0fcc6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Auto Loader with File Events \- Simplified File Dis\.\.\. \- Databricks Community \- 151203](https://community.databricks.com/t5/technical-blog/auto-loader-with-file-events-simplified-file-discovery-at-scale/ba-p/151203)の翻訳です。
 

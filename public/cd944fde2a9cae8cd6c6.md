@@ -11,6 +11,8 @@ id: cd944fde2a9cae8cd6c6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Announcing MLflow 2\.4: LLMOps Tools for Robust Model Evaluation \- The Databricks Blog](https://www.databricks.com/blog/announcing-mlflow-24-llmops-tools-robust-model-evaluation)の翻訳です。
 

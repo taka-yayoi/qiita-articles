@@ -9,6 +9,8 @@ id: f2c7ad187ff3acbe0cc6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 43ff3363e32f43d7507c
+agreed_posting_campaign_term: true
 ---
 こちらの手順を参考に、MCPサーバーにアクセスするエージェントを構築します。
 

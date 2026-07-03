@@ -9,6 +9,8 @@ id: d1eddc37a881bc2f64cd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Zoomの文字起こしを分析するサンプルパイプラインを作ってみました。コードはこちら。
 

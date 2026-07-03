@@ -9,6 +9,8 @@ id: dd41cd715aca272ff5ce
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Navigate the workspace \| Databricks on AWS](https://docs.databricks.com/workspace/index.html) [2022/5/17時点]の翻訳です。
 

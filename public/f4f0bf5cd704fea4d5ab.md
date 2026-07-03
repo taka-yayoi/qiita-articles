@@ -10,6 +10,8 @@ id: f4f0bf5cd704fea4d5ab
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらで紹介されているノートブックをウォークスルーした内容です。こちらで紹介しているSpark NLPは無料で利用できます。[日本語にも対応](https://qiita.com/taka_yayoi/items/f34a5accaa8f7cad603a)しています。
 

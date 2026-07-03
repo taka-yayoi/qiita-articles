@@ -8,6 +8,8 @@ id: 178d3afebad1c5a5f1b3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ユーザーの棚卸しをしたい場合に有益な情報が「ユーザーが最後にログインしたのはいつか」というものです。
 

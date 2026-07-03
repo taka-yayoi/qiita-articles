@@ -11,6 +11,8 @@ id: 7f50d3ebbe4bebd6877c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Efficient Fine\-Tuning with LoRA: A Guide to Optimal Parameter Selection for Large Language Models \| Databricks Blog](https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms)の翻訳です。
 

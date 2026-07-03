@@ -9,6 +9,8 @@ id: a7bfd28f2d3b28b56ecc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 きっかけはこちらのブログ記事です。
 

@@ -9,6 +9,8 @@ id: bc77fbcf1dc30d8ff742
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Now Generally Available: Simplify Data and Machine Learning Pipelines With Jobs Orchestration \- The Databricks Blog](https://databricks.com/blog/2021/11/01/now-generally-available-simple-data-and-machine-learning-pipelines-with-job-orchestration.html)の翻訳です。
 

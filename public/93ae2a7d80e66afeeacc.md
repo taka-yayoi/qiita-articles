@@ -10,6 +10,8 @@ id: 93ae2a7d80e66afeeacc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introducing Python User\-Defined Table Functions \(UDTFs\) \| Databricks Blog](https://www.databricks.com/blog/introducing-python-user-defined-table-functions)の翻訳です。
 

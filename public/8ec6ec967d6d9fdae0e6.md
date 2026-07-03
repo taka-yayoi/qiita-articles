@@ -8,6 +8,8 @@ id: 8ec6ec967d6d9fdae0e6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Filter sensitive table data with row filters and column masks \| Databricks on AWS](https://docs.databricks.com/en/data-governance/unity-catalog/row-and-column-filters.html) [2023/9/11時点]の翻訳です。
 

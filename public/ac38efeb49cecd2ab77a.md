@@ -10,6 +10,8 @@ id: ac38efeb49cecd2ab77a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Private Databricks Workspaces With AWS PrivateLink Is in Public Preview \- The Databricks Blog](https://databricks.com/blog/2021/04/23/private-databricks-workspaces-with-aws-privatelink-is-in-public-preview.html)の翻訳です。
 

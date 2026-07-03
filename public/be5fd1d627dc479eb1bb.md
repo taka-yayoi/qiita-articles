@@ -10,6 +10,8 @@ id: be5fd1d627dc479eb1bb
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのサンプルノートブックの二つ目をウォークスルーします。
 

@@ -10,6 +10,8 @@ id: eef1ac669fbbb8bae690
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Productionalize a GEPA optimized Model on Databricks \| by AI on Databricks \| Jan, 2026 \| Medium](https://medium.com/@AI-on-Databricks/productionalize-a-gepa-optimized-model-on-databricks-e533585da2e0)の翻訳です。
 

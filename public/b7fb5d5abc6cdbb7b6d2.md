@@ -9,6 +9,8 @@ id: b7fb5d5abc6cdbb7b6d2
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Recap of Databricks Lakehouse Platform Announcements at Data and AI Summit 2022 \- The Databricks Blog](https://databricks.com/blog/2022/07/25/recap-of-databricks-lakehouse-platform-announcements-at-data-and-ai-summit-2022.html)の翻訳です。
 

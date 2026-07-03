@@ -11,6 +11,8 @@ id: fadf3ce5b3d4e954ef83
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Fine\-Tuning Large Language Models with Hugging Face and DeepSpeed \- The Databricks Blog](https://www.databricks.com/blog/2023/03/20/fine-tuning-large-language-models-hugging-face-and-deepspeed.html)の翻訳です。
 

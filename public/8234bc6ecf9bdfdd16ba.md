@@ -9,6 +9,8 @@ id: 8234bc6ecf9bdfdd16ba
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらではTableau Desktopからの接続手順が説明されていますが、基本的には同じ手順です。
 

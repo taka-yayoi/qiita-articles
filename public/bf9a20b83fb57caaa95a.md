@@ -10,6 +10,8 @@ id: bf9a20b83fb57caaa95a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらを試します。
 

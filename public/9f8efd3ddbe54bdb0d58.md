@@ -10,6 +10,8 @@ id: 9f8efd3ddbe54bdb0d58
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 本書は、[Repos Git 統合の場合 \- Azure Databricks \| Microsoft Docs](https://docs.microsoft.com/ja-jp/azure/databricks/repos)の手順を説明したものです。
 

@@ -8,6 +8,8 @@ id: fd3bfca6bc12c33d6f41
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのアップデートで、Databricksアシスタントがデフォルトで有効化されました。なお、管理者画面からオプトアウト(無効化)することが可能です。
 

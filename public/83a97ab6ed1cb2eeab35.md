@@ -9,6 +9,8 @@ id: 83a97ab6ed1cb2eeab35
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Databricksランタイム16.1がGAになりました。
 

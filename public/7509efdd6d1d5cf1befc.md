@@ -10,6 +10,8 @@ id: 7509efdd6d1d5cf1befc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのソリューションアクセラレータを日本語対応しながらウォークスルーします。
 

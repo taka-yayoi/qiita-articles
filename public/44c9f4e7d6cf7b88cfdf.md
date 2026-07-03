@@ -10,6 +10,8 @@ id: 44c9f4e7d6cf7b88cfdf
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらの続き。このシリーズは一旦ここまで。
 

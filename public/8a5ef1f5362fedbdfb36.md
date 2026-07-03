@@ -9,6 +9,8 @@ id: 8a5ef1f5362fedbdfb36
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 昨日アップデートを見逃していました。
 

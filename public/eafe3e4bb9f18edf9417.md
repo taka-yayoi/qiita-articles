@@ -9,6 +9,8 @@ id: eafe3e4bb9f18edf9417
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [KX and Databricks Integration: Advancing Time-series Data Analytics in Capital Markets and Beyond](https://www.databricks.com/blog/kx-and-databricks-integration-advancing-time-series-data-analytics-capital-markets-and-beyond)の翻訳です。
 

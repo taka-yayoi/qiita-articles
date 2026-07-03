@@ -10,6 +10,8 @@ id: 08a4dbea3c943a5ae2ea
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 本書では、Pytorch LightningによるMNIST分類器をMLflowでトラッキングし、サービングするところまでを説明します。REST APIへの入力が画像になるので、MLflowのtensorサポートを活用します。これによって、画像分類器をREST APIで呼び出せるようになり、機械学習モデルのシステム連携が容易に行えます。
 

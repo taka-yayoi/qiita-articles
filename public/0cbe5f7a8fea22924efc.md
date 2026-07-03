@@ -9,6 +9,8 @@ id: 0cbe5f7a8fea22924efc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [ブログ記事](https://qiita.com/taka_yayoi/items/30ff228f1e5d73f03465)訳していたら @isanakamishiro2 さんに先を越されました。速い！
 

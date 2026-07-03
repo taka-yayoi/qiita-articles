@@ -10,6 +10,8 @@ id: e82af6a504dce3d0be1f
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらでもトレーニング用のスクリプトが公開されたので、日本語データセットでトレーニングしてみました。
 

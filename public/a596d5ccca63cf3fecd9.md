@@ -10,6 +10,8 @@ id: a596d5ccca63cf3fecd9
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Memory Profiling in PySpark \- The Databricks Blog](https://www.databricks.com/blog/2022/11/30/memory-profiling-pyspark.html)の翻訳です。
 

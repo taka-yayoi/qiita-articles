@@ -10,6 +10,8 @@ id: 2cca5266ccefa1c21a4f
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらでは、無料で利用できるDatabricks Community Editionを用いて、分類の一手法であるXGBoostを使って、特徴量からアヤメ(iris)を種類を特定(分類)するとともに、Databricksの画面や機能に慣れていただきます。
 

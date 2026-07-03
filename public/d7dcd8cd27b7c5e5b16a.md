@@ -10,6 +10,8 @@ id: d7dcd8cd27b7c5e5b16a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [tensorflow/similarity: TensorFlow Similarity is a python package focused on making similarity learning quick and easy\.](https://github.com/tensorflow/similarity) [2022/4/1時点]の翻訳です。
 

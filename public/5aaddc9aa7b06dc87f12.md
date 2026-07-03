@@ -8,6 +8,8 @@ id: 5aaddc9aa7b06dc87f12
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introduction to Databricks Lakehouse Monitoring \| Databricks on AWS](https://docs.databricks.com/en/lakehouse-monitoring/index.html) [2023/12/6時点]の翻訳です。
 

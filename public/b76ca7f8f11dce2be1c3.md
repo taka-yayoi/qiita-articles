@@ -10,6 +10,8 @@ id: b76ca7f8f11dce2be1c3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらで紹介されているティップスのいくつかを日本語で試してみます。
 

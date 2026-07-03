@@ -11,6 +11,8 @@ id: dd7a21bdbafe457eb469
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [How to Implement MLOps on Databricks Using Databricks Notebooks and Azure DevOps \- The Databricks Blog](https://databricks.com/blog/2022/01/05/implementing-mlops-on-databricks-using-databricks-notebooks-and-azure-devops-part-2.html)の翻訳です。
 

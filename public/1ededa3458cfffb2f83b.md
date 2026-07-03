@@ -10,6 +10,8 @@ id: 1ededa3458cfffb2f83b
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introducing Databricks Unity Catalog: Fine\-grained Governance for Data and AI on the Lakehouse \- The Databricks Blog](https://databricks.com/blog/2021/05/26/introducing-databricks-unity-catalog-fine-grained-governance-for-data-and-ai-on-the-lakehouse.html)の翻訳です。
 

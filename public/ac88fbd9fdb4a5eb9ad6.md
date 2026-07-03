@@ -9,6 +9,8 @@ id: ac88fbd9fdb4a5eb9ad6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらの[ノートブックのテスト](https://qiita.com/taka_yayoi/items/ef3b05c29104b12a16a6)で説明されている内容を実際に試してみました。
 

@@ -10,6 +10,8 @@ id: ea082c3ab5eddde0425a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのコネクターを実際に試してみます。
 

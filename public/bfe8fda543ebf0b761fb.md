@@ -10,6 +10,8 @@ id: bfe8fda543ebf0b761fb
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Understanding Pandas UDF, applyInPandas, and mapIn\.\.\. \- Databricks Community \- 75717](https://community.databricks.com/t5/technical-blog/understanding-pandas-udf-applyinpandas-and-mapinpandas/ba-p/75717)の翻訳です。
 

@@ -9,6 +9,8 @@ id: 8bdd7feed96ac8f206fe
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Databricks\-managed Delta Sharing \| Databricks on AWS](https://docs.databricks.com/data-sharing/delta-sharing/sharing-data.html) [2022/8/25時点]の翻訳です。
 

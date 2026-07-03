@@ -9,6 +9,8 @@ id: 3afeea6edb4f1eb022b4
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Twitterで流れてきたのを見かけました。普段はstreamlit使っているので、どんな感じなのかワクワクしながら試しました。そして、すごかった。
 

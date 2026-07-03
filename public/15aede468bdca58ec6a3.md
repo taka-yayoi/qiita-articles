@@ -9,6 +9,8 @@ id: 15aede468bdca58ec6a3
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [What is Unity Catalog? \| Databricks on AWS](https://docs.databricks.com/data-governance/unity-catalog/index.html) [2022/12/9時点]の翻訳です。
 

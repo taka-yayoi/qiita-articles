@@ -9,6 +9,8 @@ id: c7ac3339ff3b8bf0bbd0
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Top 10 Announcements from Databricks Data \+ AI Summit 2021 \- The Databricks Blog](https://databricks.com/blog/2021/06/04/dont-miss-these-top-10-announcements-from-data-ai-summit.html)の翻訳です。
 

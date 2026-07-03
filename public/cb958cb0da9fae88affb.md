@@ -8,6 +8,8 @@ id: cb958cb0da9fae88affb
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 以前の記事ではUSリージョンで試していましたが、日本リージョンでもDatabricksアシスタントを使えるようになりました！
 

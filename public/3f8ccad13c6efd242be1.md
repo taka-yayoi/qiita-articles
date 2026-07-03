@@ -9,6 +9,8 @@ id: 3f8ccad13c6efd242be1
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Databricksにおけるファイルシステムである[DBFS(Databricksファイルシステム)](https://qiita.com/taka_yayoi/items/897264c486e179d72247)には最初から[サンプルデータ](https://qiita.com/taka_yayoi/items/dcf77d0b007fae774ce5)が格納されており、これらは`/databricks-datasets`のパスに存在します。
 

@@ -10,6 +10,8 @@ id: 31dcb8be6bdecf73954d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 LLMのニュースが出たらとりあえず動かしてみるのがルーチンに。
 

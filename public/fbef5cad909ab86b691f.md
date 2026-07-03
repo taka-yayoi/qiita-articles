@@ -10,6 +10,8 @@ id: fbef5cad909ab86b691f
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 どれほど待ったことか。ついに東日本リージョンのAzure Databricksに[Mosaic AI Model Serving](https://learn.microsoft.com/ja-jp/azure/databricks/machine-learning/model-serving/)がやってきました。DatabricksでLLMを活用する際には必須と言える機能です。
 

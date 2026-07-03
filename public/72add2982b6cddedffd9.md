@@ -10,6 +10,8 @@ id: 72add2982b6cddedffd9
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Segmentation in the Age of Personalization \- The Databricks Blog](https://databricks.com/blog/2021/03/16/segmentation-in-the-age-of-personalization.html)の翻訳です。
 

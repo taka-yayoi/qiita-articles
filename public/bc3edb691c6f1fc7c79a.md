@@ -11,6 +11,8 @@ id: bc3edb691c6f1fc7c79a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Incrementally clone Parquet and Iceberg tables to Delta Lake \| Databricks on AWS](https://docs.databricks.com/ingestion/clone-parquet.html) [2022/10/5時点]の翻訳です。
 

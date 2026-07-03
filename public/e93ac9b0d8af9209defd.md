@@ -9,6 +9,8 @@ id: e93ac9b0d8af9209defd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Announcing Public Preview of AI Generated Documentation In Databricks Unity Catalog \| Databricks Blog](https://www.databricks.com/blog/announcing-public-preview-ai-generated-documentation-databricks-unity-catalog)の翻訳です。
 

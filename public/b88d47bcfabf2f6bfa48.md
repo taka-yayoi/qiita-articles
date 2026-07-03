@@ -11,6 +11,8 @@ id: b88d47bcfabf2f6bfa48
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 今週は夏休みをいただいています。なので、夏休みの宿題的に。
 

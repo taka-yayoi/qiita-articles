@@ -9,6 +9,8 @@ id: 3bdffae4bd040d25ee60
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのウォークスルーです。まずは本当に一通り動かすところまでです。
 

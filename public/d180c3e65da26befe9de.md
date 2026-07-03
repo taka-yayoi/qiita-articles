@@ -8,6 +8,8 @@ id: d180c3e65da26befe9de
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらの素晴らしい動画が公開されて、存在に気づきました。
 

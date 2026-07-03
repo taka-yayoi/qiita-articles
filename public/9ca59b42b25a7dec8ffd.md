@@ -12,6 +12,8 @@ id: 9ca59b42b25a7dec8ffd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [New Methods for Improving Supply Chain Demand Forecasting](https://databricks.com/blog/2020/03/26/new-methods-for-improving-supply-chain-demand-forecasting.html)の翻訳です。
 

@@ -9,6 +9,8 @@ id: ec547debcb76f7eadfe5
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Delta Live Tables(DLT)](https://qiita.com/taka_yayoi/items/7fe8ed2c2f95fd53cc3d)を用いることで、複雑なデータパイプラインであっても簡単かつ、信頼性高く構築、運用が行えるようになります。
 

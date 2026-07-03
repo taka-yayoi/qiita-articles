@@ -9,6 +9,8 @@ id: dfb53f63aed2fbd344fc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Develop code in Databricks notebooks \| Databricks on AWS](https://docs.databricks.com/notebooks/notebooks-code.html) [2023/6/1時点]の翻訳です。
 

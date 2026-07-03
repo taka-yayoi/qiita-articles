@@ -8,6 +8,8 @@ id: b9f0ac51eea0cee1ddee
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのアップデートで新たなエンタイトルメント(権限)である**コンシューマー**が追加されました。
 

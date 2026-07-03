@@ -10,6 +10,8 @@ id: 075c6b3aeafac54c8ac4
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Databricksに入社してから約2年になりますが、最初の壁となったのは**Databricksでファイルを読み書きする際にパスをどう指定すればいいのだろう**でした。
 

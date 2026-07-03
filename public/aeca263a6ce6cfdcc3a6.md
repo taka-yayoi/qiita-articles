@@ -14,6 +14,8 @@ id: aeca263a6ce6cfdcc3a6
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # Strands Agents SDK とは
 

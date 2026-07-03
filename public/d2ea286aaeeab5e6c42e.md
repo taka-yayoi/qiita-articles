@@ -11,6 +11,8 @@ id: d2ea286aaeeab5e6c42e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのノートブックを実際に動かします。
 

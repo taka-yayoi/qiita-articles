@@ -9,6 +9,8 @@ id: bd95bfe6457e0daa12bf
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Announcing Ray support on Databricks and Apache Spark Clusters \- The Databricks Blog](https://www.databricks.com/blog/2023/02/28/announcing-ray-support-databricks-and-apache-spark-clusters.html)の翻訳です。
 

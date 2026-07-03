@@ -10,6 +10,8 @@ id: bff852da1bb445feaa9c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Evaluate Multi‑Turn Chatbots on Databricks with MLflow: A Step‑by‑Step Guide](https://community.databricks.com/t5/technical-blog/evaluate-multi-turn-chatbots-on-databricks-with-mlflow-a-step-by/ba-p/114741)を翻訳しながら実行していきます。
 

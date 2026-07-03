@@ -12,6 +12,8 @@ id: b975cd6832fb94e787a5
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Databricksの **Lakeflowジョブ** を使えば、データパイプラインの自動化がとても簡単です！本記事では、初めての方でも15分で最初のワークフローを作成できるように、基本から丁寧に解説します。

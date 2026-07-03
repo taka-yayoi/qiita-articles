@@ -10,6 +10,8 @@ id: 51d0dbfbdbea5baa0c1d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Delta Live Tables SQL language reference \| Databricks on AWS](https://docs.databricks.com/data-engineering/delta-live-tables/delta-live-tables-sql-ref.html) [2022/7/11時点]の翻訳です。
 

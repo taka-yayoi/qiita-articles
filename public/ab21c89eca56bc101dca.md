@@ -8,6 +8,8 @@ id: ab21c89eca56bc101dca
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 これまではノートブック名による検索しかできませんでしたが、今回のエンハンスでノートブックの中身に対しても検索ができるようになりました。
 

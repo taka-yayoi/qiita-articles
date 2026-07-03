@@ -8,6 +8,8 @@ id: 7ddd8be2d39fdfdaa9df
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらの記事を書いて3年経ってました。
 

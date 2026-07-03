@@ -8,6 +8,8 @@ id: 7127cabac70dd994fcba
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Get workspace, cluster, notebook, model, and job identifiers \| Databricks on AWS](https://docs.databricks.com/workspace/workspace-details.html#workspace-url) [2021/6/11時点]の翻訳です。
 

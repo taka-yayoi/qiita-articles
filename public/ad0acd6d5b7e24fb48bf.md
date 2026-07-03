@@ -8,6 +8,8 @@ id: ad0acd6d5b7e24fb48bf
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: db2106c2a38d86187ffc
+agreed_posting_campaign_term: true
 ---
 # はじめに
 

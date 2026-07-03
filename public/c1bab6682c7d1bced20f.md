@@ -9,6 +9,8 @@ id: c1bab6682c7d1bced20f
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 Delta Sharingを使ったアプローチもありますが、これはODBC経由でデータにアクセスします。
 

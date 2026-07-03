@@ -10,6 +10,8 @@ id: efeb2f3b4a46abba7b5a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [dbt Cloud integration with Databricks \| Databricks on AWS](https://docs.databricks.com/dev-tools/dbt-cloud.html#language-Cluster) [2022/1/20時点]の翻訳です。
 

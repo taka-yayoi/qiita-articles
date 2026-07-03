@@ -9,6 +9,8 @@ id: 5ed1c07debb4fecd474e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Access S3 buckets using IAM credential passthrough with Databricks SCIM \| Databricks on AWS](https://docs.databricks.com/security/credential-passthrough/iam-passthrough.html) [2021/12/3時点]の翻訳です。
 

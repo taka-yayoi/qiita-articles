@@ -10,6 +10,8 @@ id: a2fffa48fdf3f56dc00e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのマニュアルの翻訳にも記載がありますが、あらためて説明をまとめてみました。
 

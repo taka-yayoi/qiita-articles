@@ -8,6 +8,8 @@ id: bce5df57ae5d90bdf971
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Enable inference tables on model serving endpoints \| Databricks on AWS](https://docs.databricks.com/en/machine-learning/model-serving/enable-model-serving-inference-tables.html) [2023/9/27時点]の翻訳です。
 

@@ -10,6 +10,8 @@ id: dafc37d11a01fe88aae7
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 0cc35c4799f72609b7ec
+agreed_posting_campaign_term: true
 ---
 初めこれを読んだ時には「エイプリルフール？」と思いました。
 

@@ -9,6 +9,8 @@ id: ef7e2ec293d6fdbf1bfe
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 昨年に引き続き今年も振り返ります。今年もバーチャルで1日目はレコーディング、2日目はリアルタイムで視聴しました。
 

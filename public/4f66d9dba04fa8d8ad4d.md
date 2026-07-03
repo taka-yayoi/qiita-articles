@@ -9,6 +9,8 @@ id: 4f66d9dba04fa8d8ad4d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Unifying Parameters Across Databricks \| Databricks Blog](https://www.databricks.com/blog/unifying-parameters-across-databricks)の翻訳です。
 

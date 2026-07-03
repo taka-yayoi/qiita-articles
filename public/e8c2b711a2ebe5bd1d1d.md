@@ -11,6 +11,8 @@ id: e8c2b711a2ebe5bd1d1d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 12da67d1f5723af75e60
+agreed_posting_campaign_term: true
 ---
 [4\.3\. Enabling Measurement: Supporting Infrastructure — Databricks Generative AI Cookbook](https://ai-cookbook.io/nbs/4-evaluation-infra.html) [2024/6/24時点]の翻訳です。
 

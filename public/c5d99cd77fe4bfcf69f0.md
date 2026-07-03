@@ -9,6 +9,8 @@ id: c5d99cd77fe4bfcf69f0
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Clusters \| Databricks on AWS](https://docs.databricks.com/clusters/index.html) [2022/1/21時点]の翻訳です。
 

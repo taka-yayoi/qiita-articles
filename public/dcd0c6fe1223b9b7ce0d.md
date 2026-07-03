@@ -9,6 +9,8 @@ id: dcd0c6fe1223b9b7ce0d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Query data \| Databricks on AWS](https://docs.databricks.com/data-governance/unity-catalog/queries.html) [2023/1/13時点]の翻訳です。
 

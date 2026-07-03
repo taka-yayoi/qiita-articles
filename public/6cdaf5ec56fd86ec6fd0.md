@@ -8,6 +8,8 @@ id: 6cdaf5ec56fd86ec6fd0
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Databricks Cluster vs SQL Warehouses \| by Ganesh Chandrasekaran \| Oct, 2022 \| Medium](https://ganeshchandrasekaran.com/databricks-cluster-vs-sql-warehouses-c0c159287dd7)の翻訳です。
 

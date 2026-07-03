@@ -9,6 +9,8 @@ id: a2a72cc842afbdbd4ad8
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Create ChatGPT clone \| 🦜️🔗 Langchain](https://python.langchain.com/docs/modules/agents/how_to/chatgpt_clone.html)の翻訳です。一部追記しています。
 

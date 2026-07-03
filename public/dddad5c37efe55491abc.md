@@ -10,6 +10,8 @@ id: dddad5c37efe55491abc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Enhancing Traditional Machine Learning Development\.\.\. \- Databricks Community \- 119349](https://community.databricks.com/t5/technical-blog/enhancing-traditional-machine-learning-development-with-unity/ba-p/119349)の翻訳です。
 

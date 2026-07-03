@@ -8,6 +8,8 @@ id: 2a5a9105afbef9bf7bd2
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 16baee61b1d8bd4aac5a
+agreed_posting_campaign_term: true
 ---
 こちらのアップデートです。
 

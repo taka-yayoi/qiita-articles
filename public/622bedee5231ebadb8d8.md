@@ -10,6 +10,8 @@ id: 622bedee5231ebadb8d8
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Topic Modeling for Text with BigARTM \-](https://databricks.com/blog/2022/02/16/beyond-lda-state-of-the-art-topic-models-with-bigartm.html)の翻訳です。
 

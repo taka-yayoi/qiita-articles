@@ -10,6 +10,8 @@ id: 47dcd3aee7d028aeef79
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [How to Architect MLOps on the Databricks Lakehouse \- The Databricks Blog](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)の翻訳です。
 

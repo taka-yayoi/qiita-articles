@@ -10,6 +10,8 @@ id: 2cacbcaf9d70bfe80926
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Use AWS Glue Data Catalog as the metastore for Databricks Runtime \| Databricks on AWS](https://docs.databricks.com/data/metastores/aws-glue-metastore.html) [2021/9/14時点]の翻訳です。
 

@@ -9,6 +9,8 @@ id: 6c07fbfc72a5cf9c7a6c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introducing Databricks Apps \| Databricks Launch Blog](https://www.databricks.com/blog/introducing-databricks-apps)の翻訳です。
 

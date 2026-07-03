@@ -8,6 +8,8 @@ id: 2fec7eadee14085bf53e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Share code between Databricks notebooks \| Databricks on AWS](https://docs.databricks.com/notebooks/share-code.html) [2022/12/21時点]の翻訳です。
 

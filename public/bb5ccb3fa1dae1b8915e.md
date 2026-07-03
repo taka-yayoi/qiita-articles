@@ -10,6 +10,8 @@ id: bb5ccb3fa1dae1b8915e
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 気づいたら色々機能が更新されていました。
 

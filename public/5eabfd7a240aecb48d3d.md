@@ -8,6 +8,8 @@ id: 5eabfd7a240aecb48d3d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Security overview \| Databricks on AWS](https://docs.databricks.com/security/security-overview.html) [2023/1/26時点]の翻訳です。
 

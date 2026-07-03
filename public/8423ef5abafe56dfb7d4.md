@@ -9,6 +9,8 @@ id: 8423ef5abafe56dfb7d4
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらのノリで行けると思ったらうまくいきませんでした。以下のサンプルにあるように[FastAPI](https://fastapi.tiangolo.com/)を使ってます。
 

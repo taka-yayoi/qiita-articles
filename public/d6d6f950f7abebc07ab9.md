@@ -9,6 +9,8 @@ id: d6d6f950f7abebc07ab9
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Data Partitioning in PySpark](https://www.geeksforgeeks.org/data-partitioning-in-pyspark/)の翻訳です。Databricksでウォークスルーしていきます。この他にもパーティションの記事を訳してます。
 

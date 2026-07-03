@@ -9,6 +9,8 @@ id: 42a00e9f2fe96affd6de
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Introducing Low\-latency Continuous Processing Mode in Structured Streaming in Apache Spark 2\.3 \- The Databricks Blog](https://databricks.com/blog/2018/03/20/low-latency-continuous-processing-mode-in-structured-streaming-in-apache-spark-2-3-0.html)の翻訳です。
 

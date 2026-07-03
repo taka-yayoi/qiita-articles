@@ -12,6 +12,8 @@ id: dc96cfcfa275adf5ce8a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 こちらでトライした分散LDAの日本語対応版です。
 

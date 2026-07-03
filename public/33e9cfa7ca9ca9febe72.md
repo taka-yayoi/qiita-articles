@@ -9,6 +9,8 @@ id: 33e9cfa7ca9ca9febe72
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 :::note info
 6/25(水) 19時からDatabricksユーザー会JEDAIでDatabricks Free Editionもくもく会を開催します！

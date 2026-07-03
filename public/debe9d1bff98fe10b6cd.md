@@ -10,6 +10,8 @@ id: debe9d1bff98fe10b6cd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Accelerating Data\-driven Value for Retailers \- The Databricks Blog](https://www.databricks.com/blog/2022/10/14/accelerating-data-driven-value-retailers.html)の翻訳です。
 

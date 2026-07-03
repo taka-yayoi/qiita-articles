@@ -9,6 +9,8 @@ id: 152a31dc44bda51eeecd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Table utility commands \| Databricks on AWS](https://docs.databricks.com/delta/delta-utility.html) [2021/11/3時点]の翻訳です。
 

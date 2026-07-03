@@ -8,6 +8,8 @@ id: 4c5dea6c8cf8dcfdfcdc
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Navigating the Databricks Lakehouse Like a Pro \- The Databricks Blog](https://www.databricks.com/blog/2022/09/28/navigating-databricks-lakehouse-pro.html)の翻訳です。
 

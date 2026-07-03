@@ -10,6 +10,8 @@ id: bb8b4b3a087ab7fae43d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Why Databricks Ventures Invested in Labelbox: Streamline Unstructured Data Workflows in a Lakehouse \- The Databricks Blog](https://databricks.com/blog/2022/01/06/why-we-invested-in-labelbox-streamline-unstructured-data-workflows-in-a-lakehouse.html)の翻訳です。
 

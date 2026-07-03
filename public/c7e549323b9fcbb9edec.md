@@ -11,6 +11,8 @@ id: c7e549323b9fcbb9edec
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 12da67d1f5723af75e60
+agreed_posting_campaign_term: true
 ---
 [4\. Evaluating RAG quality — Databricks Generative AI Cookbook](https://ai-cookbook.io/nbs/4-evaluation.html) [2024/6/23時点]の翻訳です。
 

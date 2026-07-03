@@ -9,6 +9,8 @@ id: e90be9beeb1a744cee0d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Data objects in the Databricks Lakehouse \| Databricks on AWS](https://docs.databricks.com/lakehouse/data-objects.html) [2022/8/29]時点の翻訳に一部加筆したものです。
 

@@ -12,6 +12,8 @@ id: baaab4e6ed75a7c0dd0d
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 

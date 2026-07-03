@@ -9,6 +9,8 @@ id: 2a5beabd82fc4aaf2aea
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Deep Dive into Databricks Tempo for Time Series Analytics](https://blogs.perficient.com/2021/06/17/deep-dive-into-databricks-tempo-for-time-series-analytics/)の翻訳です。
 

@@ -10,6 +10,8 @@ id: f34a5accaa8f7cad603a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 以前から[Spark NLP](https://www.johnsnowlabs.com/spark-nlp/)の存在は知っていたのですが、恥ずかしながら日本語に対応していることを最近まで知りませんでした。
 

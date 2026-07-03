@@ -11,6 +11,8 @@ id: 7fb6fb9c45f4ea26a7cf
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [bamboolib \| Databricks on AWS](https://docs.databricks.com/notebooks/bamboolib.html) [2022/7/8時点]の翻訳です。
 

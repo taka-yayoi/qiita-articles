@@ -9,6 +9,8 @@ id: 6068b9bb4eb05ab5ddbd
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: db2106c2a38d86187ffc
+agreed_posting_campaign_term: true
 ---
 # 問題の概要
 

@@ -9,6 +9,8 @@ id: bedade2eca78da334549
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Getting started with generative AI in healthcare and life sciences \| Databricks Blog](https://www.databricks.com/blog/getting-started-generative-ai-healthcare-and-life-sciences)の翻訳です。
 

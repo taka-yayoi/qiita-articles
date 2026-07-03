@@ -11,6 +11,8 @@ id: eddccffa8a0b6fe17dce
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 LangChainのマニュアルにこのようなページが。
 

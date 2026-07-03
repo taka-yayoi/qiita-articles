@@ -11,6 +11,8 @@ id: 3161baddac7c745dcef9
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 3173172074bd59848652
+agreed_posting_campaign_term: true
 ---
 動かします。
 

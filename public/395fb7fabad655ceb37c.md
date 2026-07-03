@@ -9,6 +9,8 @@ id: 395fb7fabad655ceb37c
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Optimize performance with caching \| Databricks on AWS](https://docs.databricks.com/delta/optimizations/delta-cache.html) [2022/2/11時点]の翻訳です。
 

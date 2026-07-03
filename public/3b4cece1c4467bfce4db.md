@@ -11,6 +11,8 @@ id: 3b4cece1c4467bfce4db
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [The Power of AI in Business Intelligence: A New Era \| Databricks Blog](https://www.databricks.com/blog/power-ai-business-intelligence-new-era)の翻訳です。
 

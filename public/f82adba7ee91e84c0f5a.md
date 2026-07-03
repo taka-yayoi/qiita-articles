@@ -9,6 +9,8 @@ id: f82adba7ee91e84c0f5a
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [5 ways to leverage Databricks Assistant to go from Petroleum Engineer to Data Scientist](https://community.databricks.com/t5/technical-blog/5-ways-to-leverage-databricks-assistant-to-go-from-petroleum/ba-p/116567)の翻訳です。
 

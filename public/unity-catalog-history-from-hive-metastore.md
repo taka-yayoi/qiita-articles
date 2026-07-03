@@ -12,6 +12,8 @@ id: c2c6adca40870f158c2d
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Databricksのメタデータ管理は、Hiveメタストア時代からUnity Catalogへと大きく進化してきました。本記事では、その歴史を時系列で振り返り、それぞれの時代の特徴と変化を解説します。

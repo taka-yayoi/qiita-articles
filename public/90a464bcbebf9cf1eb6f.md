@@ -9,6 +9,8 @@ id: 90a464bcbebf9cf1eb6f
 organization_url_name: databricks
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Databricks SQL security model and data access overview \| Databricks on AWS](https://docs.databricks.com/sql/user/security/data-access-overview.html) [2021/9/14時点]の翻訳です。
 
